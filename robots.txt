@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-
-# Point to the XML sitemap
-Sitemap: https://gradeboundaries.com/sitemap.xml

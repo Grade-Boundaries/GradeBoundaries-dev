@@ -1,0 +1,220 @@
+<!DOCTYPE html><html lang="en">
+  <style id="css-cloak">html:not(.css-loaded) body > * { display: none; }</style>
+
+  <!-- 🔗 Preconnect for quicker handshake -->
+  <link rel="preconnect" href="https://plausible.io">
+  <link rel="preconnect" href="https://gc.zgo.at">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="preconnect" href="https://cdn.datatables.net">
+  <link rel="preconnect" href="https://code.jquery.com">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+
+  <!--  Privacy-friendly analytics -->
+  <script defer data-domain="gradeboundaries.com" src="https://plausible.io/js/script.js"></script>
+  <script async data-goatcounter="https://gradeboundaries.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
+
+  <!--  Base-href and CSS injection -->
+  <script>
+    function uncloak() {
+      document.documentElement.classList.add('css-loaded');
+      const c = document.getElementById('css-cloak');
+      if (c) c.remove();
+    }
+    var host = location.hostname;
+    var isLocal = host === 'localhost' || host === '127.0.0.1' || host === 'gradeboundaries.com';
+    var myBase = isLocal ? '/' : '/Grade_Boundaries_A_Levels/';
+    var base = Object.assign(document.createElement('base'), { href: myBase });
+    document.head.appendChild(base);
+
+    var tw = Object.assign(document.createElement('link'), { rel: 'stylesheet', href: 'dist/output.css' });
+    document.head.appendChild(tw);
+
+    var local = Object.assign(document.createElement('link'), {
+      rel: 'stylesheet',
+      href: myBase + 'assets/css/style.css',
+      onload: uncloak
+    });
+    document.head.appendChild(local);
+    // Inject dashboard-engine.js dynamically
+    (function(){
+      var host=location.hostname;
+      var isLocal = host === 'localhost' || host === '127.0.0.1' || host === 'gradeboundaries.com';
+      var myBase = isLocal ? '/' : '/Grade_Boundaries_A_Levels/';
+      var pre=document.createElement('link');
+      pre.rel='preload';
+      pre.href = myBase+'assets/js/dashboard-engine.js';
+      pre.as = 'script';
+      document.head.appendChild(pre);
+
+      var dash=document.createElement('script');
+      dash.src=myBase+'assets/js/dashboard-engine.js';
+      dash.defer = true;
+      dash.onload = function(){ document.dispatchEvent(new Event('dashboardEngineLoaded')); };
+      document.head.appendChild(dash);
+    })();
+  </script>
+
+  <!-- 🌐 Core meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CIE IGCSE Grade Boundaries | Interactive Tables & CSV</title>
+  <meta name="description" content="CIE (Cambridge) IGCSE grade boundaries — explore them alongside every other UK board on Grade-Boundary Explorer. Interactive tables, trend charts & free CSV downloads.">
+  <meta name="keywords" content="CIE IGCSE grade boundaries, Cambridge IGCSE grade thresholds, exam results, IGCSE">
+  <meta name="author" content="Fire-Frog-Fuel">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#111827">
+
+  <!-- 🔗 Canonical & hreflang -->
+  <link rel="canonical" href="https://gradeboundaries.com/IGCSE-CIE">
+  <link rel="alternate" hreflang="en-gb" href="https://gradeboundaries.com/IGCSE-CIE">
+  <link rel="alternate" hreflang="x-default" href="https://gradeboundaries.com/IGCSE-CIE">
+
+  <!-- 🏷️ Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Grade-Boundary Explorer">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:url" content="https://gradeboundaries.com/IGCSE-CIE">
+  <meta property="og:title" content="CIE IGCSE Grade Boundaries | Download CSV & Charts">
+  <meta property="og:description" content="All IGCSE grade boundaries in one place — dive into CIE IGCSE data with interactive tables, charts & CSV export.">
+
+  <!-- 🐦 Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://gradeboundaries.com/IGCSE-CIE">
+  <meta name="twitter:title" content="CIE IGCSE Grade Boundaries">
+  <meta name="twitter:description" content="Explore CIE IGCSE grade boundaries on Grade-Boundary Explorer. Free charts & CSV.">
+
+  <!-- 🌙 Instant theme toggle -->
+  <script>
+    (() => {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark' || (!saved && matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+      }
+    })();
+  </script>
+
+  <!-- PapaParse -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js" defer></script>
+
+  <!-- DataTables CSS -->
+  <link rel="preload" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css"></noscript>
+  <link rel="preload" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css"></noscript>
+</head>
+<body class="text-gray-800 flex flex-col min-h-screen">
+  <header class="text-white text-center py-6 shadow-lg">
+    <h1 class="page-title">CIE IGCSE Grade Boundaries</h1>
+    <button id="theme-toggle" class="absolute top-4 right-4" aria-label="Toggle dark / light mode"></button>
+    <nav class="mt-4 flex flex-col md:flex-row items-center justify-center gap-2">
+      <a href="" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">Home</a>
+      <a href="boards/igcse/edexcel" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">Edexcel IGCSE</a>
+      <a href="boards/igcse/oxford-aqa" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">Oxford AQA IGCSE</a>
+      <a href="boards/igcse/ocr" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">OCR IGCSE</a>
+    </nav>
+  </header>
+
+  <main class="flex-1 w-full px-4">
+    <section class="bg-white rounded-lg shadow-md p-6 w-full max-w-7xl mx-auto">
+      <h2 class="text-2xl font-semibold mb-4">CIE IGCSE Grade Boundaries</h2>
+
+      <div class="table-wrapper mb-6">
+        <table id="IGCSECIETable" class="display nowrap responsive w-full" aria-describedby="grade-boundaries-caption">
+          <caption id="grade-boundaries-caption" class="sr-only">CIE IGCSE grade boundaries</caption>
+          <thead><tr></tr></thead>
+        </table>
+      </div>
+
+      <div class="text-right my-4">
+        <p class="csv-note" style="text-align:right"><em>Note: This data is processed from official Cambridge sources for ease of use. Original rights belong to Cambridge Assessment International Education.</em></p>
+        <button id="downloadCSV" class="class-button text-white px-4 py-2 rounded hover:bg-[#2b7a78] transition">Download CSV</button>
+      </div>
+
+      <div id="igcse-cie-controls" class="flex flex-wrap gap-4 mb-6 items-center">
+        <label for="igcseCIESubjectSearch" class="font-semibold">Subject&nbsp;Code:</label>
+        <input type="text" id="igcseCIESubjectSearch" placeholder="e.g. 0580" class="border rounded px-2 py-1 w-36 sm:w-auto" list="igcseCIESubjectList" />
+        <datalist id="igcseCIESubjectList"></datalist>
+        
+        <label for="igcseCIEComponentSearch" class="font-semibold ml-4">Component:</label>
+        <input type="text" id="igcseCIEComponentSearch" placeholder="e.g. 21" class="border rounded px-2 py-1 w-24 sm:w-auto" list="igcseCIEComponentList" />
+        <datalist id="igcseCIEComponentList"></datalist>
+      </div>
+
+      <div class="chart-container"><canvas id="IGCSECIEChart"></canvas></div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="mt-12" role="contentinfo">
+    <div class="container mx-auto flex flex-col items-center py-6 px-4">
+      <p class="text-lg">Created by</p>
+      <nav aria-label="Created by">
+        <ul class="flex space-x-4 text-lg">
+          <li><a href="https://github.com/Fire-Frog-Fuel/" class="underline">Fire-Frog-Fuel</a></li>
+          <li><span>&nbsp;and&nbsp;</span></li>
+          <li><a href="https://github.com/ChessMastermind" class="underline">ChessMastermind</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Footer links">
+        <ul class="flex space-x-4 text-lg">
+          <li><a href="pages/contact" class="underline">Contact us</a></li>
+          <li><span>&nbsp;|&nbsp;</span></li>
+          <li><a href="pages/privacy" class="underline">Privacy Notice</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- PAGE SCRIPT -->
+  <script>
+    (function(){
+      var host = location.hostname;
+      var isLocal = host === 'localhost' || host === '127.0.0.1' || host === 'gradeboundaries.com';
+      var myBase = isLocal ? '/' : '/Grade_Boundaries_A_Levels/';
+      var config = {
+        csvUrl: myBase + 'boards/igcse/cie/CIE.csv',
+        dom: {
+          table: '#IGCSECIETable',
+          chart: '#IGCSECIEChart',
+          subjectSearch: '#igcseCIESubjectSearch',
+          subjectList: '#igcseCIESubjectList',
+          componentSearch: '#igcseCIEComponentSearch',
+          componentList: '#igcseCIEComponentList'
+        },
+        columns: {
+          code: 'SubjectCode',
+          component: 'Component',
+          series: 'Series',
+          maxMark: 'MaxRawMark'
+        },
+        chart: { title: 'CIE IGCSE Grade Boundaries', showUms: false },
+        isIGCSE: true
+      };
+
+      function runInit(){
+        if (typeof initExamDashboard === 'function') initExamDashboard(config);
+        else document.addEventListener('dashboardEngineLoaded', function(){ initExamDashboard(config); });
+      }
+
+      if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', runInit);
+      else runInit();
+    })();
+  </script>
+
+  <script>
+    const btn = document.getElementById('theme-toggle');
+    const root = document.documentElement;
+    btn.textContent = root.classList.contains('dark') ? '☀️' : '🌙';
+    btn.addEventListener('click', () => {
+      const dark = root.classList.toggle('dark');
+      localStorage.setItem('theme', dark ? 'dark' : 'light');
+      btn.textContent = dark ? '☀️' : '🌙';
+    });
+  </script>
+</body>
+</html>

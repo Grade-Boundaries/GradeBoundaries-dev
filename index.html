@@ -25,7 +25,9 @@
       if (cloak) cloak.remove();
     }
     const host   = location.hostname;
-    const myBase = host === "gradeboundaries.com" ? "/" : "/Grade_Boundaries_A_Levels/";
+    // Use '/' for production, localhost, and 127.0.0.1; only use subfolder for GitHub Pages
+    const isLocal = host === 'localhost' || host === '127.0.0.1' || host === 'gradeboundaries.com';
+    const myBase = isLocal ? "/" : "/Grade_Boundaries_A_Levels/";
     const baseEl = document.createElement("base");
     baseEl.href  = myBase;
     document.head.appendChild(baseEl);
@@ -35,7 +37,7 @@
     document.head.appendChild(linkEl);
     const linkEle = document.createElement("link");
     linkEle.rel   = "stylesheet";
-    linkEle.href  = "style.css";
+    linkEle.href  = "assets/css/style.css";
     linkEle.onload = uncloak;
     document.head.appendChild(linkEle);
   </script>
@@ -130,50 +132,85 @@
   <header class="text-white text-center py-6 shadow-lg">
     <h1 class="page-title">A-Level Grade Boundaries</h1>
     <nav class="mt-4 flex flex-col md:flex-row items-center justify-center gap-2" aria-label="Primary">
-      <a href="Edexcel" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition" title="Edexcel A-Level grade boundaries 2015-2025">Edexcel</a>
-      <a href="CIE" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition" title="CIE (Cambridge International) A-Level grade boundaries">CIE</a>
-      <a href="OxfordAqa" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition" title="Oxford AQA A-Level grade boundaries 2020-2025">Oxford AQA</a>
-      <a href="OCR" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition" title="OCR A-Level grade boundaries 2015-2025">OCR</a>
+      <a href="boards/a-level/edexcel" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition" title="Edexcel A-Level grade boundaries 2015-2025">Edexcel</a>
+      <a href="boards/a-level/cie" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition" title="CIE (Cambridge International) A-Level grade boundaries">CIE</a>
+      <a href="boards/a-level/oxford-aqa" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition" title="Oxford AQA A-Level grade boundaries 2020-2025">Oxford AQA</a>
+      <a href="boards/a-level/ocr" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition" title="OCR A-Level grade boundaries 2015-2025">OCR</a>
     </nav>
   </header>
 
   <!-- Main content -->
   <main class="flex-1 max-w-6xl mx-auto p-6" id="main-content">
     <h2 class="text-3xl font-semibold mb-4">Welcome to Grade-Boundary Explorer</h2>
-    <p class="text-lg mb-4">This site offers a <strong>free</strong>, open-access way to analyse and compare A-Level grade boundaries for Edexcel, CIE, Oxford AQA, and OCR. Access tables, download CSVs and visualise trends with interactive charts.</p>
+    <p class="text-lg mb-4">This site offers a <strong>free</strong>, open-access way to analyse and compare A-Level and IGCSE grade boundaries for Edexcel, CIE, Oxford AQA, and OCR. Access tables, download CSVs and visualise trends with interactive charts.</p>
     <div class="p-4 rounded text-lg mb-4 font-semibold">
   📢 If you found this website helpful, please consider sharing it — your support would mean a lot!
     </div>
-    <h2 id="datasets-heading" class="sr-only">Available datasets</h2>
+    
+    <!-- A-Level Section -->
+    <h3 class="text-2xl font-semibold mb-4 mt-8">A-Level Grade Boundaries</h3>
     <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
       <article class="bg-white shadow-md rounded-lg p-6 flex flex-col h-70" itemscope itemtype="https://schema.org/Dataset">
         <meta itemprop="name" content="Edexcel A-Level Grade Boundaries 2015-2025" />
         <h3 class="text-xl font-bold mb-2" itemprop="name">Edexcel</h3>
         <p class="text-sm mb-4" itemprop="description">Over 800 units covering Maths, Sciences, Economics and more (2015-2025).</p>
-        <a href="Edexcel" class="class-button inline-block mt-auto mb-0 px-4 py-2 rounded text-center" itemprop="url">View Edexcel grade boundaries</a>
+        <a href="boards/a-level/edexcel" class="class-button inline-block mt-auto mb-0 px-4 py-2 rounded text-center" itemprop="url">View Edexcel grade boundaries</a>
       </article>
 
       <article class="bg-white shadow-md rounded-lg p-6 flex flex-col h-70" itemscope itemtype="https://schema.org/Dataset">
         <meta itemprop="name" content="CIE A-Level Grade Boundaries 2021-2025" />
         <h3 class="text-xl font-bold mb-2" itemprop="name">CIE</h3>
         <p class="text-sm mb-4" itemprop="description">Grade thresholds for AS/A-Level Cambridge International examinations (2021-2025).</p>
-        <a href="CIE" class="class-button inline-block mt-auto mb-0 px-4 py-2 rounded text-center" itemprop="url">View CIE grade boundaries</a>
+        <a href="boards/a-level/cie" class="class-button inline-block mt-auto mb-0 px-4 py-2 rounded text-center" itemprop="url">View CIE grade boundaries</a>
       </article>
 
       <article class="bg-white shadow-md rounded-lg p-6 flex flex-col h-70" itemscope itemtype="https://schema.org/Dataset">
         <meta itemprop="name" content="Oxford AQA A-Level Grade Boundaries 2018-2025" />
         <h3 class="text-xl font-bold mb-2" itemprop="name">Oxford AQA</h3>
         <p class="text-sm mb-4" itemprop="description">Oxford AQA subjects from 2018-2025 with all grade-boundary data.</p>
-        <a href="OxfordAqa" class="class-button inline-block mt-auto mb-0 px-4 py-2 rounded text-center" itemprop="url">View Oxford AQA grade boundaries</a>
+        <a href="boards/a-level/oxford-aqa" class="class-button inline-block mt-auto mb-0 px-4 py-2 rounded text-center" itemprop="url">View Oxford AQA grade boundaries</a>
       </article>
 
       <article class="bg-white shadow-md rounded-lg p-6 flex flex-col h-70" itemscope itemtype="https://schema.org/Dataset">
         <meta itemprop="name" content="OCR A-Level Grade Boundaries 2021-2025" />
         <h3 class="text-xl font-bold mb-2" itemprop="name">OCR</h3>
         <p class="text-sm mb-4" itemprop="description">Comprehensive OCR A-Level grade boundaries from 2015-2025, including all major subjects.</p>
-        <a href="OCR" class="class-button inline-block mt-auto mb-0 px-4 py-2 rounded text-center" itemprop="url">View OCR grade boundaries</a>
+        <a href="boards/a-level/ocr" class="class-button inline-block mt-auto mb-0 px-4 py-2 rounded text-center" itemprop="url">View OCR grade boundaries</a>
       </article>
     </div>
+
+    <!-- IGCSE Section -->
+    <h3 class="text-2xl font-semibold mb-4 mt-12">IGCSE Grade Boundaries</h3>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+      <article class="bg-white shadow-md rounded-lg p-6 flex flex-col h-70" itemscope itemtype="https://schema.org/Dataset">
+        <meta itemprop="name" content="Edexcel IGCSE Grade Boundaries" />
+        <h3 class="text-xl font-bold mb-2" itemprop="name">Edexcel IGCSE</h3>
+        <p class="text-sm mb-4" itemprop="description">Edexcel International GCSE grade boundaries across all subjects.</p>
+        <a href="boards/igcse/edexcel" class="class-button inline-block mt-auto mb-0 px-4 py-2 rounded text-center" itemprop="url">View Edexcel IGCSE boundaries</a>
+      </article>
+
+      <article class="bg-white shadow-md rounded-lg p-6 flex flex-col h-70" itemscope itemtype="https://schema.org/Dataset">
+        <meta itemprop="name" content="CIE IGCSE Grade Boundaries" />
+        <h3 class="text-xl font-bold mb-2" itemprop="name">CIE IGCSE</h3>
+        <p class="text-sm mb-4" itemprop="description">Cambridge IGCSE grade thresholds for all international examinations.</p>
+        <a href="boards/igcse/cie" class="class-button inline-block mt-auto mb-0 px-4 py-2 rounded text-center" itemprop="url">View CIE IGCSE boundaries</a>
+      </article>
+
+      <article class="bg-white shadow-md rounded-lg p-6 flex flex-col h-70" itemscope itemtype="https://schema.org/Dataset">
+        <meta itemprop="name" content="Oxford AQA IGCSE Grade Boundaries" />
+        <h3 class="text-xl font-bold mb-2" itemprop="name">Oxford AQA IGCSE</h3>
+        <p class="text-sm mb-4" itemprop="description">Oxford AQA International GCSE grade boundaries.</p>
+        <a href="boards/igcse/oxford-aqa" class="class-button inline-block mt-auto mb-0 px-4 py-2 rounded text-center" itemprop="url">View Oxford AQA IGCSE boundaries</a>
+      </article>
+
+      <article class="bg-white shadow-md rounded-lg p-6 flex flex-col h-70" itemscope itemtype="https://schema.org/Dataset">
+        <meta itemprop="name" content="OCR IGCSE Grade Boundaries" />
+        <h3 class="text-xl font-bold mb-2" itemprop="name">OCR IGCSE</h3>
+        <p class="text-sm mb-4" itemprop="description">OCR International GCSE grade boundaries across subjects.</p>
+        <a href="boards/igcse/ocr" class="class-button inline-block mt-auto mb-0 px-4 py-2 rounded text-center" itemprop="url">View OCR IGCSE boundaries</a>
+      </article>
+    </div>
+
 <section id="about-project" class="mt-12 p-6 rounded-lg text-center donate-section shadow-md">
       <h2 class="text-2xl font-semibold mb-4">About This Project</h2>
       <p class="text-lg mb-6">This little site was built by two A‑Level students as a fun project to visualise and compare A‑Level grade boundaries. We’re both studying A‑Levels ourselves, so we know how useful it can be to see trends across exam boards. Enjoy!</p>
@@ -272,7 +309,7 @@
     <nav aria-label="Footer links">
       <ul class="flex space-x-4 text-lg">
         <li>
-          <a href="Contact"
+          <a href="pages/contact"
              class="underline">
             Contact us
           </a>
@@ -281,7 +318,7 @@
           <span>&nbsp;|&nbsp;</span>
         </li>
         <li>
-          <a href="Privacy"
+          <a href="pages/privacy"
              class="underline">
             Privacy Notice
           </a>

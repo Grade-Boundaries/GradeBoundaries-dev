@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style id="css-cloak">html:not(.css-loaded) body > * { display: none; }</style>
+
+  <link rel="preconnect" href="https://plausible.io">
+  <link rel="preconnect" href="https://gc.zgo.at">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="preconnect" href="https://cdn.datatables.net">
+  <link rel="preconnect" href="https://code.jquery.com">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+  <!-- dashboard-engine.js injected dynamically below -->
+  <script defer data-domain="gradeboundaries.com" src="https://plausible.io/js/script.js"></script>
+  <script async data-goatcounter="https://gradeboundaries.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
+
+  <script>
+    (() => {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark' || (!saved && matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+      }
+    })();
+  </script>
+
+  <script>
+    function uncloak() {
+      document.documentElement.classList.add('css-loaded');
+      const c = document.getElementById('css-cloak');
+      if (c) c.remove();
+    }
+    var host = location.hostname;
+    var isLocal = host === 'localhost' || host === '127.0.0.1' || host === 'gradeboundaries.com';
+    var myBase = isLocal ? '/' : '/Grade_Boundaries_A_Levels/';
+    var base = Object.assign(document.createElement('base'), { href: myBase });
+    document.head.appendChild(base);
+
+    // Tailwind Output (if you have it)
+    var tw = Object.assign(document.createElement('link'), { rel: 'stylesheet', href: 'dist/output.css' });
+    document.head.appendChild(tw);
+
+    // YOUR CUSTOM CSS
+    var local = Object.assign(document.createElement('link'), {
+      rel: 'stylesheet',
+      href: myBase + 'assets/css/style.css',
+      onload: uncloak
+    });
+    document.head.appendChild(local);
+    // Inject dashboard-engine.js dynamically (only once, after CSS) and signal when ready
+    (function(){
+      var host=location.hostname;
+      var isLocal = host === 'localhost' || host === '127.0.0.1' || host === 'gradeboundaries.com';
+      var myBase = isLocal ? '/' : '/Grade_Boundaries_A_Levels/';
+      var pre=document.createElement('link');
+      pre.rel='preload';
+      pre.href=myBase+'assets/js/dashboard-engine.js';
+      pre.as='script';
+      document.head.appendChild(pre);
+
+      var dash=document.createElement('script');
+      dash.src=myBase+'assets/js/dashboard-engine.js';
+      dash.defer = true;
+      dash.onload = function(){ document.dispatchEvent(new Event('dashboardEngineLoaded')); };
+      document.head.appendChild(dash);
+    })();
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oxford AQA A-Level Grade Boundaries 2018-2025 | Interactive Tables & CSV</title>
+  <meta name="description" content="Oxford AQA A-Level grade boundaries (2018-2025) — explore them alongside every other UK board on Grade-Boundary Explorer.">
+  <meta name="theme-color" content="#111827">
+
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js" defer></script>
+
+  <link rel="preload" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css"></noscript>
+  <link rel="preload" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css"></noscript>
+</head>
+
+<body class="text-gray-800 flex flex-col min-h-screen">
+  
+  <header class="text-white text-center py-6 shadow-lg">
+    <h1 class="page-title">Oxford&nbsp;AQA Grade Boundaries</h1>
+    <button id="theme-toggle" class="absolute top-4 right-4" aria-label="Toggle dark / light mode"></button>
+    <nav class="mt-4 flex flex-col md:flex-row items-center justify-center gap-2">
+      <a href="" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">Home</a>
+      <a href="boards/a-level/cie" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">CIE</a>
+      <a href="boards/a-level/edexcel" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">Edexcel</a>
+      <a href="boards/a-level/ocr" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">OCR</a>
+    </nav>
+  </header>
+
+  <main class="flex-1 w-full px-4">
+    <section class="bg-white rounded-lg shadow-md p-6 w-full max-w-7xl mx-auto mt-6">
+      <h2 class="text-2xl font-semibold mb-4">Oxford&nbsp;AQA Grade Boundaries</h2>
+
+      <div class="table-wrapper mb-6">
+        <table id="OxfordAqaTable" class="display nowrap responsive w-full" aria-describedby="grade-boundaries-caption">
+          <caption id="grade-boundaries-caption" class="sr-only">Oxford AQA grade boundaries per unit code</caption>
+          <thead><tr></tr></thead>
+        </table>
+      </div>
+
+      <div class="text-right my-4">
+        <p class="csv-note" style="text-align:right"><em>Note: This data is processed from official Oxford AQA sources for ease of use. Original rights belong to Oxford AQA.</em></p>
+        <button id="downloadCSV" class="class-button text-white px-4 py-2 rounded hover:bg-[#2b7a78] transition">Download CSV</button>
+      </div>
+
+      <div id="aqa-controls" class="flex flex-wrap gap-4 mb-6 items-center">
+        <label for="aqaUnitSearch" class="font-semibold">Unit&nbsp;Code:</label>
+        <input type="text" id="aqaUnitSearch" placeholder="e.g. CH01" class="border rounded px-2 py-1 w-36 sm:w-auto" list="aqaUnitList" />
+        <datalist id="aqaUnitList"></datalist>
+      </div>
+
+      <div class="chart-container">
+        <canvas id="OxfordAqaChart"></canvas>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mt-12" role="contentinfo">
+    <div class="container mx-auto flex flex-col items-center py-6 px-4">
+    <p class="text-lg">Created by</p>
+    <nav aria-label="Created by">
+      <ul class="flex space-x-4 text-lg">
+        <li>
+          <a href="https://github.com/Fire-Frog-Fuel/"
+             class="underline">
+            Fire-Frog-Fuel
+          </a>
+        </li>
+        <li>
+          <span>&nbsp;and&nbsp;</span>
+        </li>
+        <li>
+          <a href="https://github.com/ChessMastermind"
+             class="underline">
+            ChessMastermind
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Utility links -->
+    <nav aria-label="Footer links">
+      <ul class="flex space-x-4 text-lg">
+        <li>
+          <a href="pages/contact"
+             class="underline">
+            Contact us
+          </a>
+        </li>
+        <li>
+          <span>&nbsp;|&nbsp;</span>
+        </li>
+        <li>
+          <a href="pages/privacy"
+             class="underline">
+            Privacy Notice
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+ </footer>
+<script>
+  (function(){
+    try{
+      const ul = document.querySelector('footer nav[aria-label="Footer links"] ul');
+      if (ul && !ul.querySelector('a[href*="Disclaimer"]')){
+        const sep = document.createElement('li'); sep.innerHTML='&nbsp;|&nbsp;'; ul.appendChild(sep);
+        const li = document.createElement('li');
+        const a = document.createElement('a'); a.href='pages/disclaimer'; a.className='underline'; a.textContent='Disclaimer';
+        li.appendChild(a); ul.appendChild(li);
+      }
+    }catch(e){}
+  })();
+</script>
+
+  <!-- Theme toggle wiring -->
+  <script>
+    (function(){
+      try{
+        const btn = document.getElementById('theme-toggle');
+        const root = document.documentElement;
+        if (!btn) return;
+        btn.textContent = root.classList.contains('dark') ? '☀️' : '🌙';
+        btn.addEventListener('click', () => {
+          const dark = root.classList.toggle('dark');
+          localStorage.setItem('theme', dark ? 'dark' : 'light');
+          btn.textContent = dark ? '☀️' : '🌙';
+        });
+      }catch(e){}
+    })();
+  </script>
+
+
+<script>
+  (function(){
+    var host = location.hostname;
+    var isLocal = host === 'localhost' || host === '127.0.0.1' || host === 'gradeboundaries.com';
+    var myBase = isLocal ? '/' : '/Grade_Boundaries_A_Levels/';
+    var config = {
+      csvUrl: myBase + 'boards/a-level/oxford-aqa/OxfordAqa.csv',
+      dom: {
+        table: '#OxfordAqaTable',
+        chart: '#OxfordAqaChart',
+        subjectSearch: '#aqaUnitSearch',
+        subjectList: '#aqaUnitList',
+        componentSearch: '#aqaComponentSearch',
+        componentList: '#aqaComponentList'
+      },
+      columns: {
+        code: 'code',
+        component: null,
+        year: 'year',
+        session: 'session',
+        maxMark: 'max_mark',
+        ums: 'UMS_100'
+      },
+      chart: { title: 'OxfordAQA Grade Boundaries', showUms: true }
+    };
+
+    function runInit(){
+      if (typeof initExamDashboard === 'function') initExamDashboard(config);
+      else document.addEventListener('dashboardEngineLoaded', function(){ initExamDashboard(config); });
+    }
+
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', runInit);
+    else runInit();
+  })();
+</script>
+
+<!-- Note: This page includes data about the '100UMS' column in the CSV files. -->
+</body>
+</html>
