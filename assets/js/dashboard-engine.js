@@ -1,7 +1,8 @@
 /**
  * 🎓 Unified Grade Boundary Dashboard Engine
  * Handles CSV parsing, DataTables, and Chart.js for all exam boards.
- * * Author: Fire-Frog-Fuel & ChessMastermind
+ * Supports both A-Level (A*-E) and IGCSE (A*-G) grade scales.
+ * Author: Fire-Frog-Fuel & ChessMastermind
  */
 
 // --- 1. Shared Utilities & Constants ---
@@ -10,9 +11,23 @@ const MONTH_MAP = {
     january:1, february:2, march:3, april:4, may:5, june:6, july:7, august:8, september:9, october:10, november:11, december:12 
 };
 
-const GRADE_COLORS = { 
+// A-Level grades (A*-E)
+const GRADE_COLORS_ALEVEL = { 
     'a*': '#2ECC71', a: '#F4A261', b: '#E9C46A', c: '#E63946', d: '#264653', e: '#6D597A', u: '#999999' 
 };
+
+// IGCSE grades (A*-G) - extended color palette
+const GRADE_COLORS_IGCSE = { 
+    'a*': '#2ECC71', a: '#27AE60', b: '#F4A261', c: '#E9C46A', d: '#E76F51', e: '#E63946', f: '#264653', g: '#6D597A', u: '#999999' 
+};
+
+// IGCSE 9-1 numeric grades (Edexcel) - color palette
+const GRADE_COLORS_IGCSE_NUMERIC = {
+    '9': '#2ECC71', '8': '#27AE60', '7': '#F4A261', '6': '#E9C46A', '5': '#E76F51', '4': '#E63946', '3': '#264653', '2': '#6D597A', '1': '#999999'
+};
+
+// Default to A-Level colors (will be overridden per config)
+let GRADE_COLORS = GRADE_COLORS_ALEVEL;
 
 // Custom DataTable Sorter for "Year Month" strings
 if (window.jQuery && jQuery.fn.dataTable) {
@@ -34,6 +49,12 @@ if (window.jQuery && jQuery.fn.dataTable) {
 // --- 2. Main Initialization Function ---
 async function initExamDashboard(config) {
     console.log(`🚀 Initializing Dashboard for ${config.chart.title}...`);
+    
+    // Set grade colors based on config (IGCSE vs A-Level)
+    const isIGCSE = config.isIGCSE || false;
+    const isNumericGrades = config.isNumericGrades || false; // Edexcel IGCSE uses 9-1
+    const gradeColors = isNumericGrades ? GRADE_COLORS_IGCSE_NUMERIC : (isIGCSE ? GRADE_COLORS_IGCSE : GRADE_COLORS_ALEVEL);
+    const gradeScale = isNumericGrades ? ['9','8','7','6','5','4','3','2','1'] : (isIGCSE ? ['a*','a','b','c','d','e','f','g','u'] : ['a*','a','b','c','d','e','u']);
 
     try {
         // Fetch and Parse CSV
@@ -47,7 +68,9 @@ async function initExamDashboard(config) {
             skipEmptyLines: true,
             complete: (results) => {
                 // Initialize Table and Chart with parsed data
-                setupDashboard(results.data, csvText, config);
+                // Pass meta.fields to preserve original CSV column order (Object.keys reorders numeric keys)
+                const csvHeaders = results.meta.fields || [];
+                setupDashboard(results.data, csvText, config, { gradeColors, gradeScale, isIGCSE, isNumericGrades, csvHeaders });
             }
         });
     } catch (err) {
@@ -57,12 +80,15 @@ async function initExamDashboard(config) {
     }
 }
 
-function setupDashboard(data, rawCsv, config) {
+function setupDashboard(data, rawCsv, config, gradeConfig = {}) {
     const { dom, columns, chart: chartConfig } = config;
+    const { gradeColors = GRADE_COLORS_ALEVEL, gradeScale = ['a*','a','b','c','d','e','u'], isIGCSE = false, isNumericGrades = false, csvHeaders = [] } = gradeConfig;
     const $table = $(dom.table);
 
     // --- A. Setup DataTable ---
-    const headers = Object.keys(data[0] || {});
+    // Use csvHeaders from PapaParse meta.fields to preserve original CSV column order
+    // (Object.keys reorders numeric keys like '1','2','9' in ascending order)
+    const headers = csvHeaders.length > 0 ? csvHeaders : Object.keys(data[0] || {});
     // Filter out columns if needed (e.g., hiding internal codes), currently showing all
     const dtColumns = headers.map(h => ({ data: h, title: h }));
     
@@ -138,8 +164,8 @@ function setupDashboard(data, rawCsv, config) {
         chartData[subj][comp][sessionKey] ??= {};
         const entry = chartData[subj][comp][sessionKey];
 
-        // 5. Extract Values
-        ['a*','a','b','c','d','e','u'].forEach(g => {
+        // 5. Extract Values (supports both A-Level and IGCSE grade scales)
+        gradeScale.forEach(g => {
             // Try lowercase key first, then uppercase
             const val = parseFloat(row[g] ?? row[g.toUpperCase()]);
             if (!isNaN(val)) entry[g] = val;
@@ -217,9 +243,21 @@ function setupDashboard(data, rawCsv, config) {
         const dataObj = chartData[s][c];
         const sessions = Object.keys(dataObj).sort(sessionSorter);
         
-        // Check if A* exists in this dataset (to hide it if unused)
-        const hasAStar = sessions.some(k => dataObj[k]['a*'] !== undefined);
-        const gradesToShow = ['a*','a','b','c','d','e'].filter(g => g !== 'a*' || hasAStar);
+        // Determine grades to show based on grading type
+        let baseGrades, gradesToShow;
+        if (isNumericGrades) {
+            // 9-1 numeric grading (Edexcel IGCSE) - show all except 1 (lowest)
+            baseGrades = ['9','8','7','6','5','4','3','2'];
+            // Check if grade 9 exists in dataset
+            const hasNine = sessions.some(k => dataObj[k]['9'] !== undefined);
+            gradesToShow = baseGrades.filter(g => g !== '9' || hasNine);
+        } else {
+            // Check if A* exists in this dataset (to hide it if unused)
+            const hasAStar = sessions.some(k => dataObj[k]['a*'] !== undefined);
+            // Use appropriate grade scale (IGCSE: A*-G, A-Level: A*-E), filter out U for chart
+            baseGrades = isIGCSE ? ['a*','a','b','c','d','e','f','g'] : ['a*','a','b','c','d','e'];
+            gradesToShow = baseGrades.filter(g => g !== 'a*' || hasAStar);
+        }
 
         // Build Datasets
         const datasets = [];
@@ -254,7 +292,7 @@ function setupDashboard(data, rawCsv, config) {
             datasets.push({
                 label: g.toUpperCase(),
                 data: sessions.map(k => dataObj[k][g] ?? null),
-                borderColor: GRADE_COLORS[g],
+                borderColor: gradeColors[g],
                 tension: 0.2,
                 fill: false,
                 order: 1
@@ -292,6 +330,8 @@ function setupDashboard(data, rawCsv, config) {
 
     // --- E. Event Listeners ---
     if (subjSelect) subjSelect.addEventListener('input', () => {
+        // Convert to uppercase for case-insensitive matching (e.g., 4ea1 -> 4EA1)
+        subjSelect.value = subjSelect.value.toUpperCase();
         updateComponents(subjSelect.value);
         renderChart();
     });

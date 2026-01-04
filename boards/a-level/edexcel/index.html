@@ -26,7 +26,8 @@
       if (c) c.remove();
     }
     var host = location.hostname;
-    var myBase = host === 'gradeboundaries.com' ? '/' : '/Grade_Boundaries_A_Levels/';
+    var isLocal = host === 'localhost' || host === '127.0.0.1' || host === 'gradeboundaries.com';
+    var myBase = isLocal ? '/' : '/Grade_Boundaries_A_Levels/';
     var base = Object.assign(document.createElement('base'), { href: myBase });
     document.head.appendChild(base);
 
@@ -35,22 +36,23 @@
 
     var local = Object.assign(document.createElement('link'), {
       rel: 'stylesheet',
-      href: 'style.css',
+      href: 'assets/css/style.css',
       onload: uncloak
     });
     document.head.appendChild(local);
     // Inject dashboard-engine.js dynamically (only once, after CSS) and signal when ready
     (function(){
       var host=location.hostname;
-      var myBase=host==='gradeboundaries.com'?'/':'/Grade_Boundaries_A_Levels/';
+      var isLocal = host === 'localhost' || host === '127.0.0.1' || host === 'gradeboundaries.com';
+      var myBase = isLocal ? '/' : '/Grade_Boundaries_A_Levels/';
       var pre=document.createElement('link');
       pre.rel='preload';
-      pre.href = myBase+'dashboard-engine.js';
+      pre.href = myBase+'assets/js/dashboard-engine.js';
       pre.as = 'script';
       document.head.appendChild(pre);
 
       var dash=document.createElement('script');
-      dash.src=myBase+'dashboard-engine.js';
+      dash.src=myBase+'assets/js/dashboard-engine.js';
       dash.defer = true;
       dash.onload = function(){ document.dispatchEvent(new Event('dashboardEngineLoaded')); };
       document.head.appendChild(dash);
@@ -158,9 +160,9 @@
         <button id="theme-toggle" class="absolute top-4 right-4" aria-label="Toggle dark / light mode"></button>
       <nav class="mt-4 flex flex-col md:flex-row items-center justify-center gap-2">
         <a href="" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">Home</a>
-        <a href="CIE" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">CIE</a>
-        <a href="OxfordAqa" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">Oxford&nbsp;AQA</a>
-        <a href="OCR" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">OCR</a>
+        <a href="boards/a-level/cie" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">CIE</a>
+        <a href="boards/a-level/oxford-aqa" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">Oxford&nbsp;AQA</a>
+        <a href="boards/a-level/ocr" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">OCR</a>
       </nav>
     </header><main class="flex-1 w-full px-4">
   <section class="bg-white rounded-lg shadow-md p-6 w-full max-w-7xl mx-auto">
@@ -216,7 +218,7 @@
     <nav aria-label="Footer links">
       <ul class="flex space-x-4 text-lg">
         <li>
-          <a href="Contact"
+          <a href="pages/contact"
              class="underline">
             Contact us
           </a>
@@ -225,7 +227,7 @@
           <span>&nbsp;|&nbsp;</span>
         </li>
         <li>
-          <a href="Privacy"
+          <a href="pages/privacy"
              class="underline">
             Privacy Notice
           </a>
@@ -253,9 +255,10 @@
 <script>
   (function(){
     var host = location.hostname;
-    var myBase = host === 'gradeboundaries.com' ? '/' : '/Grade_Boundaries_A_Levels/';
+    var isLocal = host === 'localhost' || host === '127.0.0.1' || host === 'gradeboundaries.com';
+    var myBase = isLocal ? '/' : '/Grade_Boundaries_A_Levels/';
     var config = {
-      csvUrl: myBase + 'Edexcel/Edexcel.csv',
+      csvUrl: myBase + 'boards/a-level/edexcel/Edexcel.csv',
       dom: {
         table: '#EdexcelTable',
         chart: '#EdexcelChart',

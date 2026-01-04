@@ -19,9 +19,8 @@
     }
     // 1) compute your base href
     const host   = location.hostname;
-    const myBase = host === "gradeboundaries.com"
-                 ? "/"
-                 : "/Grade_Boundaries_A_Levels/";
+    const isLocal = host === 'localhost' || host === '127.0.0.1' || host === 'gradeboundaries.com';
+    const myBase = isLocal ? "/" : "/Grade_Boundaries_A_Levels/";
 
     // 2) inject <base>
     const baseEl = document.createElement("base");
@@ -37,7 +36,7 @@
     // 4) inject style.css stylesheet link
     const linkEle = document.createElement("link");
     linkEle.rel   = "stylesheet";
-    linkEle.href  = "style.css";
+    linkEle.href  = myBase + "assets/css/style.css";
     linkEle.onload = uncloak;
     document.head.appendChild(linkEle);
 
@@ -77,10 +76,10 @@
       <button id="theme-toggle" class="absolute top-4 right-4" aria-label="Toggle colour theme"></button>
       <nav class="mt-4 flex flex-col md:flex-row items-center justify-center gap-2" aria-label="Primary">
         <a href="" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">Home</a>
-        <a href="Edexcel" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">Edexcel</a>
-        <a href="CIE" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">CIE</a>
-        <a href="OxfordAqa" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">Oxford&nbsp;AQA</a>
-        <a href="OCR" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">OCR</a>
+        <a href="boards/a-level/edexcel" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">Edexcel</a>
+        <a href="boards/a-level/cie" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">CIE</a>
+        <a href="boards/a-level/oxford-aqa" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">Oxford&nbsp;AQA</a>
+        <a href="boards/a-level/ocr" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">OCR</a>
       </nav>
     </header>
 
@@ -238,7 +237,7 @@
     <nav aria-label="Footer links">
       <ul class="flex space-x-4 text-lg">
         <li>
-          <a href="Contact"
+          <a href="pages/contact"
              class="underline">
             Contact us
           </a>
@@ -247,7 +246,7 @@
           <span>&nbsp;|&nbsp;</span>
         </li>
         <li>
-          <a href="Privacy"
+          <a href="pages/privacy"
              class="underline">
             Privacy Notice
           </a>

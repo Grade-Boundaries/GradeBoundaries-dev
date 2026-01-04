@@ -30,7 +30,8 @@
       if (c) c.remove();
     }
     var host  = location.hostname;
-    var myBase = host === 'gradeboundaries.com' ? '/' : '/Grade_Boundaries_A_Levels/';
+    var isLocal = host === 'localhost' || host === '127.0.0.1' || host === 'gradeboundaries.com';
+    var myBase = isLocal ? '/' : '/Grade_Boundaries_A_Levels/';
 
     var base = document.createElement('base');
     base.href = myBase;
@@ -43,7 +44,7 @@
 
     var local = document.createElement('link');
     local.rel = 'stylesheet';
-    local.href = 'style.css';
+    local.href = myBase + 'assets/css/style.css';
     local.onload = uncloak;
     document.head.appendChild(local);
 
@@ -51,12 +52,12 @@
     // preload for slightly faster engine startup
     var pre = document.createElement('link');
     pre.rel = 'preload';
-    pre.href = myBase + 'dashboard-engine.js';
+    pre.href = myBase + 'assets/js/dashboard-engine.js';
     pre.as = 'script';
     document.head.appendChild(pre);
 
     var engine = document.createElement('script');
-    engine.src = myBase + 'dashboard-engine.js';
+    engine.src = myBase + 'assets/js/dashboard-engine.js';
     engine.defer = true;
     engine.onload = function() { document.dispatchEvent(new Event('dashboardEngineLoaded')); };
     document.head.appendChild(engine);
@@ -157,9 +158,9 @@
       <button id="theme-toggle" class="absolute top-4 right-4" aria-label="Toggle dark / light mode"></button>
       <nav class="mt-4 flex flex-col md:flex-row items-center justify-center gap-2">
         <a href="" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">Home</a>
-        <a href="Edexcel" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">Edexcel</a>
-        <a href="OxfordAqa" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">Oxford&nbsp;AQA</a>
-        <a href="OCR" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">OCR</a>
+        <a href="boards/a-level/edexcel" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">Edexcel</a>
+        <a href="boards/a-level/oxford-aqa" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">Oxford&nbsp;AQA</a>
+        <a href="boards/a-level/ocr" class="nav-link mx-4 text-base sm:text-lg hover:text-white transition">OCR</a>
       </nav>
     </header>
 
@@ -227,7 +228,7 @@
     <nav aria-label="Footer links">
       <ul class="flex space-x-4 text-lg">
         <li>
-          <a href="Contact"
+          <a href="pages/contact"
              class="underline">
             Contact us
           </a>
@@ -236,7 +237,7 @@
           <span>&nbsp;|&nbsp;</span>
         </li>
         <li>
-          <a href="Privacy"
+          <a href="pages/privacy"
              class="underline">
             Privacy Notice
           </a>
@@ -255,7 +256,7 @@
         if (ul && !ul.querySelector('a[href*="Disclaimer"]')){
           const sep = document.createElement('li'); sep.innerHTML='&nbsp;|&nbsp;'; ul.appendChild(sep);
           const li = document.createElement('li');
-          const a = document.createElement('a'); a.href='Disclaimer/'; a.className='underline'; a.textContent='Disclaimer';
+          const a = document.createElement('a'); a.href='pages/disclaimer'; a.className='underline'; a.textContent='Disclaimer';
           li.appendChild(a); ul.appendChild(li);
         }
       }catch(e){}
@@ -265,9 +266,10 @@
 <script>
   (function(){
     var host = location.hostname;
-    var myBase = host === 'gradeboundaries.com' ? '/' : '/Grade_Boundaries_A_Levels/';
+    var isLocal = host === 'localhost' || host === '127.0.0.1' || host === 'gradeboundaries.com';
+    var myBase = isLocal ? '/' : '/Grade_Boundaries_A_Levels/';
     var config = {
-      csvUrl: myBase + 'CIE/CIE.csv',
+      csvUrl: myBase + 'boards/a-level/cie/CIE.csv',
       dom: {
         table: '#CIETable',
         chart: '#CIEChart',
