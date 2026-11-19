@@ -1850,3 +1850,261 @@ year,session,code,subject,paper,max_mark,9,8,7,6,5,4,3,2,1,u
 2025,Nov,1MA1/2H,Mathematics (Higher),2H,80,69,59,49,37,26,15,9,,,0
 2025,Nov,1MA1/3F,Mathematics (Foundation),3F,80,,,,,60,50,36,23,10,0
 2025,Nov,1MA1/3H,Mathematics (Higher),3H,80,71,62,54,42,30,19,13,,,0
+2026,Jun,1AA0/1F,Arabic (Foundation),1F,50,,,,,30,26,19,13,7,0
+2026,Jun,1AA0/1H,Arabic (Higher),1H,50,41,36,32,28,24,20,18,,,0
+2026,Jun,1AA0/2F,Arabic (Foundation),2F,70,,,,,38,34,27,20,13,0
+2026,Jun,1AA0/2H,Arabic (Higher),2H,70,55,48,42,36,31,26,23,,,0
+2026,Jun,1AA0/2HT,Arabic (Higher),2HT,70,55,48,42,36,31,26,23,,,0
+2026,Jun,1AA0/3F,Arabic (Foundation),3F,50,,,,,30,26,19,13,7,0
+2026,Jun,1AA0/3H,Arabic (Higher),3H,50,41,36,31,27,23,20,18,,,0
+2026,Jun,1AA0/4F,Arabic (Foundation),4F,60,,,,,37,33,25,17,10,0
+2026,Jun,1AA0/4H,Arabic (Higher),4H,60,47,40,33,30,27,24,22,,,0
+2026,Jun,1AD0/01,"Art, Craft & Design",01,72,59,54,49,42,36,30,21,12,4,0
+2026,Jun,1AD0/02,"Art, Craft & Design",02,72,59,54,50,43,37,31,22,13,5,0
+2026,Jun,1AS0/01,Astronomy,01,100,80,72,65,57,49,42,32,22,12,0
+2026,Jun,1AS0/02,Astronomy,02,100,81,73,66,58,51,44,34,25,16,0
+2026,Jun,1BH0/01,Biblical Hebrew,01,100,78,72,67,61,55,49,39,29,19,0
+2026,Jun,1BH0/02,Biblical Hebrew,02,100,74,68,63,55,48,41,33,25,17,0
+2026,Jun,1BI0/1F,Biology (Foundation),1F,100,,,,,65,57,42,27,12,0
+2026,Jun,1BI0/1H,Biology (Higher),1H,100,84,78,73,62,52,42,37,,,0
+2026,Jun,1BI0/2F,Biology (Foundation),2F,100,,,,,67,58,42,26,10,0
+2026,Jun,1BI0/2H,Biology (Higher),2H,100,86,80,74,63,52,42,37,,,0
+2026,Jun,1BS0/01,Business,01,90,73,67,62,54,46,39,28,17,6,0
+2026,Jun,1BS0/02,Business,02,90,74,68,63,56,49,42,30,18,6,0
+2026,Jun,1CH0/1F,Chemistry (Foundation),1F,100,,,,,74,64,48,32,17,0
+2026,Jun,1CH0/1H,Chemistry (Higher),1H,100,84,74,64,52,40,29,23,,,0
+2026,Jun,1CH0/2F,Chemistry (Foundation),2F,100,,,,,63,54,40,26,13,0
+2026,Jun,1CH0/2H,Chemistry (Higher),2H,100,81,72,63,50,38,26,20,,,0
+2026,Jun,1CN0/1F,Chinese (Foundation),1F,50,,,,,39,31,22,13,5,0
+2026,Jun,1CN0/1H,Chinese (Higher),1H,50,42,36,31,26,22,18,16,,,0
+2026,Jun,1CN0/2F,Chinese (Foundation),2F,70,,,,,54,42,31,20,9,0
+2026,Jun,1CN0/2H,Chinese (Higher),2H,70,56,49,43,37,31,26,23,,,0
+2026,Jun,1CN0/3F,Chinese (Foundation),3F,50,,,,,38,30,21,13,5,0
+2026,Jun,1CN0/3H,Chinese (Higher),3H,50,41,36,31,26,22,18,16,,,0
+2026,Jun,1CN0/4F,Chinese (Foundation),4F,60,,,,,46,36,26,16,7,0
+2026,Jun,1CN0/4H,Chinese (Higher),4H,60,49,43,37,32,27,23,21,,,0
+2026,Jun,1CP2/01,Computer Science,01,75,60,52,45,38,31,24,17,10,4,0
+2026,Jun,1CP2/02,Computer Science,02,75,58,50,43,36,29,22,16,10,4,0
+2026,Jun,1CS0/01,Citizenship Studies,01,80,71,66,62,55,48,42,31,21,11,0
+2026,Jun,1CS0/02,Citizenship Studies,02,80,64,58,53,46,39,33,24,15,6,0
+2026,Jun,1DR0/01,Drama,01,60,54,50,47,43,39,35,26,17,9,0
+2026,Jun,1DR0/01T,Drama,01T,60,54,50,47,43,39,35,26,17,9,0
+2026,Jun,1DR0/02,Drama,02,48,40,37,35,32,29,26,19,12,6,0
+2026,Jun,1DR0/02T,Drama,02T,48,40,37,35,32,29,26,19,12,6,0
+2026,Jun,1DR0/03,Drama,03,60,46,44,42,38,34,31,24,17,10,0
+2026,Jun,1DT0/02,Design and Technology,02,100,87,79,72,63,54,45,32,19,7,0
+2026,Jun,1DT0/1A,Design and Technology,1A,100,61,54,48,41,35,29,21,14,7,0
+2026,Jun,1DT0/1B,Design and Technology,1B,100,62,56,50,44,38,32,24,16,8,0
+2026,Jun,1DT0/1C,Design and Technology,1C,100,61,54,48,42,36,30,22,14,7,0
+2026,Jun,1DT0/1D,Design and Technology,1D,100,60,53,47,41,35,29,21,13,6,0
+2026,Jun,1DT0/1E,Design and Technology,1E,100,61,54,48,42,36,30,22,14,7,0
+2026,Jun,1DT0/1F,Design and Technology (Foundation),1F,100,59,52,46,40,34,29,21,14,7,0
+2026,Jun,1EN0/01,English Language,01,64,54,50,47,43,39,35,27,19,12,0
+2026,Jun,1EN0/02,English Language,02,96,78,73,68,62,57,52,39,27,15,0
+2026,Jun,1EN2/01,English Language 2.0,01,80,69,64,59,53,48,43,32,22,12,0
+2026,Jun,1EN2/02,English Language 2.0,02,80,68,63,58,52,47,42,32,22,12,0
+2026,Jun,1ET0/01,English Literature,01,80,69,64,59,52,45,38,28,19,10,0
+2026,Jun,1ET0/02,English Literature,02,80,67,62,57,50,43,37,27,17,8,0
+2026,Jun,1FA0/01,Art & Design: Fine Art,01,72,59,54,49,42,36,30,21,12,4,0
+2026,Jun,1FA0/02,Art & Design: Fine Art,02,72,59,54,50,43,37,31,22,13,5,0
+2026,Jun,1FR1/1F,French (Foundation),1F,50,,,,,37,34,24,14,5,0
+2026,Jun,1FR1/1H,French (Higher),1H,50,43,39,36,32,29,26,24,,,0
+2026,Jun,1FR1/2F,French (Foundation),2F,50,,,,,39,37,26,15,5,0
+2026,Jun,1FR1/2H,French (Higher),2H,50,44,40,36,33,30,27,25,,,0
+2026,Jun,1FR1/3F,French (Foundation),3F,50,,,,,39,36,25,15,5,0
+2026,Jun,1FR1/3H,French (Higher),3H,50,45,42,39,35,31,28,26,,,0
+2026,Jun,1FR1/4F,French (Foundation),4F,50,,,,,37,34,24,14,5,0
+2026,Jun,1FR1/4H,French (Higher),4H,50,43,39,36,32,29,26,24,,,0
+2026,Jun,1GA0/01,Geography A,01,94,75,70,66,60,54,48,35,22,10,0
+2026,Jun,1GA0/02,Geography A,02,94,72,65,59,52,45,38,27,16,5,0
+2026,Jun,1GA0/03,Geography A,03,64,57,52,48,43,39,35,25,16,7,0
+2026,Jun,1GB0/01,Geography B,01,94,81,74,68,61,54,47,33,19,6,0
+2026,Jun,1GB0/02,Geography B,02,94,75,68,61,53,45,38,26,15,4,0
+2026,Jun,1GB0/03,Geography B,03,64,56,53,50,44,38,33,24,15,7,0
+2026,Jun,1GC0/01,Art & Design: Graphic Communication,01,72,59,54,49,42,36,30,21,12,4,0
+2026,Jun,1GC0/02,Art & Design: Graphic Communication,02,72,59,54,50,43,37,31,22,13,5,0
+2026,Jun,1GK0/1F,Greek (Foundation),1F,50,,,,,44,35,26,17,8,0
+2026,Jun,1GK0/1H,Greek (Higher),1H,50,47,43,40,36,32,29,27,,,0
+2026,Jun,1GK0/2F,Greek (Foundation),2F,70,,,,,64,51,38,25,13,0
+2026,Jun,1GK0/2H,Greek (Higher),2H,70,65,60,56,51,46,41,38,,,0
+2026,Jun,1GK0/3F,Greek (Foundation),3F,50,,,,,45,35,26,17,9,0
+2026,Jun,1GK0/3H,Greek (Higher),3H,50,47,43,40,36,33,30,28,,,0
+2026,Jun,1GK0/4F,Greek (Foundation),4F,60,,,,,52,43,32,21,11,0
+2026,Jun,1GK0/4H,Greek (Higher),4H,60,55,51,47,42,38,34,32,,,0
+2026,Jun,1GN1/1F,German (Foundation),1F,50,,,,,37,35,25,15,5,0
+2026,Jun,1GN1/1H,German (Higher),1H,50,43,40,37,32,28,24,22,,,0
+2026,Jun,1GN1/2F,German (Foundation),2F,50,,,,,39,36,25,15,5,0
+2026,Jun,1GN1/2H,German (Higher),2H,50,46,41,37,33,29,26,24,,,0
+2026,Jun,1GN1/3F,German (Foundation),3F,50,,,,,37,33,23,14,5,0
+2026,Jun,1GN1/3H,German (Higher),3H,50,43,39,35,31,28,25,23,,,0
+2026,Jun,1GN1/4F,German (Foundation),4F,50,,,,,39,36,25,15,5,0
+2026,Jun,1GN1/4H,German (Higher),4H,50,43,40,37,33,29,25,23,,,0
+2026,Jun,1GU0/1F,Gujarati (Foundation),1F,50,,,,,29,24,18,13,8,0
+2026,Jun,1GU0/1H,Gujarati (Higher),1H,50,44,39,34,28,23,18,15,,,0
+2026,Jun,1GU0/2F,Gujarati (Foundation),2F,70,,,,,41,33,25,17,10,0
+2026,Jun,1GU0/2H,Gujarati (Higher),2H,70,64,56,48,41,34,28,25,,,0
+2026,Jun,1GU0/3F,Gujarati (Foundation),3F,50,,,,,29,24,18,13,8,0
+2026,Jun,1GU0/3H,Gujarati (Higher),3H,50,44,39,34,28,23,18,15,,,0
+2026,Jun,1GU0/4F,Gujarati (Foundation),4F,60,,,,,35,28,21,15,9,0
+2026,Jun,1GU0/4H,Gujarati (Higher),4H,60,53,47,41,35,29,23,20,,,0
+2026,Jun,1HI0/10,History,10,52,46,42,39,36,33,31,23,16,9,0
+2026,Jun,1HI0/11,History,11,52,46,43,41,37,34,31,23,15,8,0
+2026,Jun,1HI0/12,History,12,52,46,42,39,36,33,30,23,16,9,0
+2026,Jun,1HI0/13,History,13,52,47,43,40,36,33,30,23,16,9,0
+2026,Jun,1HI0/2A,History,2A,64,55,50,46,39,32,26,20,14,8,0
+2026,Jun,1HI0/2B,History,2B,64,57,52,48,41,34,27,20,14,8,0
+2026,Jun,1HI0/2C,History,2C,64,56,51,47,40,34,28,21,14,7,0
+2026,Jun,1HI0/2D,History,2D,64,57,52,48,41,34,28,21,14,7,0
+2026,Jun,1HI0/2E,History,2E,64,55,50,46,39,32,26,20,14,8,0
+2026,Jun,1HI0/2F,History (Foundation),2F,64,57,52,48,41,34,27,20,14,8,0
+2026,Jun,1HI0/2G,History,2G,64,56,51,47,40,34,28,21,14,7,0
+2026,Jun,1HI0/2H,History (Higher),2H,64,57,52,48,41,34,28,21,14,7,0
+2026,Jun,1HI0/2J,History,2J,64,54,49,45,39,33,27,20,14,8,0
+2026,Jun,1HI0/2K,History,2K,64,56,51,47,40,34,28,21,14,8,0
+2026,Jun,1HI0/2L,History,2L,64,55,50,46,40,34,29,21,14,7,0
+2026,Jun,1HI0/2M,History,2M,64,56,51,47,41,35,29,21,14,7,0
+2026,Jun,1HI0/2N,History,2N,64,57,52,48,41,34,28,21,14,8,0
+2026,Jun,1HI0/2P,History,2P,64,59,54,50,43,36,29,22,15,8,0
+2026,Jun,1HI0/2Q,History,2Q,64,58,53,49,42,36,30,22,14,7,0
+2026,Jun,1HI0/2R,History,2R,64,59,54,50,43,36,30,22,14,7,0
+2026,Jun,1HI0/2T,History,2T,64,55,50,46,39,33,27,21,15,9,0
+2026,Jun,1HI0/2U,History,2U,64,57,52,48,41,34,28,21,15,9,0
+2026,Jun,1HI0/2V,History,2V,64,56,51,47,41,35,29,22,15,8,0
+2026,Jun,1HI0/2W,History,2W,64,57,52,48,41,35,29,22,15,8,0
+2026,Jun,1HI0/30,History,30,52,45,41,38,35,32,29,21,13,6,0
+2026,Jun,1HI0/31,History,31,52,45,41,38,34,31,28,20,12,4,0
+2026,Jun,1HI0/32,History,32,52,44,40,37,33,29,26,19,12,5,0
+2026,Jun,1HI0/33,History,33,52,44,40,37,33,29,25,18,11,5,0
+2026,Jun,1IN0/1F,Italian (Foundation),1F,50,,,,,39,31,23,15,8,0
+2026,Jun,1IN0/1H,Italian (Higher),1H,50,44,40,36,31,26,22,20,,,0
+2026,Jun,1IN0/2F,Italian (Foundation),2F,70,,,,,51,42,31,21,11,0
+2026,Jun,1IN0/2H,Italian (Higher),2H,70,66,60,54,46,39,32,28,,,0
+2026,Jun,1IN0/2HT,Italian (Higher),2HT,70,66,60,54,46,39,32,28,,,0
+2026,Jun,1IN0/3F,Italian (Foundation),3F,50,,,,,38,30,22,14,7,0
+2026,Jun,1IN0/3H,Italian (Higher),3H,50,47,43,39,33,28,23,20,,,0
+2026,Jun,1IN0/4F,Italian (Foundation),4F,60,,,,,44,35,26,17,9,0
+2026,Jun,1IN0/4H,Italian (Higher),4H,60,54,49,44,38,32,26,23,,,0
+2026,Jun,1JA0/1F,Japanese (Foundation),1F,50,,,,,38,30,22,15,8,0
+2026,Jun,1JA0/1H,Japanese (Higher),1H,50,39,34,30,26,22,19,17,,,0
+2026,Jun,1JA0/2F,Japanese (Foundation),2F,70,,,,,52,42,31,21,11,0
+2026,Jun,1JA0/2H,Japanese (Higher),2H,70,56,49,43,37,31,25,22,,,0
+2026,Jun,1JA0/3F,Japanese (Foundation),3F,50,,,,,38,30,22,15,8,0
+2026,Jun,1JA0/3H,Japanese (Higher),3H,50,39,35,32,27,22,18,16,,,0
+2026,Jun,1JA0/4F,Japanese (Foundation),4F,60,,,,,44,36,27,18,9,0
+2026,Jun,1JA0/4H,Japanese (Higher),4H,60,48,43,39,34,29,25,23,,,0
+2026,Jun,1MA1/1F,Mathematics (Foundation),1F,80,,,,,62,53,38,24,10,0
+2026,Jun,1MA1/1H,Mathematics (Higher),1H,80,70,59,49,38,28,18,13,,,0
+2026,Jun,1MA1/2F,Mathematics (Foundation),2F,80,,,,,59,49,35,22,9,0
+2026,Jun,1MA1/2H,Mathematics (Higher),2H,80,71,61,51,39,28,17,11,,,0
+2026,Jun,1MA1/3F,Mathematics (Foundation),3F,80,,,,,60,49,36,23,10,0
+2026,Jun,1MA1/3H,Mathematics (Higher),3H,80,67,56,46,35,25,15,10,,,0
+2026,Jun,1MU0/01,Music,01,60,58,55,53,49,45,41,31,21,11,0
+2026,Jun,1MU0/01T,Music,01T,60,58,55,53,49,45,41,31,21,11,0
+2026,Jun,1MU0/02,Music,02,60,54,51,48,44,40,36,27,18,9,0
+2026,Jun,1MU0/02T,Music,02T,60,54,51,48,44,40,36,27,18,9,0
+2026,Jun,1MU0/03,Music,03,80,62,57,53,48,43,39,34,30,26,0
+2026,Jun,1PE0/01,Physical Education,01,80,67,63,59,53,47,42,32,22,12,0
+2026,Jun,1PE0/02,Physical Education,02,60,52,49,46,42,38,35,26,17,9,0
+2026,Jun,1PE0/03,Physical Education,03,105,87,82,77,71,65,60,46,32,18,0
+2026,Jun,1PE0/03T,Physical Education,03T,105,87,82,77,71,65,60,46,32,18,0
+2026,Jun,1PE0/04,Physical Education,04,20,17,16,15,13,11,9,7,5,4,0
+2026,Jun,1PE0/04T,Physical Education,04T,20,17,16,15,13,11,9,7,5,4,0
+2026,Jun,1PG0/1F,Portuguese (Foundation),1F,50,,,,,37,30,22,14,7,0
+2026,Jun,1PG0/1H,Portuguese (Higher),1H,50,45,41,38,32,26,20,17,,,0
+2026,Jun,1PG0/2F,Portuguese (Foundation),2F,70,,,,,49,39,29,19,9,0
+2026,Jun,1PG0/2H,Portuguese (Higher),2H,70,63,58,53,46,39,33,30,,,0
+2026,Jun,1PG0/2HT,Portuguese,2HT,70,63,58,53,46,39,33,30,,,0
+2026,Jun,1PG0/3F,Portuguese (Foundation),3F,50,,,,,39,31,23,15,7,0
+2026,Jun,1PG0/3H,Portuguese (Higher),3H,50,43,41,39,33,27,22,19,,,0
+2026,Jun,1PG0/4F,Portuguese (Foundation),4F,60,,,,,43,34,25,16,8,0
+2026,Jun,1PG0/4H,Portuguese (Higher),4H,60,55,51,47,41,35,29,26,,,0
+2026,Jun,1PH0/1F,Physics (Foundation),1F,100,,,,,70,61,46,31,17,0
+2026,Jun,1PH0/1H,Physics (Higher),1H,100,84,76,69,58,47,37,32,,,0
+2026,Jun,1PH0/2F,Physics (Foundation),2F,100,,,,,65,57,42,27,13,0
+2026,Jun,1PH0/2H,Physics (Higher),2H,100,79,72,65,54,44,34,29,,,0
+2026,Jun,1PN0/1F,Persian (Foundation),1F,50,,,,,38,32,24,16,8,0
+2026,Jun,1PN0/1H,Persian (Higher),1H,50,43,40,37,34,31,28,26,,,0
+2026,Jun,1PN0/2F,Persian (Foundation),2F,70,,,,,53,42,31,20,9,0
+2026,Jun,1PN0/2H,Persian (Higher),2H,70,58,54,51,46,42,38,36,,,0
+2026,Jun,1PN0/2HT,Persian,2HT,70,58,54,51,46,42,38,36,,,0
+2026,Jun,1PN0/3F,Persian (Foundation),3F,50,,,,,36,29,21,14,7,0
+2026,Jun,1PN0/3H,Persian (Higher),3H,50,41,38,35,31,28,25,23,,,0
+2026,Jun,1PN0/4F,Persian (Foundation),4F,60,,,,,43,32,24,16,8,0
+2026,Jun,1PN0/4H,Persian (Higher),4H,60,48,44,41,38,36,34,33,,,0
+2026,Jun,1PS0/01,Psychology,01,98,61,54,48,42,36,30,22,15,8,0
+2026,Jun,1PS0/02,Psychology,02,79,61,55,49,42,35,29,21,13,6,0
+2026,Jun,1PY0/01,Art & Design: Photography,01,72,59,54,49,42,36,30,21,12,4,0
+2026,Jun,1PY0/02,Art & Design: Photography,02,72,59,54,50,43,37,31,22,13,5,0
+2026,Jun,1RA0/1A,Religious Studies A,1A,102,66,61,56,47,38,30,21,12,3,0
+2026,Jun,1RA0/1B,Religious Studies A,1B,102,66,61,56,48,40,32,23,14,6,0
+2026,Jun,1RA0/1C,Religious Studies A,1C,102,68,63,58,50,42,35,25,15,6,0
+2026,Jun,1RA0/2A,Religious Studies A,2A,51,42,38,34,29,25,21,15,9,4,0
+2026,Jun,1RA0/2B,Religious Studies A,2B,51,43,39,35,31,27,24,17,10,4,0
+2026,Jun,1RA0/2C,Religious Studies A,2C,51,42,38,34,30,26,23,16,10,4,0
+2026,Jun,1RA0/2D,Religious Studies A,2D,51,42,38,34,30,26,23,16,10,4,0
+2026,Jun,1RA0/2E,Religious Studies A,2E,51,42,37,33,29,26,23,16,10,4,0
+2026,Jun,1RA0/2F,Religious Studies A (Foundation),2F,51,38,34,30,26,22,19,13,8,3,0
+2026,Jun,1RA0/3A,Religious Studies A,3A,51,38,34,30,26,22,19,13,8,3,0
+2026,Jun,1RA0/3B,Religious Studies A,3B,51,41,37,33,29,25,21,15,9,4,0
+2026,Jun,1RA0/3C,Religious Studies A,3C,51,42,38,34,30,27,24,17,10,4,0
+2026,Jun,1RA0/4A,Religious Studies A,4A,51,42,38,34,30,27,24,17,10,3,0
+2026,Jun,1RA0/4B,Religious Studies A,4B,51,42,38,34,30,27,24,17,10,4,0
+2026,Jun,1RB0/1A,Religious Studies B,1A,102,71,65,60,53,46,40,28,17,6,0
+2026,Jun,1RB0/1B,Religious Studies B,1B,102,77,72,67,61,55,49,34,20,6,0
+2026,Jun,1RB0/1C,Religious Studies B,1C,102,73,67,61,55,49,44,31,18,6,0
+2026,Jun,1RB0/1D,Religious Studies B,1D,102,73,68,63,56,49,42,29,17,5,0
+2026,Jun,1RB0/1E,Religious Studies B,1E,102,74,69,65,58,52,46,33,20,8,0
+2026,Jun,1RB0/1F,Religious Studies B (Foundation),1F,102,73,68,64,58,52,47,34,21,8,0
+2026,Jun,1RB0/1G,Religious Studies B,1G,102,74,69,65,59,53,48,34,20,7,0
+2026,Jun,1RB0/2B,Religious Studies B,2B,102,73,67,62,54,47,40,29,18,7,0
+2026,Jun,1RB0/2C,Religious Studies B,2C,102,76,71,67,59,51,43,30,18,6,0
+2026,Jun,1RB0/2D,Religious Studies B,2D,102,72,67,63,55,47,39,28,18,8,0
+2026,Jun,1RB0/2E,Religious Studies B,2E,102,70,65,60,53,46,39,29,19,9,0
+2026,Jun,1RB0/2F,Religious Studies B (Foundation),2F,102,69,64,59,53,48,43,31,20,9,0
+2026,Jun,1RB0/2G,Religious Studies B,2G,102,71,66,61,54,47,40,29,18,7,0
+2026,Jun,1RB0/3B,Religious Studies B,3B,102,75,69,64,57,51,45,33,21,9,0
+2026,Jun,1RB0/3C,Religious Studies B,3C,102,71,66,61,55,50,45,32,19,6,0
+2026,Jun,1RB0/3D,Religious Studies B,3D,102,72,67,63,56,49,42,30,18,7,0
+2026,Jun,1RB0/3G,Religious Studies B,3G,102,73,68,63,57,51,46,32,19,6,0
+2026,Jun,1RU0/1F,Russian (Foundation),1F,50,,,,,30,23,17,11,6,0
+2026,Jun,1RU0/1H,Russian (Higher),1H,50,43,38,33,28,23,19,17,,,0
+2026,Jun,1RU0/2F,Russian (Foundation),2F,70,,,,,45,36,26,16,7,0
+2026,Jun,1RU0/2H,Russian (Higher),2H,70,58,52,46,38,30,22,18,,,0
+2026,Jun,1RU0/2HT,Russian (Higher),2HT,70,58,52,46,38,30,22,18,,,0
+2026,Jun,1RU0/3F,Russian (Foundation),3F,50,,,,,34,27,20,13,6,0
+2026,Jun,1RU0/3H,Russian (Higher),3H,50,43,38,34,29,24,19,16,,,0
+2026,Jun,1RU0/4F,Russian (Foundation),4F,60,,,,,34,27,20,13,6,0
+2026,Jun,1RU0/4H,Russian (Higher),4H,60,52,44,36,31,26,22,20,,,0
+2026,Jun,1SP1/1F,Spanish (Foundation),1F,50,,,,,37,34,24,14,5,0
+2026,Jun,1SP1/1H,Spanish (Higher),1H,50,44,40,37,33,29,26,24,,,0
+2026,Jun,1SP1/2F,Spanish (Foundation),2F,50,,,,,39,36,25,15,5,0
+2026,Jun,1SP1/2H,Spanish (Higher),2H,50,46,42,39,35,31,28,26,,,0
+2026,Jun,1SP1/3F,Spanish (Foundation),3F,50,,,,,39,36,25,15,5,0
+2026,Jun,1SP1/3H,Spanish (Higher),3H,50,46,42,39,35,31,27,25,,,0
+2026,Jun,1SP1/4F,Spanish (Foundation),4F,50,,,,,37,35,25,15,5,0
+2026,Jun,1SP1/4H,Spanish (Higher),4H,50,43,40,37,33,30,27,25,,,0
+2026,Jun,1ST0/1F,Statistics (Foundation),1F,80,,,,,42,33,24,15,6,0
+2026,Jun,1ST0/1H,Statistics (Higher),1H,80,65,53,41,32,23,14,9,,,0
+2026,Jun,1ST0/2F,Statistics (Foundation),2F,80,,,,,41,33,24,15,6,0
+2026,Jun,1ST0/2H,Statistics (Higher),2H,80,64,52,41,31,22,13,8,,,0
+2026,Jun,1TD0/01,Art & Design: 3D Design,01,72,59,54,49,42,36,30,21,12,4,0
+2026,Jun,1TD0/02,Art & Design: 3D Design,02,72,59,54,50,43,37,31,22,13,5,0
+2026,Jun,1TE0/01,Art & Design: Textile Design,01,72,59,54,49,42,36,30,21,12,4,0
+2026,Jun,1TE0/02,Art & Design: Textile Design,02,72,59,54,50,43,37,31,22,13,5,0
+2026,Jun,1TU0/1F,Turkish (Foundation),1F,50,,,,,31,25,18,12,6,0
+2026,Jun,1TU0/1H,Turkish (Higher),1H,50,44,40,36,30,25,20,17,,,0
+2026,Jun,1TU0/2F,Turkish (Foundation),2F,70,,,,,44,35,26,17,8,0
+2026,Jun,1TU0/2H,Turkish (Higher),2H,70,58,53,48,40,32,25,21,,,0
+2026,Jun,1TU0/2HT,Turkish (Higher),2HT,70,58,53,48,40,32,25,21,,,0
+2026,Jun,1TU0/3F,Turkish (Foundation),3F,50,,,,,30,24,18,12,6,0
+2026,Jun,1TU0/3H,Turkish (Higher),3H,50,45,41,37,30,23,16,12,,,0
+2026,Jun,1TU0/4F,Turkish (Foundation),4F,60,,,,,38,30,22,15,8,0
+2026,Jun,1TU0/4H,Turkish (Higher),4H,60,51,46,42,34,27,20,16,,,0
+2026,Jun,1UR0/1F,Urdu (Foundation),1F,50,,,,,37,31,22,14,6,0
+2026,Jun,1UR0/1H,Urdu (Higher),1H,50,48,45,43,37,31,25,22,,,0
+2026,Jun,1UR0/2F,Urdu (Foundation),2F,70,,,,,48,43,31,20,9,0
+2026,Jun,1UR0/2H,Urdu (Higher),2H,70,67,64,61,53,45,37,33,,,0
+2026,Jun,1UR0/3F,Urdu (Foundation),3F,50,,,,,36,31,22,13,5,0
+2026,Jun,1UR0/3H,Urdu (Higher),3H,50,48,45,43,36,30,24,21,,,0
+2026,Jun,1UR0/4F,Urdu (Foundation),4F,60,,,,,40,34,24,15,6,0
+2026,Jun,1UR0/4H,Urdu (Higher),4H,60,58,55,52,45,38,32,29,,,0

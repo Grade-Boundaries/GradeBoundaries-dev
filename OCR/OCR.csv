@@ -74,7 +74,7 @@ year,session,code,component,unit,max_mark,a*,a,b,c,d,e,u
 2023,June,H459,42,Deconstructing texts for performance: Cloud Nine,60,55,50,45,40,36,32,0
 2023,June,H459,43,Deconstructing texts for performance: Earthquakes in London,60,55,50,45,40,36,32,0
 2023,June,H459,44,Deconstructing texts for performance: Stockholm,60,55,50,45,40,36,32,0
-2023,June,H459,45,Deconstructing texts for performance: Sweeney Todd: The Demon Barber of,60,55,50,45,40,36,32,0
+2023,June,H459,45,Deconstructing texts for performance: Sweeney Todd: The Demon Barber of Fleet Street,60,55,50,45,40,36,32,0
 2023,June,H459,46,Deconstructing texts for performance: The Crucible,60,55,50,45,40,36,32,0
 2023,June,H459,47,Deconstructing texts for performance: The Visit,60,55,50,45,40,36,32,0
 2023,June,H459,48,Deconstructing texts for performance: Woza Albert!,60,55,50,45,40,36,32,0
@@ -220,7 +220,7 @@ year,session,code,component,unit,max_mark,a*,a,b,c,d,e,u
 2022,June,H459,42,Deconstructing texts for performance: Cloud Nine,60,51,46,40,35,29,23,0
 2022,June,H459,43,Deconstructing texts for performance: Earthquakes in London,60,51,46,40,35,29,23,0
 2022,June,H459,44,Deconstructing texts for performance: Stockholm,60,51,46,40,35,29,23,0
-2022,June,H459,45,Deconstructing texts for performance: Sweeney Todd: The Demon Barber,60,51,46,40,35,29,23,0
+2022,June,H459,45,Deconstructing texts for performance: Sweeney Todd: The Demon Barber of Fleet Street,60,51,46,40,35,29,23,0
 2022,June,H459,46,Deconstructing texts for performance: The Crucible,60,51,46,40,35,29,23,0
 2022,June,H459,47,Deconstructing texts for performance: The Visit,60,51,46,40,35,29,23,0
 2022,June,H459,48,Deconstructing texts for performance: Woza Albert!,60,51,46,40,35,29,23,0
@@ -466,7 +466,7 @@ year,session,code,component,unit,max_mark,a*,a,b,c,d,e,u
 2024,June,H459,42,Deconstructing texts for performance: Cloud Nine,60,56,53,45,38,31,24,0
 2024,June,H459,43,Deconstructing texts for performance: Earthquakes in London,60,56,53,45,38,31,24,0
 2024,June,H459,44,Deconstructing texts for performance: Stockholm,60,56,53,45,38,31,24,0
-2024,June,H459,45,Deconstructing texts for performance: Sweeney Todd: The Demon Barber of,60,56,53,45,38,31,24,0
+2024,June,H459,45,Deconstructing texts for performance: Sweeney Todd: The Demon Barber of Fleet Street,60,56,53,45,38,31,24,0
 2024,June,H459,46,Deconstructing texts for performance: The Crucible,60,56,53,45,38,31,24,0
 2024,June,H459,47,Deconstructing texts for performance: The Visit,60,56,53,45,38,31,24,0
 2024,June,H459,48,Deconstructing texts for performance: Woza Albert!,60,56,53,45,38,31,24,0
@@ -620,7 +620,7 @@ year,session,code,component,unit,max_mark,a*,a,b,c,d,e,u
 2025,June,H459,41,Deconstructing texts for performance: Antigone,60,56,53,46,39,32,26,0
 2025,June,H459,43,Deconstructing texts for performance: Earthquakes in London,60,56,53,46,39,32,26,0
 2025,June,H459,44,Deconstructing texts for performance: Stockholm,60,56,53,46,39,32,26,0
-2025,June,H459,45,Deconstructing texts for performance: Sweeney Todd: The Demon Barber of,60,56,53,46,39,32,26,0
+2025,June,H459,45,Deconstructing texts for performance: Sweeney Todd: The Demon Barber of Fleet Street,60,56,53,46,39,32,26,0
 2025,June,H459,46,Deconstructing texts for performance: The Crucible,60,56,53,46,39,32,26,0
 2025,June,H459,47,Deconstructing texts for performance: The Visit,60,56,53,46,39,32,26,0
 2025,June,H459,48,Deconstructing texts for performance: Woza Albert!,60,56,53,46,39,32,26,0
@@ -700,3 +700,157 @@ year,session,code,component,unit,max_mark,a*,a,b,c,d,e,u
 2025,June,H580,01,"Socialisation, culture and identity",90,87,78,65,53,41,29,0
 2025,June,H580,02,Researching and understanding social inequalities,105,87,80,67,53,40,26,0
 2025,June,H580,03,Debates in contemporary society,105,86,78,65,52,39,27,0
+2026,June,H407,11,Sparta and the Greek world,98,84,73,59,46,32,19,0
+2026,June,H407,12,Athens and the Greek world,98,85,73,59,46,32,19,0
+2026,June,H407,13,Macedon and the Greek world,98,84,72,59,46,33,21,0
+2026,June,H407,21,Republic and Empire,98,84,71,58,45,33,20,0
+2026,June,H407,22,The Eleven Caesars,98,85,72,59,46,33,20,0
+2026,June,H407,23,Emperors and Empire,98,85,72,59,45,32,19,0
+2026,June,H600,01,"Art, Craft and Design: Personal investigation",120,116,110,94,79,64,48,0
+2026,June,H600,02,"Art, Craft and Design: Externally set task",80,77,73,63,53,43,34,0
+2026,June,H601,01,Fine Art: Personal investigation,120,116,110,94,79,64,48,0
+2026,June,H601,02,Fine Art: Externally set task,80,77,73,63,53,43,34,0
+2026,June,H602,01,Graphic Communication: Personal investigation,120,116,110,94,79,64,48,0
+2026,June,H602,02,Graphic Communication: Externally set task,80,77,73,63,53,43,34,0
+2026,June,H603,01,Photography: Personal investigation,120,116,110,94,79,64,48,0
+2026,June,H603,02,Photography: Externally set task,80,77,73,63,53,43,34,0
+2026,June,H604,01,Textile Design: Personal investigation,120,116,110,94,79,64,48,0
+2026,June,H604,02,Textile Design: Externally set task,80,77,73,63,53,43,34,0
+2026,June,H605,01,Three-Dimensional Design: Personal investigation,120,116,110,94,79,64,48,0
+2026,June,H605,02,Three-Dimensional Design: Externally set task,80,77,73,63,53,43,34,0
+2026,June,H606,01,Critical and Contextual Studies: Personal Investigation,120,116,110,94,79,64,48,0
+2026,June,H606,02,Critical and Contextual Studies: Externally set task,80,77,73,63,53,43,34,0
+2026,June,H420,01,Biological processes,100,82,71,61,50,39,28,0
+2026,June,H420,02,Biological diversity,100,71,61,51,42,33,24,0
+2026,June,H420,03,Unified biology,70,51,44,38,32,26,20,0
+2026,June,H422,01,Fundamentals of biology,110,80,71,62,54,46,37,0
+2026,June,H422,02,Scientific literacy in biology,100,67,61,55,49,43,38,0
+2026,June,H422,03,Practical skills in biology,60,46,41,36,31,26,21,0
+2026,June,H431,01,Operating in a local business environment,80,63,57,48,40,32,24,0
+2026,June,H431,02,The UK business environment,80,61,55,47,38,30,22,0
+2026,June,H431,03,The global business environment,80,61,55,47,39,31,23,0
+2026,June,H432,01,"Periodic table, elements and physical chemistry",100,86,73,60,47,34,21,0
+2026,June,H432,02,Synthesis and analytical techniques,100,88,77,62,48,34,20,0
+2026,June,H432,03,Unified chemistry,70,60,50,42,33,24,15,0
+2026,June,H433,01,Fundamentals of chemistry,110,87,77,64,51,39,27,0
+2026,June,H433,02,Scientific literacy in chemistry,100,85,75,64,53,42,30,0
+2026,June,H433,03,Practical skills in chemistry,60,54,46,39,32,24,17,0
+2026,June,H408,11,The World of the Hero,100,84,74,63,51,39,27,0
+2026,June,H408,21,Greek Theatre,75,64,56,47,38,29,20,0
+2026,June,H408,22,Imperial Image,75,65,57,47,37,28,19,0
+2026,June,H408,23,Invention of the Barbarian,75,66,58,48,39,30,21,0
+2026,June,H408,24,Greek Art,75,64,56,46,37,28,19,0
+2026,June,H408,31,Greek Religion,75,65,58,48,39,30,21,0
+2026,June,H408,32,Love and Relationships,75,64,57,48,39,30,21,0
+2026,June,H408,33,Politics of the Late Republic,75,63,56,46,37,28,19,0
+2026,June,H408,34,Democracy and the Athenians,75,64,57,47,37,28,19,0
+2026,June,H444,01,Unseen translation,100,82,67,57,46,36,25,0
+2026,June,H444,02,Prose composition or comprehension,50,33,26,23,20,16,13,0
+2026,June,H444,03,Prose literature,75,63,52,44,37,30,23,0
+2026,June,H444,04,Verse literature,75,63,52,44,37,30,23,0
+2026,June,H446,01,Computer systems,140,112,99,84,69,55,41,0
+2026,June,H446,02,Algorithms and programming,140,114,99,83,68,52,37,0
+2026,June,H446,03,Programming project (Moderated Upload),70,63,56,49,41,34,26,0
+2026,June,H446,04,Programming project (Moderated Postal),70,63,56,49,41,34,26,0
+2026,June,H404,01,Principles of Design Engineering,80,63,58,50,41,33,24,0
+2026,June,H404,02,Problem Solving in Design Engineering,70,55,51,43,35,27,20,0
+2026,June,H404,03,Iterative Design Project (Moderated Upload),100,87,80,69,59,49,39,0
+2026,June,H404,04,Iterative Design Project (Moderated Postal),100,87,80,69,59,49,39,0
+2026,June,H405,01,Principles of Fashion and Textiles,80,70,63,55,46,37,28,0
+2026,June,H405,02,Problem Solving in Fashion and Textiles,70,58,53,45,37,29,21,0
+2026,June,H405,03,Iterative Design Project (Moderated Upload),100,87,80,69,59,49,39,0
+2026,June,H405,04,Iterative Design Project (Moderated Postal),100,87,80,69,59,49,39,0
+2026,June,H406,01,Principles of Product Design,80,68,63,56,47,39,31,0
+2026,June,H406,02,Problem Solving in Product Design,70,61,58,49,41,33,25,0
+2026,June,H406,03,Iterative Design Project (Moderated Upload),100,87,80,69,59,49,39,0
+2026,June,H406,04,Iterative Design Project (Moderated Postal),100,87,80,69,59,49,39,0
+2026,June,H459,11,Practitioners in practice (performing) (Moderated Upload),120,105,100,88,76,63,50,0
+2026,June,H459,12,Practitioners in practice (performing) (Moderated Postal),120,105,100,88,76,63,50,0
+2026,June,H459,13,Practitioners in practice (design) (Moderated Upload),120,105,100,88,76,63,50,0
+2026,June,H459,14,Practitioners in practice (design) (Moderated Postal),120,105,100,88,76,63,50,0
+2026,June,H459,21,Exploring and performing texts (performing) (Moderated Upload),60,52,49,42,36,30,24,0
+2026,June,H459,22,Exploring and performing texts (design) (Moderated Upload),60,52,49,42,36,30,24,0
+2026,June,H459,31,Analysing Performance,60,56,53,46,39,33,26,0
+2026,June,H459,41,Deconstructing texts for performance: Antigone,60,57,54,47,40,33,27,0
+2026,June,H459,43,Deconstructing texts for performance: Earthquakes in London,60,57,54,47,40,33,27,0
+2026,June,H459,44,Deconstructing texts for performance: Stockholm,60,57,54,47,40,33,27,0
+2026,June,H459,45,Deconstructing texts for performance: Sweeney Todd: The Demon Barber of Fleet Street,60,57,54,47,40,33,27,0
+2026,June,H459,46,Deconstructing texts for performance: The Crucible,60,57,54,47,40,33,27,0
+2026,June,H459,47,Deconstructing texts for performance: The Visit,60,57,54,47,40,33,27,0
+2026,June,H459,48,Deconstructing texts for performance: Woza Albert!,60,57,54,47,40,33,27,0
+2026,June,H460,01,Microeconomics,80,60,51,42,34,26,18,0
+2026,June,H460,02,Macroeconomics,80,64,56,46,36,26,16,0
+2026,June,H460,03,Themes in economics,80,71,61,51,41,31,21,0
+2026,June,H470,01,Exploring language,80,68,60,51,42,32,23,0
+2026,June,H470,02,Dimensions of linguistic variation,80,65,57,48,39,30,21,0
+2026,June,H470,03,Independent language research (Moderated Upload),40,35,32,27,22,18,14,0
+2026,June,H470,04,Independent language research (Moderated Postal),40,35,32,27,22,18,14,0
+2026,June,H474,01,Exploring non-fiction and spoken texts,32,29,26,22,19,16,13,0
+2026,June,H474,02,The language of poetry and plays,64,51,46,41,36,31,25,0
+2026,June,H474,03,"Reading as a writer, writing as a reader",64,53,49,44,38,32,26,0
+2026,June,H474,04,Independent study: analysing and producing texts (Moderated Upload),40,36,34,29,24,19,15,0
+2026,June,H474,05,Independent study: analysing and producing texts (Moderated Postal),40,36,34,29,24,19,15,0
+2026,June,H472,01,Drama and poetry pre-1900,60,55,52,46,40,33,27,0
+2026,June,H472,02,Comparative and contextual study,60,58,55,47,39,31,23,0
+2026,June,H472,03,Literature post-1900 (Moderated Upload),40,37,35,30,25,21,16,0
+2026,June,H472,04,Literature post-1900 (Moderated Postal),40,37,35,30,25,21,16,0
+2026,June,H410,01,Film History,105,90,82,70,58,45,32,0
+2026,June,H410,02,Critical Approaches to Film,105,88,81,68,55,43,31,0
+2026,June,H410,03,Making Short Film (Moderated Upload),90,78,71,62,53,44,35,0
+2026,June,H410,04,Making Short Film (Moderated Postal),90,78,71,62,53,44,35,0
+2026,June,H481,01,Physical systems,66,49,43,36,30,24,18,0
+2026,June,H481,02,Human interactions,66,52,46,40,34,28,23,0
+2026,June,H481,03,Geographical debates,108,85,76,66,55,44,32,0
+2026,June,H481,04,Investigative geography (Moderated Upload),60,54,48,41,35,29,23,0
+2026,June,H481,05,Investigative geography (Moderated Postal),60,54,48,41,35,29,23,0
+2026,June,H414,01,Fundamentals of geology,110,75,65,55,45,34,23,0
+2026,June,H414,02,Scientific literacy in geology,100,73,63,53,43,34,25,0
+2026,June,H414,03,Practical skills in geology,60,43,37,31,26,21,16,0
+2026,June,H443,01,Unseen translation,100,75,60,53,46,39,32,0
+2026,June,H443,02,Prose composition or comprehension,50,37,32,28,24,20,16,0
+2026,June,H443,03,Prose literature,75,65,51,44,37,30,24,0
+2026,June,H443,04,Verse literature,75,61,50,43,37,31,24,0
+2026,June,H418,01,The legal system and criminal law,80,68,57,46,35,24,13,0
+2026,June,H418,02,Law making and the law of tort,80,55,47,38,28,19,10,0
+2026,June,H418,03,The nature of law and Human rights,80,57,48,38,29,20,11,0
+2026,June,H418,04,The nature of law and the law of contract,80,58,49,39,30,21,12,0
+2026,June,H240,01,Pure Mathematics,100,90,75,63,50,37,24,0
+2026,June,H240,02,Pure Mathematics and Statistics,100,83,69,57,45,33,22,0
+2026,June,H240,03,Pure Mathematics and Mechanics,100,77,64,52,41,30,19,0
+2026,June,H640,01,Pure Mathematics and Mechanics,100,84,71,58,45,32,20,0
+2026,June,H640,02,Pure Mathematics and Statistics,100,81,68,56,45,35,23,0
+2026,June,H640,03,Pure Mathematics and Comprehension,75,58,48,41,33,25,18,0
+2026,June,H409,01,Media messages,70,52,44,36,28,20,12,0
+2026,June,H409,02,Evolving media,70,51,43,35,27,19,11,0
+2026,June,H409,03,Making media (Moderated Upload),60,53,47,39,32,25,18,0
+2026,June,H409,04,Making media (Moderated Postal),60,53,47,39,32,25,18,0
+2026,June,H543,01,Performing A,75,67,60,53,46,38,31,0
+2026,June,H543,02,Performing B,105,94,84,74,63,52,42,0
+2026,June,H543,03,Composing A,105,94,83,72,61,51,41,0
+2026,June,H543,04,Composing B,75,67,59,51,44,37,30,0
+2026,June,H543,05,Listening and appraising,120,84,75,66,57,48,38,0
+2026,June,H555,01,Physiological factors affecting performance,90,59,54,48,41,35,28,0
+2026,June,H555,02,Psychological factors affecting performance,60,50,45,41,36,31,26,0
+2026,June,H555,03,Socio-cultural issues in physical activity and sport,60,43,39,35,32,28,23,0
+2026,June,H555,05,Practical Performances,30,24,22,18,15,12,9,0
+2026,June,H555,06,Evaluating and Analysing Performance for Improvement (Moderated Postal),30,21,19,16,13,10,8,0
+2026,June,H555,07,Evaluating and Analysing Performance for Improvement (Moderated Upload),30,21,19,16,13,10,8,0
+2026,June,H556,01,Modelling physics,100,75,65,56,47,39,30,0
+2026,June,H556,02,Exploring physics,100,80,71,59,46,33,21,0
+2026,June,H556,03,Unified physics,70,52,42,36,31,25,19,0
+2026,June,H557,01,Fundamentals of physics,110,86,76,64,52,41,29,0
+2026,June,H557,02,Scientific literacy in physics,100,84,71,59,46,33,21,0
+2026,June,H557,03,Practical skills in physics,60,45,38,32,27,21,16,0
+2026,June,H567,01,Research methods,90,74,68,58,48,39,30,0
+2026,June,H567,02,Psychological themes through core studies,105,76,69,59,49,39,28,0
+2026,June,H567,03,Applied psychology,105,70,63,53,43,33,24,0
+2026,June,H573,01,Philosophy of religion,120,102,87,73,59,45,31,0
+2026,June,H573,02,Religion and ethics,120,98,85,71,57,43,29,0
+2026,June,H573,03,Developments in Christian thought,120,95,82,68,54,41,28,0
+2026,June,H573,04,Developments in Islamic thought,120,95,82,68,54,41,28,0
+2026,June,H573,05,Developments in Jewish thought,120,95,82,68,54,41,28,0
+2026,June,H573,06,Developments in Buddhist thought,120,95,82,68,54,41,28,0
+2026,June,H573,07,Developments in Hindu thought,120,95,82,68,54,41,28,0
+2026,June,H580,01,"Socialisation, culture and identity",90,83,74,61,49,37,25,0
+2026,June,H580,02,Researching and understanding social inequalities,105,87,81,67,53,39,26,0
+2026,June,H580,03,Debates in contemporary society,105,86,79,66,53,40,26,0

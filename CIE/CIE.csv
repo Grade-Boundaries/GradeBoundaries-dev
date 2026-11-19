@@ -377,6 +377,11 @@ SubjectCode,Subject,Series,Component,MaxRawMark,A,B,C,D,E
 9709,Mathematics,june-2026,59,75,63,54,43,33,23
 9709,Mathematics,june-2026,60,75,63,54,44,33,23
 9709,Mathematics,june-2026,61,50,40,36,29,24,17
+9709,Mathematics,june-2026,62,50,40,34,29,24,19
+9709,Mathematics,june-2026,63,50,45,41,32,24,16
+9709,Mathematics,june-2026,65,50,44,38,30,23,15
+9709,Mathematics,june-2026,68,75,63,54,44,33,23
+9709,Mathematics,june-2026,69,75,63,54,44,33,23
 9607,Media Studies,june-2026,01,50,40,35,30,25,20
 9607,Media Studies,june-2026,03,50,40,35,30,25,20
 9607,Media Studies,june-2026,21,50,39,34,31,28,25
@@ -830,6 +835,10 @@ SubjectCode,Subject,Series,Component,MaxRawMark,A,B,C,D,E
 9239,Global Perspectives & Research,november-2025,11,45,34,32,30,27,24
 9239,Global Perspectives & Research,november-2025,12,45,34,32,30,27,24
 9239,Global Perspectives & Research,november-2025,13,45,34,32,30,27,24
+9487,Hinduism,november-2025,01,60,38,30,24,19,14
+9487,Hinduism,november-2025,02,60,34,29,25,20,15
+9487,Hinduism,november-2025,03,60,36,30,24,19,14
+9487,Hinduism,november-2025,04,60,36,30,25,20,15
 9489,History,november-2025,11,40,22,19,16,14,12
 9489,History,november-2025,12,40,22,19,16,14,12
 9489,History,november-2025,13,40,22,19,16,14,12
@@ -2403,6 +2412,11 @@ SubjectCode,Subject,Series,Component,MaxRawMark,A,B,C,D,E
 9479,Art & Design,march-2024,01,100,75,65,55,45,35
 9479,Art & Design,march-2024,02,100,72,62,52,42,32
 9479,Art & Design,march-2024,03,100,75,65,55,45,35
+9700,Biology,march-2024,12,40,27,24,21,18,15
+9700,Biology,march-2024,22,60,38,33,27,20,14
+9700,Biology,march-2024,33,40,33,30,27,24,21
+9700,Biology,march-2024,42,100,63,54,47,39,30
+9700,Biology,march-2024,52,30,22,20,17,14,12
 9609,Business,march-2024,12,40,36,32,29,26,24
 9609,Business,march-2024,22,60,47,43,38,34,29
 9609,Business,march-2024,32,60,38,34,30,25,19
@@ -2690,6 +2704,12 @@ SubjectCode,Subject,Series,Component,MaxRawMark,A,B,C,D,E
 8683,German Language AS Level,november-2023,23,70,46,39,33,27,21
 8683,German Language AS Level,november-2023,32,40,28,24,20,17,14
 8683,German Language AS Level,november-2023,33,40,28,24,20,17,14
+9239,Global Perspectives & Research,november-2023,02,40,29,26,23,20,18
+9239,Global Perspectives & Research,november-2023,03,40,26,24,22,20,18
+9239,Global Perspectives & Research,november-2023,04,85,56,50,44,38,32
+9239,Global Perspectives & Research,november-2023,11,45,32,29,27,24,20
+9239,Global Perspectives & Research,november-2023,12,45,31,28,26,23,19
+9239,Global Perspectives & Research,november-2023,13,45,31,28,26,23,19
 9687,Hindi A Level,november-2023,02,70,56,52,46,42,36
 9687,Hindi A Level,november-2023,03,40,33,31,26,21,17
 9687,Hindi A Level,november-2023,04,75,51,47,43,39,36
@@ -3378,6 +3398,11 @@ SubjectCode,Subject,Series,Component,MaxRawMark,A,B,C,D,E
 9479,Art & Design,march-2023,01,100,72,63,52,41,30
 9479,Art & Design,march-2023,02,100,69,58,49,40,31
 9479,Art & Design,march-2023,03,100,72,62,52,42,32
+9700,Biology,march-2023,12,40,30,26,23,20,17
+9700,Biology,march-2023,22,60,34,28,22,16,11
+9700,Biology,march-2023,33,40,31,28,25,22,19
+9700,Biology,march-2023,42,100,58,49,42,35,27
+9700,Biology,march-2023,52,30,22,20,17,13,10
 9609,Business,march-2023,12,40,34,30,27,24,22
 9609,Business,march-2023,22,60,46,43,39,35,31
 9609,Business,march-2023,32,60,39,34,29,24,19
@@ -3406,6 +3431,10 @@ SubjectCode,Subject,Series,Component,MaxRawMark,A,B,C,D,E
 9239,Global Perspectives & Research,march-2023,03,40,26,24,21,19,17
 9239,Global Perspectives & Research,march-2023,04,85,57,49,42,34,26
 9239,Global Perspectives & Research,march-2023,12,45,32,29,26,23,19
+9489,History,march-2023,12,40,23,20,17,15,13
+9489,History,march-2023,22,60,43,35,30,25,20
+9489,History,march-2023,32,40,29,26,24,21,16
+9489,History,march-2023,42,60,40,36,31,26,21
 9626,Information Technology,march-2023,02,90,58,52,48,43,38
 9626,Information Technology,march-2023,04,90,73,67,59,50,41
 9626,Information Technology,march-2023,12,70,34,31,26,22,18
@@ -3487,6 +3516,24 @@ SubjectCode,Subject,Series,Component,MaxRawMark,A,B,C,D,E
 9609,Business,november-2022,33,100,57,51,44,37,30
 9609,Business,november-2022,50,75,51,42,33,24,15
 9980,Cambridge International Project,november-2022,01,80,55,48,41,34,28
+9701,Chemistry,november-2022,11,40,23,18,15,13,11
+9701,Chemistry,november-2022,12,40,24,19,16,13,11
+9701,Chemistry,november-2022,13,40,23,18,15,13,11
+9701,Chemistry,november-2022,21,60,35,27,23,18,13
+9701,Chemistry,november-2022,22,60,32,25,20,15,9
+9701,Chemistry,november-2022,23,60,35,27,23,18,13
+9701,Chemistry,november-2022,31,40,25,23,19,15,12
+9701,Chemistry,november-2022,33,40,25,23,19,15,11
+9701,Chemistry,november-2022,34,40,24,21,17,13,9
+9701,Chemistry,november-2022,35,40,25,23,19,15,12
+9701,Chemistry,november-2022,36,40,25,23,19,15,11
+9701,Chemistry,november-2022,41,100,58,53,42,31,20
+9701,Chemistry,november-2022,42,100,57,51,41,31,20
+9701,Chemistry,november-2022,43,100,58,53,42,31,20
+9701,Chemistry,november-2022,50,75,54,44,34,24,15
+9701,Chemistry,november-2022,51,30,21,18,15,12,9
+9701,Chemistry,november-2022,52,30,21,17,14,11,8
+9701,Chemistry,november-2022,53,30,21,18,15,12,9
 8681,Chinese Language AS Level only,november-2022,21,70,37,31,26,20,15
 8681,Chinese Language AS Level only,november-2022,22,70,37,31,26,20,15
 8681,Chinese Language AS Level only,november-2022,23,70,40,34,29,23,18
@@ -3892,6 +3939,10 @@ SubjectCode,Subject,Series,Component,MaxRawMark,A,B,C,D,E
 9706,Accounting,june-2022,60,75,51,42,33,24,15
 8680,Arabic   Language,june-2022,22,70,31,25,19,13,8
 8680,Arabic   Language,june-2022,32,40,28,24,20,16,12
+9680,Arabic,june-2022,22,70,37,31,25,20,14
+9680,Arabic,june-2022,32,40,32,28,24,20,16
+9680,Arabic,june-2022,42,75,52,47,43,39,35
+9680,Arabic,june-2022,52,40,32,28,24,20,17
 9479,Art & Design,june-2022,01,100,72,63,52,41,30
 9479,Art & Design,june-2022,02,100,70,60,50,40,30
 9479,Art & Design,june-2022,03,100,72,62,52,42,32
@@ -3948,6 +3999,10 @@ SubjectCode,Subject,Series,Component,MaxRawMark,A,B,C,D,E
 9701,Chemistry,june-2022,52,30,20,18,15,13,10
 9701,Chemistry,june-2022,53,30,19,16,13,10,8
 9701,Chemistry,june-2022,60,75,55,44,34,25,15
+9715,Chinese,june-2022,22,70,46,40,34,28,22
+9715,Chinese,june-2022,32,40,31,27,23,19,16
+9715,Chinese,june-2022,42,75,49,45,41,37,33
+9715,Chinese,june-2022,50,150,87,72,58,44,30
 8681,Chinese Language,june-2022,22,70,40,34,28,22,16
 8681,Chinese Language,june-2022,32,40,27,23,19,16,13
 8681,Chinese Language,june-2022,50,75,36,29,22,15,8
@@ -4210,6 +4265,15 @@ SubjectCode,Subject,Series,Component,MaxRawMark,A,B,C,D,E
 9483,Music,june-2022,13,100,68,55,46,38,28
 9483,Music,june-2022,50,75,51,42,33,24,15
 9483,Music,june-2022,60,75,51,42,33,24,15
+9396,Physical Education,june-2022,02,90,64,55,47,39,32
+9396,Physical Education,june-2022,04,90,76,66,56,46,36
+9396,Physical Education,june-2022,11,90,60,53,46,38,30
+9396,Physical Education,june-2022,12,90,62,56,48,39,30
+9396,Physical Education,june-2022,13,90,60,53,46,38,30
+9396,Physical Education,june-2022,31,90,60,52,44,36,28
+9396,Physical Education,june-2022,32,90,60,52,44,36,28
+9396,Physical Education,june-2022,33,90,60,52,44,36,28
+9396,Physical Education,june-2022,60,75,51,42,33,24,15
 9702,Physics,june-2022,11,40,25,21,17,14,11
 9702,Physics,june-2022,12,40,24,21,18,15,12
 9702,Physics,june-2022,13,40,25,21,18,15,12
@@ -4327,6 +4391,11 @@ SubjectCode,Subject,Series,Component,MaxRawMark,A,B,C,D,E
 9479,Art & Design,march-2022,01,100,69,59,49,39,29
 9479,Art & Design,march-2022,02,100,65,55,45,35,25
 9479,Art & Design,march-2022,03,100,69,59,49,39,29
+9700,Biology,march-2022,12,40,24,20,17,14,12
+9700,Biology,march-2022,22,60,35,30,23,18,11
+9700,Biology,march-2022,33,40,28,25,22,19,16
+9700,Biology,march-2022,42,100,63,54,46,37,28
+9700,Biology,march-2022,52,30,21,18,15,12,9
 9609,Business,march-2022,12,40,31,28,26,23,20
 9609,Business,march-2022,22,60,44,40,36,33,30
 9609,Business,march-2022,32,100,59,52,43,34,25
@@ -4362,6 +4431,17 @@ SubjectCode,Subject,Series,Component,MaxRawMark,A,B,C,D,E
 9626,Information Technology,march-2022,04,90,72,66,56,46,36
 9626,Information Technology,march-2022,12,70,34,30,26,21,17
 9626,Information Technology,march-2022,32,70,41,33,29,25,20
+9709,Mathematics,march-2022,12,75,55,47,37,27,16
+9709,Mathematics,march-2022,22,50,37,32,26,20,14
+9709,Mathematics,march-2022,32,75,57,49,41,32,22
+9709,Mathematics,march-2022,42,50,40,33,26,19,13
+9709,Mathematics,march-2022,52,50,36,29,22,16,10
+9709,Mathematics,march-2022,62,50,36,30,24,18,12
+9702,Physics,march-2022,12,40,27,24,20,16,12
+9702,Physics,march-2022,22,60,40,32,24,16,8
+9702,Physics,march-2022,33,40,31,28,25,23,21
+9702,Physics,march-2022,42,100,56,48,38,27,15
+9702,Physics,march-2022,52,30,21,18,15,12,10
 9990,Psychology,march-2022,12,60,34,30,25,20,16
 9990,Psychology,march-2022,22,60,40,35,31,27,22
 9990,Psychology,march-2022,32,60,34,28,23,19,14
@@ -4370,426 +4450,274 @@ SubjectCode,Subject,Series,Component,MaxRawMark,A,B,C,D,E
 9699,Sociology,march-2022,22,60,35,30,26,23,20
 9699,Sociology,march-2022,32,50,37,32,27,22,17
 9699,Sociology,march-2022,42,70,49,43,38,33,27
-9706,Accounting,november-2021,11,30,19,17,14,11,9
-9706,Accounting,november-2021,12,30,19,16,14,12,11
-9706,Accounting,november-2021,13,30,20,18,15,12,9
-9706,Accounting,november-2021,21,90,49,41,34,27,19
-9706,Accounting,november-2021,22,90,49,42,35,28,19
-9706,Accounting,november-2021,23,90,51,41,33,26,18
-9706,Accounting,november-2021,31,150,96,84,69,54,38
-9706,Accounting,november-2021,32,150,97,84,69,53,37
-9706,Accounting,november-2021,33,150,95,84,69,53,38
-9679,Afrikaans,november-2021,02,70,42,37,31,24,17
-9679,Afrikaans,november-2021,03,40,28,23,20,17,14
-9679,Afrikaans,november-2021,04,75,48,43,39,35,32
-8679,Afrikaans    Language,november-2021,02,70,37,30,23,17,11
-8679,Afrikaans    Language,november-2021,03,40,23,20,17,14,11
-8680,Arabic Language,november-2021,21,70,34,28,22,16,10
-8680,Arabic Language,november-2021,22,70,34,28,22,16,10
-8680,Arabic Language,november-2021,31,40,27,23,19,15,11
-8680,Arabic Language,november-2021,32,40,27,23,19,15,11
-9680,Arabic,november-2021,21,70,39,34,28,22,16
-9680,Arabic,november-2021,22,70,39,34,28,22,16
-9680,Arabic,november-2021,31,40,31,27,23,19,15
-9680,Arabic,november-2021,32,40,31,27,23,19,15
-9680,Arabic,november-2021,41,75,50,45,41,37,33
-9680,Arabic,november-2021,42,75,50,45,41,37,33
-9680,Arabic,november-2021,51,40,32,28,24,20,17
-9680,Arabic,november-2021,52,40,32,28,24,20,17
-9479,Art & Design,november-2021,01,100,69,59,49,39,29
-9479,Art & Design,november-2021,02,100,65,55,45,35,25
-9479,Art & Design,november-2021,03,100,69,59,49,39,29
-9700,Biology,november-2021,11,40,26,23,20,17,14
-9700,Biology,november-2021,12,40,27,24,20,16,13
-9700,Biology,november-2021,13,40,26,22,18,15,12
-9700,Biology,november-2021,21,60,37,31,25,19,13
-9700,Biology,november-2021,22,60,36,29,24,19,14
-9700,Biology,november-2021,23,60,31,24,21,16,12
-9700,Biology,november-2021,31,40,28,25,22,20,18
-9700,Biology,november-2021,33,40,31,28,24,20,16
-9700,Biology,november-2021,34,40,27,24,20,17,13
-9700,Biology,november-2021,35,40,30,27,23,20,17
-9700,Biology,november-2021,36,40,31,28,24,21,18
-9700,Biology,november-2021,41,100,61,53,47,40,32
-9700,Biology,november-2021,42,100,66,56,47,38,27
-9700,Biology,november-2021,43,100,61,53,47,40,32
-9700,Biology,november-2021,51,30,23,20,17,15,13
-9700,Biology,november-2021,52,30,21,18,15,12,10
-9700,Biology,november-2021,53,30,23,20,17,15,13
-9609,Business,november-2021,11,40,32,29,27,25,23
-9609,Business,november-2021,12,40,34,31,29,27,25
-9609,Business,november-2021,13,40,31,27,24,22,20
-9609,Business,november-2021,21,60,43,40,36,33,30
-9609,Business,november-2021,22,60,44,41,37,33,29
-9609,Business,november-2021,23,60,42,39,35,30,26
-9609,Business,november-2021,31,100,56,49,41,32,24
-9609,Business,november-2021,32,100,62,54,45,35,26
-9609,Business,november-2021,33,100,59,52,45,38,30
-9701,Chemistry,november-2021,11,40,22,18,15,13,11
-9701,Chemistry,november-2021,12,40,22,18,15,13,11
-9701,Chemistry,november-2021,13,40,22,18,15,13,11
-9701,Chemistry,november-2021,21,60,31,25,21,16,11
-9701,Chemistry,november-2021,22,60,33,28,23,16,10
-9701,Chemistry,november-2021,23,60,31,25,21,16,11
-9701,Chemistry,november-2021,31,40,21,19,15,11,8
-9701,Chemistry,november-2021,33,40,23,19,15,11,7
-9701,Chemistry,november-2021,34,40,21,17,13,10,7
-9701,Chemistry,november-2021,35,40,21,19,15,11,8
-9701,Chemistry,november-2021,36,40,20,17,13,10,7
-9701,Chemistry,november-2021,41,100,61,54,44,34,23
-9701,Chemistry,november-2021,42,100,53,46,38,29,19
-9701,Chemistry,november-2021,43,100,61,54,44,34,23
-9701,Chemistry,november-2021,51,30,22,19,16,13,11
-9701,Chemistry,november-2021,52,30,19,16,13,11,9
-9701,Chemistry,november-2021,53,30,22,19,16,13,11
-8681,Chinese   Language,november-2021,21,70,36,30,24,18,12
-8681,Chinese   Language,november-2021,22,70,38,32,27,22,16
-8681,Chinese   Language,november-2021,23,70,37,31,26,21,15
-8681,Chinese   Language,november-2021,31,40,26,22,18,15,12
-8681,Chinese   Language,november-2021,32,40,26,22,18,15,12
-8681,Chinese   Language,november-2021,33,40,26,22,18,15,12
-9715,Chinese,november-2021,21,70,41,36,30,24,18
-9715,Chinese,november-2021,22,70,43,38,33,27,21
-9715,Chinese,november-2021,23,70,42,37,32,26,20
-9715,Chinese,november-2021,31,40,30,26,22,18,15
-9715,Chinese,november-2021,32,40,30,26,22,18,15
-9715,Chinese,november-2021,33,40,30,26,22,18,15
-9715,Chinese,november-2021,41,75,48,43,39,35,31
-9715,Chinese,november-2021,42,75,47,43,39,35,31
-9715,Chinese,november-2021,43,75,47,43,39,35,31
-9274,Classical Studies,november-2021,11,50,33,28,23,18,14
-9274,Classical Studies,november-2021,12,50,34,29,23,18,13
-9274,Classical Studies,november-2021,13,50,34,29,23,18,13
-9274,Classical Studies,november-2021,21,50,33,29,24,19,14
-9274,Classical Studies,november-2021,22,50,34,29,24,19,14
-9274,Classical Studies,november-2021,23,50,34,29,24,19,14
-9274,Classical Studies,november-2021,31,50,31,27,24,20,16
-9274,Classical Studies,november-2021,32,50,31,27,24,20,16
-9274,Classical Studies,november-2021,33,50,30,28,24,20,17
-9274,Classical Studies,november-2021,41,50,33,27,23,20,17
-9274,Classical Studies,november-2021,42,50,33,27,23,20,17
-9274,Classical Studies,november-2021,43,50,33,26,24,21,17
-9608,Computer Science,november-2021,11,75,46,40,33,26,20
-9608,Computer Science,november-2021,12,75,46,40,33,26,20
-9608,Computer Science,november-2021,13,75,46,40,33,26,20
-9608,Computer Science,november-2021,21,75,44,36,29,22,15
-9608,Computer Science,november-2021,22,75,44,36,29,22,15
-9608,Computer Science,november-2021,23,75,44,36,29,22,15
-9608,Computer Science,november-2021,31,75,49,42,35,27,19
-9608,Computer Science,november-2021,32,75,49,42,35,27,19
-9608,Computer Science,november-2021,33,75,49,42,35,27,19
-9608,Computer Science,november-2021,41,75,50,42,35,28,21
-9608,Computer Science,november-2021,42,75,50,42,35,28,21
-9608,Computer Science,november-2021,43,75,50,42,35,28,21
-9618,Computer Science AS & A Level,november-2021,11,75,46,40,33,26,20
-9618,Computer Science AS & A Level,november-2021,12,75,46,40,33,26,20
-9618,Computer Science AS & A Level,november-2021,13,75,46,40,33,26,20
-9618,Computer Science AS & A Level,november-2021,21,75,44,36,29,22,15
-9618,Computer Science AS & A Level,november-2021,22,75,44,36,29,22,15
-9618,Computer Science AS & A Level,november-2021,23,75,44,36,29,22,15
-9618,Computer Science AS & A Level,november-2021,31,75,49,42,35,27,19
-9618,Computer Science AS & A Level,november-2021,32,75,49,42,35,27,19
-9618,Computer Science AS & A Level,november-2021,41,75,50,42,35,28,21
-9618,Computer Science AS & A Level,november-2021,42,75,50,42,35,28,21
-9481,Digital Media & Design,november-2021,01,100,64,53,42,32,21
-9481,Digital Media & Design,november-2021,02,100,63,53,42,31,21
-9481,Digital Media & Design,november-2021,03,100,64,54,44,33,22
-8041,Divinity,november-2021,21,100,61,55,49,43,37
-8041,Divinity,november-2021,22,100,61,55,49,43,37
-8041,Divinity,november-2021,23,100,61,55,49,43,37
-9011,Divinity,november-2021,12,100,66,58,51,44,37
-9011,Divinity,november-2021,22,100,67,61,54,47,41
-9011,Divinity,november-2021,23,100,67,61,54,47,41
-9011,Divinity,november-2021,32,100,63,57,52,47,41
-9011,Divinity,november-2021,33,100,63,57,52,47,41
-9482,Drama,november-2021,02,60,45,39,32,26,20
-9482,Drama,november-2021,04,60,43,35,28,22,16
-9482,Drama,november-2021,11,60,32,27,22,17,12
-9482,Drama,november-2021,12,60,32,27,22,17,12
-9482,Drama,november-2021,13,60,32,27,22,17,12
-9708,Economics,november-2021,11,30,20,18,15,12,10
-9708,Economics,november-2021,12,30,23,20,17,14,12
-9708,Economics,november-2021,13,30,24,22,19,16,14
-9708,Economics,november-2021,21,40,18,16,13,11,7
-9708,Economics,november-2021,22,40,21,18,15,12,8
-9708,Economics,november-2021,23,40,18,15,13,11,8
-9708,Economics,november-2021,31,30,21,18,16,14,12
-9708,Economics,november-2021,32,30,21,17,15,13,11
-9708,Economics,november-2021,33,30,20,16,14,13,12
-9708,Economics,november-2021,41,70,38,32,29,25,21
-9708,Economics,november-2021,42,70,43,39,33,27,21
-9708,Economics,november-2021,43,70,42,37,33,28,23
-8021,English General Paper,november-2021,11,30,20,17,15,13,11
-8021,English General Paper,november-2021,12,30,20,17,15,13,11
-8021,English General Paper,november-2021,13,30,20,17,15,13,11
-8021,English General Paper,november-2021,21,50,29,27,24,22,20
-8021,English General Paper,november-2021,22,50,32,30,26,23,20
-8021,English General Paper,november-2021,23,50,29,27,24,22,20
-9093,English Language,november-2021,11,50,33,28,24,21,17
-9093,English Language,november-2021,12,50,33,28,24,21,17
-9093,English Language,november-2021,13,50,33,28,24,21,17
-9093,English Language,november-2021,21,50,32,28,24,20,17
-9093,English Language,november-2021,22,50,32,28,24,20,17
-9093,English Language,november-2021,23,50,32,28,24,20,17
-9093,English Language,november-2021,31,50,33,28,23,17,11
-9093,English Language,november-2021,32,50,33,28,23,17,11
-9093,English Language,november-2021,33,50,33,28,23,17,11
-9093,English Language,november-2021,41,50,34,29,23,18,12
-9093,English Language,november-2021,42,50,34,29,23,18,12
-9093,English Language,november-2021,43,50,34,29,23,18,12
-8695,English Language and Literature,november-2021,11,50,32,28,24,20,17
-8695,English Language and Literature,november-2021,12,50,32,28,24,20,17
-8695,English Language and Literature,november-2021,13,50,32,28,24,20,17
-8695,English Language and Literature,november-2021,21,50,36,32,28,25,21
-8695,English Language and Literature,november-2021,22,50,36,32,28,25,21
-8695,English Language and Literature,november-2021,23,50,36,32,28,25,21
-9695,English Literature,november-2021,11,50,36,32,28,25,21
-9695,English Literature,november-2021,12,50,36,32,28,25,21
-9695,English Literature,november-2021,13,50,36,32,28,25,21
-9695,English Literature,november-2021,21,50,29,26,23,19,16
-9695,English Literature,november-2021,22,50,29,26,23,19,16
-9695,English Literature,november-2021,23,50,29,26,23,19,16
-9695,English Literature,november-2021,31,50,34,28,24,19,14
-9695,English Literature,november-2021,32,50,34,28,24,19,14
-9695,English Literature,november-2021,33,50,34,28,24,19,14
-9695,English Literature,november-2021,41,50,41,34,28,23,17
-9695,English Literature,november-2021,42,50,41,34,28,23,17
-9695,English Literature,november-2021,43,50,41,34,28,23,17
-8291,Environmental Management,november-2021,03,40,32,26,22,19,16
-8291,Environmental Management,november-2021,11,80,42,36,32,27,22
-8291,Environmental Management,november-2021,12,80,42,36,32,27,22
-8291,Environmental Management,november-2021,13,80,42,36,32,27,22
-8291,Environmental Management,november-2021,21,80,40,35,29,23,17
-8291,Environmental Management,november-2021,22,80,40,35,29,23,17
-8291,Environmental Management,november-2021,23,80,40,35,29,23,17
-8682,French,november-2021,01,100,64,56,49,42,35
-8682,French,november-2021,21,70,34,29,25,21,17
-8682,French,november-2021,22,70,34,29,25,21,17
-8682,French,november-2021,23,70,34,29,25,21,17
-8682,French,november-2021,31,40,23,19,16,13,10
-8682,French,november-2021,32,40,23,19,16,13,10
-8682,French,november-2021,33,40,23,19,16,13,10
-9716,French A Level,november-2021,01,100,73,64,56,49,42
-9716,French A Level,november-2021,22,70,39,34,29,25,21
-9716,French A Level,november-2021,23,70,39,34,29,25,21
-9716,French A Level,november-2021,32,40,27,23,19,16,13
-9716,French A Level,november-2021,33,40,27,23,19,16,13
-9716,French A Level,november-2021,42,75,51,46,43,37,30
-9716,French A Level,november-2021,43,75,51,46,43,37,30
-9696,Geography,november-2021,11,60,32,28,24,21,17
-9696,Geography,november-2021,12,60,32,28,24,21,17
-9696,Geography,november-2021,13,60,32,28,24,21,17
-9696,Geography,november-2021,21,60,31,27,23,19,16
-9696,Geography,november-2021,22,60,31,27,23,19,16
-9696,Geography,november-2021,23,60,31,27,23,19,16
-9696,Geography,november-2021,31,60,30,26,23,19,15
-9696,Geography,november-2021,32,60,30,26,23,19,15
-9696,Geography,november-2021,33,60,30,26,23,19,15
-9696,Geography,november-2021,41,60,28,25,21,18,15
-9696,Geography,november-2021,42,60,28,25,21,18,15
-9696,Geography,november-2021,43,60,28,25,21,18,15
-8683,German   Language,november-2021,01,100,64,56,49,42,35
-8683,German   Language,november-2021,22,70,43,37,31,25,19
-8683,German   Language,november-2021,23,70,43,37,31,25,19
-8683,German   Language,november-2021,32,40,28,24,20,17,14
-8683,German   Language,november-2021,33,40,28,24,20,17,14
-9717,German,november-2021,01,100,74,64,56,49,42
-9717,German,november-2021,22,70,48,43,38,32,25
-9717,German,november-2021,23,70,48,43,38,32,25
-9717,German,november-2021,32,40,32,28,24,20,17
-9717,German,november-2021,33,40,32,28,24,20,17
-9717,German,november-2021,42,75,49,44,40,36,32
-9717,German,november-2021,43,75,49,44,40,36,32
-8687,Hindi   Language,november-2021,02,70,44,39,35,31,27
-8687,Hindi   Language,november-2021,03,40,29,24,19,15,11
-9687,Hindi,november-2021,02,70,49,44,40,36,31
-9687,Hindi,november-2021,03,40,31,29,24,19,15
-9687,Hindi,november-2021,04,75,49,44,40,36,33
-9687,Hindi,november-2021,05,40,34,31,27,23,19
-9487,Hinduism,november-2021,01,60,42,35,28,21,14
-9487,Hinduism,november-2021,02,60,41,34,27,20,13
-9487,Hinduism,november-2021,03,60,38,31,24,17,10
-9487,Hinduism,november-2021,04,60,39,32,25,18,11
-9389,History,november-2021,11,40,21,18,15,13,11
-9389,History,november-2021,12,40,21,18,15,13,11
-9389,History,november-2021,13,40,21,18,15,13,11
-9389,History,november-2021,21,60,35,29,24,18,13
-9389,History,november-2021,22,60,35,29,24,18,13
-9389,History,november-2021,23,60,35,29,24,18,13
-9389,History,november-2021,31,40,27,23,20,18,16
-9389,History,november-2021,32,40,27,23,20,18,16
-9389,History,november-2021,33,40,27,23,20,18,16
-9389,History,november-2021,41,60,39,36,32,27,21
-9389,History,november-2021,42,60,39,36,32,27,21
-9389,History,november-2021,43,60,39,36,32,27,21
-9489,History,november-2021,11,40,21,17,14,12,10
-9489,History,november-2021,12,40,21,17,14,12,10
-9489,History,november-2021,13,40,21,17,14,12,10
-9489,History,november-2021,21,60,35,31,25,19,13
-9489,History,november-2021,22,60,35,31,25,19,13
-9489,History,november-2021,23,60,35,31,25,19,13
-9489,History,november-2021,31,40,29,25,22,18,15
-9489,History,november-2021,32,40,29,25,22,18,15
-9489,History,november-2021,41,60,40,35,30,25,19
-9489,History,november-2021,42,60,40,35,30,25,19
-9626,Information Technology,november-2021,02,110,67,57,51,46,41
-9626,Information Technology,november-2021,04,110,77,70,59,47,35
-9626,Information Technology,november-2021,11,90,34,31,26,20,14
-9626,Information Technology,november-2021,12,90,40,36,30,24,18
-9626,Information Technology,november-2021,13,90,35,32,26,20,14
-9626,Information Technology,november-2021,32,90,55,44,40,36,32
-9626,Information Technology,november-2021,33,90,55,44,40,36,32
-9488,Islamic Studies AS & A Level,november-2021,12,50,37,32,28,23,19
-9488,Islamic Studies AS & A Level,november-2021,22,50,35,30,25,21,17
-9488,Islamic Studies AS & A Level,november-2021,32,50,33,29,24,19,14
-9488,Islamic Studies AS & A Level,november-2021,42,50,34,29,25,21,16
-8281,Japanese   Language,november-2021,01,100,74,64,56,49,42
-8281,Japanese   Language,november-2021,02,70,46,42,37,33,29
-8281,Japanese   Language,november-2021,03,40,27,23,19,15,11
-9693,Marine Science,november-2021,01,75,51,45,39,34,28
-9693,Marine Science,november-2021,02,50,36,31,27,23,20
-9693,Marine Science,november-2021,03,75,44,37,31,25,19
-9693,Marine Science,november-2021,04,50,36,31,26,21,16
-9709,Mathematics,november-2021,11,75,50,40,30,21,11
-9709,Mathematics,november-2021,12,75,51,40,29,18,7
-9709,Mathematics,november-2021,13,75,52,43,34,25,15
-9709,Mathematics,november-2021,21,50,39,33,25,17,10
-9709,Mathematics,november-2021,22,50,39,33,24,15,7
-9709,Mathematics,november-2021,23,50,39,33,25,17,10
-9709,Mathematics,november-2021,31,75,52,43,35,26,17
-9709,Mathematics,november-2021,32,75,50,41,33,24,14
-9709,Mathematics,november-2021,33,75,52,44,36,28,19
-9709,Mathematics,november-2021,41,50,35,29,23,16,10
-9709,Mathematics,november-2021,42,50,28,23,17,11,6
-9709,Mathematics,november-2021,43,50,35,29,22,16,10
-9709,Mathematics,november-2021,51,50,36,31,24,17,11
-9709,Mathematics,november-2021,52,50,37,31,22,14,6
-9709,Mathematics,november-2021,53,50,40,35,29,23,17
-9709,Mathematics,november-2021,61,50,42,37,31,26,20
-9709,Mathematics,november-2021,62,50,34,30,24,19,14
-9709,Mathematics,november-2021,63,50,42,37,31,26,20
-9231,Mathematics   Further,november-2021,11,75,42,34,27,20,14
-9231,Mathematics   Further,november-2021,12,75,42,34,27,20,14
-9231,Mathematics   Further,november-2021,13,75,42,34,27,20,14
-9231,Mathematics   Further,november-2021,21,75,59,52,43,33,23
-9231,Mathematics   Further,november-2021,22,75,59,52,43,33,23
-9231,Mathematics   Further,november-2021,23,75,59,52,43,33,23
-9231,Mathematics   Further,november-2021,31,50,24,18,15,12,8
-9231,Mathematics   Further,november-2021,32,50,24,18,15,12,8
-9231,Mathematics   Further,november-2021,33,50,24,18,15,12,8
-9231,Mathematics   Further,november-2021,41,50,35,29,23,16,8
-9231,Mathematics   Further,november-2021,42,50,35,29,23,16,8
-9231,Mathematics   Further,november-2021,43,50,35,29,23,16,8
-9607,Media Studies,november-2021,01,50,40,35,30,25,20
-9607,Media Studies,november-2021,02,50,34,29,24,19,14
-9607,Media Studies,november-2021,03,50,40,35,30,25,20
-9607,Media Studies,november-2021,04,60,40,33,27,21,16
-9396,Physical Education,november-2021,02,90,64,55,47,39,32
-9396,Physical Education,november-2021,04,90,76,66,56,46,36
-9396,Physical Education,november-2021,11,90,57,50,43,34,26
-9396,Physical Education,november-2021,12,90,57,50,43,34,26
-9396,Physical Education,november-2021,13,90,57,50,43,34,26
-9396,Physical Education,november-2021,32,90,55,46,39,31,23
-9396,Physical Education,november-2021,33,90,55,46,39,31,23
-9702,Physics,november-2021,11,40,25,21,18,14,11
-9702,Physics,november-2021,12,40,25,21,18,14,11
-9702,Physics,november-2021,13,40,26,22,18,16,12
-9702,Physics,november-2021,21,60,34,27,21,15,8
-9702,Physics,november-2021,22,60,34,27,21,15,8
-9702,Physics,november-2021,23,60,38,31,24,16,8
-9702,Physics,november-2021,31,40,33,30,27,24,21
-9702,Physics,november-2021,33,40,32,29,26,23,20
-9702,Physics,november-2021,34,40,29,26,23,20,17
-9702,Physics,november-2021,35,40,30,27,24,22,20
-9702,Physics,november-2021,36,40,28,25,22,19,17
-9702,Physics,november-2021,41,100,54,43,33,22,11
-9702,Physics,november-2021,42,100,55,45,35,24,13
-9702,Physics,november-2021,43,100,54,43,33,22,11
-9702,Physics,november-2021,51,30,19,17,14,11,8
-9702,Physics,november-2021,52,30,18,16,13,10,7
-9702,Physics,november-2021,53,30,19,17,14,11,8
-9719,Spanish,november-2021,01,100,72,62,54,47,40
-9719,Spanish,november-2021,21,70,45,41,36,30,23
-9719,Spanish,november-2021,22,70,45,41,36,30,23
-9719,Spanish,november-2021,23,70,45,41,36,30,23
-9719,Spanish,november-2021,31,40,30,26,22,18,15
-9719,Spanish,november-2021,32,40,30,26,22,18,15
-9719,Spanish,november-2021,33,40,30,26,22,18,15
-9719,Spanish,november-2021,41,75,49,44,40,36,32
-9719,Spanish,november-2021,42,75,49,44,40,36,32
-9719,Spanish,november-2021,43,75,49,44,40,36,32
-8665,Spanish First Language,november-2021,21,70,45,41,36,30,23
-8665,Spanish First Language,november-2021,22,70,45,41,36,30,23
-8665,Spanish First Language,november-2021,41,75,49,44,40,36,32
-8665,Spanish First Language,november-2021,42,75,49,44,40,36,32
-8685,Spanish   Language,november-2021,01,100,62,54,47,40,33
-8685,Spanish   Language,november-2021,21,70,41,35,29,23,17
-8685,Spanish   Language,november-2021,22,70,41,35,29,23,17
-8685,Spanish   Language,november-2021,23,70,41,35,29,23,17
-8685,Spanish   Language,november-2021,31,40,26,22,18,15,12
-8685,Spanish   Language,november-2021,32,40,26,22,18,15,12
-8685,Spanish   Language,november-2021,33,40,26,22,18,15,12
-8673,Spanish Literature,november-2021,41,75,44,40,36,32,28
-8673,Spanish Literature,november-2021,42,75,44,40,36,32,28
-8689,Tamil   Language,november-2021,21,70,36,30,24,18,12
-8689,Tamil   Language,november-2021,22,70,36,30,24,18,12
-8689,Tamil   Language,november-2021,31,40,23,19,16,13,10
-8689,Tamil   Language,november-2021,32,40,23,19,16,13,10
-9689,Tamil,november-2021,21,70,41,36,31,25,18
-9689,Tamil,november-2021,22,70,41,36,31,25,18
-9689,Tamil,november-2021,31,40,27,23,19,16,13
-9689,Tamil,november-2021,32,40,27,23,19,16,13
-9689,Tamil,november-2021,41,75,36,33,28,24,20
-9689,Tamil,november-2021,42,75,36,33,28,24,20
-9689,Tamil,november-2021,51,40,28,23,19,16,13
-9689,Tamil,november-2021,52,40,28,23,19,16,13
-9694,Thinking Skills,november-2021,11,50,27,23,20,16,12
-9694,Thinking Skills,november-2021,12,50,27,23,20,16,12
-9694,Thinking Skills,november-2021,13,50,27,23,20,16,12
-9694,Thinking Skills,november-2021,21,50,24,21,17,14,11
-9694,Thinking Skills,november-2021,22,50,24,21,17,14,11
-9694,Thinking Skills,november-2021,23,50,25,22,18,15,12
-9694,Thinking Skills,november-2021,31,50,27,23,19,15,10
-9694,Thinking Skills,november-2021,32,50,27,23,19,15,10
-9694,Thinking Skills,november-2021,33,50,27,23,19,15,10
-9694,Thinking Skills,november-2021,41,50,25,21,18,15,12
-9694,Thinking Skills,november-2021,42,50,25,21,18,15,12
-9694,Thinking Skills,november-2021,43,50,25,21,18,15,12
-9395,Travel & Tourism,november-2021,11,100,71,66,61,56,51
-9395,Travel & Tourism,november-2021,12,100,71,66,61,56,51
-9395,Travel & Tourism,november-2021,02,50,42,37,32,27,22
-9395,Travel & Tourism,november-2021,31,50,27,23,19,15,11
-9395,Travel & Tourism,november-2021,32,50,27,23,19,15,11
-9395,Travel & Tourism,november-2021,41,50,32,28,26,23,20
-9395,Travel & Tourism,november-2021,42,50,32,28,26,23,20
-9686,Urdu   Pakistan only,november-2021,02,70,54,50,45,39,32
-9686,Urdu   Pakistan only,november-2021,03,40,30,26,22,18,15
-9686,Urdu   Pakistan only,november-2021,04,75,53,47,42,37,33
-8686,Urdu   Language,november-2021,02,70,50,44,38,32,26
-8686,Urdu   Language,november-2021,03,40,26,22,18,15,12
-9676,Urdu,november-2021,02,70,54,50,45,39,32
-9676,Urdu,november-2021,03,40,30,26,22,18,15
-9676,Urdu,november-2021,04,75,53,47,42,37,33
-9676,Urdu,november-2021,05,40,31,27,23,19,16
-9706,Accounting,june-2021,11,30,19,16,14,12,10
-9706,Accounting,june-2021,12,30,21,16,14,12,10
-9706,Accounting,june-2021,13,30,22,18,15,12,10
-9706,Accounting,june-2021,21,90,51,44,35,27,19
-9706,Accounting,june-2021,22,90,56,49,39,29,18
-9706,Accounting,june-2021,23,90,54,49,40,32,22
-9706,Accounting,june-2021,31,150,102,86,72,57,42
-9706,Accounting,june-2021,32,150,90,77,63,49,36
-9706,Accounting,june-2021,33,150,102,86,72,57,42
-9706,Accounting,june-2021,34,150,101,88,74,60,46
-8680,Arabic   Language,june-2021,22,70,27,21,16,11,6
-8680,Arabic   Language,june-2021,32,40,27,23,18,13,9
+8021,English General Paper,june-2021,11,30,21,18,16,14,12
+8021,English General Paper,june-2021,12,30,21,18,16,14,12
+8021,English General Paper,june-2021,13,30,21,18,16,14,12
+8021,English General Paper,june-2021,21,50,25,23,19,16,12
+8021,English General Paper,june-2021,22,50,29,27,23,20,16
+8021,English General Paper,june-2021,23,50,29,27,23,20,16
+8291,Environmental Management,june-2021,11,80,48,42,37,31,25
+8291,Environmental Management,june-2021,12,80,47,40,36,32,28
+8291,Environmental Management,june-2021,13,80,47,40,36,32,28
+8291,Environmental Management,june-2021,21,80,48,44,38,33,28
+8291,Environmental Management,june-2021,22,80,46,43,38,32,27
+8291,Environmental Management,june-2021,23,80,46,43,38,32,27
+8291,Environmental Management,june-2021,3,40,32,26,22,19,16
+8665,First Language Spanish,june-2021,21,70,46,42,35,29,23
+8665,First Language Spanish,june-2021,22,70,47,42,35,29,23
+8665,First Language Spanish,june-2021,41,75,49,44,40,36,32
+8665,First Language Spanish,june-2021,42,75,49,44,40,36,32
+8673,Spanish Literature,june-2021,41,75,44,40,36,32,28
+8673,Spanish Literature,june-2021,42,75,44,40,36,32,28
+8680,Arabic Language,june-2021,22,70,27,21,16,11,6
+8680,Arabic Language,june-2021,32,40,27,23,18,13,9
+8682,French Language,june-2021,1,100,64,56,49,42,35
+8682,French Language,june-2021,21,70,33,28,23,19,15
+8682,French Language,june-2021,22,70,33,28,23,19,15
+8682,French Language,june-2021,23,70,33,28,23,19,15
+8682,French Language,june-2021,31,40,23,19,16,13,10
+8682,French Language,june-2021,32,40,23,19,16,13,10
+8682,French Language,june-2021,33,40,23,19,16,13,10
+8683,German Language,june-2021,1,100,64,56,49,42,35
+8683,German Language,june-2021,2,70,41,34,28,22,16
+8683,German Language,june-2021,3,40,26,22,18,15,12
+8684,Portuguese Language,june-2021,1,100,64,57,50,44,38
+8684,Portuguese Language,june-2021,2,70,44,38,32,26,20
+8684,Portuguese Language,june-2021,3,40,26,22,18,15,12
+8685,Spanish Language,june-2021,1,100,63,55,48,41,34
+8685,Spanish Language,june-2021,21,70,42,35,29,23,17
+8685,Spanish Language,june-2021,22,70,42,35,29,23,17
+8685,Spanish Language,june-2021,23,70,42,35,29,23,17
+8685,Spanish Language,june-2021,31,40,26,22,18,15,12
+8685,Spanish Language,june-2021,32,40,26,22,18,15,12
+8685,Spanish Language,june-2021,33,40,26,22,18,15,12
+8686,Urdu Language,june-2021,2,70,48,42,36,30,24
+8695,Language and Literature in English,june-2021,11,50,32,28,24,20,17
+8695,Language and Literature in English,june-2021,12,50,32,28,24,20,17
+8695,Language and Literature in English,june-2021,13,50,32,28,24,20,17
+8695,Language and Literature in English,june-2021,21,50,37,33,28,23,17
+8695,Language and Literature in English,june-2021,22,50,37,33,28,23,17
+8695,Language and Literature in English,june-2021,23,50,37,33,28,23,17
+9084,Law,june-2021,11,75,46,43,36,29,22
+9084,Law,june-2021,12,75,46,42,35,28,21
+9084,Law,june-2021,13,75,46,43,36,29,22
+9084,Law,june-2021,21,50,35,29,27,25,24
+9084,Law,june-2021,22,50,33,28,26,25,23
+9084,Law,june-2021,23,50,36,30,28,26,24
+9084,Law,june-2021,31,75,41,36,32,28,25
+9084,Law,june-2021,32,75,41,36,32,28,25
+9084,Law,june-2021,33,75,42,37,33,29,26
+9084,Law,june-2021,41,75,41,38,34,29,24
+9084,Law,june-2021,42,75,40,37,33,28,23
+9084,Law,june-2021,43,75,41,37,33,28,23
+9093,English Language,june-2021,11,50,33,28,24,20,16
+9093,English Language,june-2021,12,50,33,28,24,20,16
+9093,English Language,june-2021,13,50,33,28,24,20,16
+9093,English Language,june-2021,21,50,32,28,24,20,17
+9093,English Language,june-2021,22,50,32,28,24,20,17
+9093,English Language,june-2021,23,50,32,28,24,20,17
+9093,English Language,june-2021,31,50,35,30,24,19,12
+9093,English Language,june-2021,32,50,35,30,24,19,12
+9093,English Language,june-2021,33,50,35,30,24,19,12
+9093,English Language,june-2021,41,50,34,29,23,17,12
+9093,English Language,june-2021,42,50,34,29,23,17,12
+9093,English Language,june-2021,43,50,34,29,23,17,12
+9231,Further Mathematics,june-2021,11,75,53,44,35,26,18
+9231,Further Mathematics,june-2021,12,75,53,44,35,26,18
+9231,Further Mathematics,june-2021,13,75,53,44,35,26,18
+9231,Further Mathematics,june-2021,21,75,61,52,42,32,21
+9231,Further Mathematics,june-2021,22,75,61,52,42,32,21
+9231,Further Mathematics,june-2021,23,75,63,54,44,34,23
+9231,Further Mathematics,june-2021,31,50,33,26,20,14,8
+9231,Further Mathematics,june-2021,32,50,33,26,20,14,8
+9231,Further Mathematics,june-2021,33,50,33,26,20,14,8
+9231,Further Mathematics,june-2021,41,50,36,31,25,19,12
+9231,Further Mathematics,june-2021,42,50,36,31,25,19,12
+9231,Further Mathematics,june-2021,43,50,36,31,25,19,12
+9239,Global Perspectives & Research,june-2021,11,30,19,17,14,12,10
+9239,Global Perspectives & Research,june-2021,12,30,20,18,16,14,12
+9239,Global Perspectives & Research,june-2021,13,30,20,18,16,14,12
+9239,Global Perspectives & Research,june-2021,2,35,24,22,20,18,16
+9239,Global Perspectives & Research,june-2021,3,35,24,22,20,18,16
+9239,Global Perspectives & Research,june-2021,4,75,49,41,35,28,21
+9389,History,june-2021,11,40,21,18,15,13,11
+9389,History,june-2021,12,40,21,18,15,13,11
+9389,History,june-2021,13,40,21,18,15,13,11
+9389,History,june-2021,21,60,33,28,24,20,16
+9389,History,june-2021,22,60,33,28,24,20,16
+9389,History,june-2021,23,60,33,28,24,20,16
+9389,History,june-2021,31,40,28,24,21,18,15
+9389,History,june-2021,32,40,28,24,21,18,15
+9389,History,june-2021,33,40,28,24,21,18,15
+9389,History,june-2021,41,60,38,34,29,24,19
+9389,History,june-2021,42,60,38,34,29,24,19
+9389,History,june-2021,43,60,38,34,29,24,19
+9395,Travel and Tourism,june-2021,11,100,66,60,54,48,42
+9395,Travel and Tourism,june-2021,12,100,69,63,56,50,44
+9395,Travel and Tourism,june-2021,13,100,66,60,54,48,42
+9395,Travel and Tourism,june-2021,2,50,42,37,32,27,22
+9395,Travel and Tourism,june-2021,31,50,36,30,25,20,14
+9395,Travel and Tourism,june-2021,32,50,36,30,26,21,15
+9395,Travel and Tourism,june-2021,33,50,36,30,25,20,14
+9395,Travel and Tourism,june-2021,41,50,35,30,25,20,15
+9395,Travel and Tourism,june-2021,42,50,36,32,27,22,18
+9395,Travel and Tourism,june-2021,43,50,35,30,25,20,15
+9396,Physical Education,june-2021,11,90,59,52,45,36,28
+9396,Physical Education,june-2021,12,90,59,52,45,36,28
+9396,Physical Education,june-2021,13,90,59,52,45,36,28
+9396,Physical Education,june-2021,2,90,64,55,47,39,32
+9396,Physical Education,june-2021,31,90,57,48,40,33,25
+9396,Physical Education,june-2021,32,90,57,48,40,33,25
+9396,Physical Education,june-2021,33,90,57,48,40,33,25
+9396,Physical Education,june-2021,4,90,76,66,56,46,36
+9479,Art and Design,june-2021,1,100,69,59,49,39,29
+9479,Art and Design,june-2021,2,100,65,55,45,35,25
+9479,Art and Design,june-2021,3,100,69,59,49,39,29
+9481,Digital Media & Design,june-2021,1,100,64,53,42,32,21
+9481,Digital Media & Design,june-2021,2,100,63,53,42,31,21
+9481,Digital Media & Design,june-2021,3,100,64,54,44,33,22
+9482,Drama,june-2021,11,60,32,27,22,17,12
+9482,Drama,june-2021,12,60,32,27,22,17,12
+9482,Drama,june-2021,13,60,32,27,22,17,12
+9482,Drama,june-2021,2,60,45,39,32,26,20
+9482,Drama,june-2021,3,60,40,33,28,22,16
+9482,Drama,june-2021,4,60,43,35,28,22,16
+9483,Music,june-2021,11,100,61,50,42,32,24
+9483,Music,june-2021,12,100,61,50,42,32,24
+9483,Music,june-2021,13,100,61,50,42,32,24
+9483,Music,june-2021,2,100,69,62,54,46,37
+9483,Music,june-2021,3,100,74,64,53,43,33
+9483,Music,june-2021,4,100,74,63,54,44,34
+9483,Music,june-2021,5,100,74,63,54,44,34
+9489,History,june-2021,11,40,21,18,15,13,11
+9489,History,june-2021,12,40,21,18,15,13,11
+9489,History,june-2021,13,40,21,18,15,13,11
+9489,History,june-2021,21,60,35,30,26,21,16
+9489,History,june-2021,22,60,37,31,26,21,16
+9489,History,june-2021,23,60,37,31,26,21,16
+9489,History,june-2021,31,40,27,24,21,18,15
+9489,History,june-2021,32,40,27,24,21,18,15
+9489,History,june-2021,33,40,27,24,21,18,15
+9489,History,june-2021,41,60,39,33,29,24,19
+9489,History,june-2021,42,60,39,33,29,24,19
+9489,History,june-2021,43,60,39,33,29,24,19
+9607,Media Studies,june-2021,1,50,40,35,30,25,20
+9607,Media Studies,june-2021,21,50,34,29,24,19,14
+9607,Media Studies,june-2021,22,50,34,29,24,19,14
+9607,Media Studies,june-2021,23,50,34,29,24,19,14
+9607,Media Studies,june-2021,3,50,40,35,30,25,20
+9607,Media Studies,june-2021,41,60,40,33,27,21,16
+9607,Media Studies,june-2021,42,60,40,33,27,21,16
+9608,Computer Science,june-2021,11,75,46,40,33,27,21
+9608,Computer Science,june-2021,12,75,46,40,33,27,21
+9608,Computer Science,june-2021,13,75,46,40,33,27,21
+9608,Computer Science,june-2021,21,75,43,35,28,21,14
+9608,Computer Science,june-2021,22,75,43,35,28,21,14
+9608,Computer Science,june-2021,23,75,43,35,28,21,14
+9608,Computer Science,june-2021,31,75,50,45,39,34,28
+9608,Computer Science,june-2021,32,75,50,45,40,34,28
+9608,Computer Science,june-2021,33,75,50,45,39,34,28
+9608,Computer Science,june-2021,41,75,50,39,32,24,16
+9608,Computer Science,june-2021,42,75,50,39,32,24,16
+9608,Computer Science,june-2021,43,75,50,39,32,24,16
+9609,Business,june-2021,11,40,30,27,25,23,21
+9609,Business,june-2021,12,40,31,27,25,23,21
+9609,Business,june-2021,13,40,32,28,26,23,20
+9609,Business,june-2021,14,40,33,30,27,24,22
+9609,Business,june-2021,21,60,42,38,33,29,25
+9609,Business,june-2021,22,60,41,38,33,28,23
+9609,Business,june-2021,23,60,42,39,33,28,23
+9609,Business,june-2021,24,60,44,42,38,34,30
+9609,Business,june-2021,31,100,58,51,44,37,30
+9609,Business,june-2021,32,100,61,55,48,41,34
+9609,Business,june-2021,33,100,59,51,44,37,30
+9609,Business,june-2021,34,100,57,50,43,36,29
+9618,Computer Science,june-2021,11,75,45,40,34,28,22
+9618,Computer Science,june-2021,12,75,46,40,34,28,22
+9618,Computer Science,june-2021,13,75,45,40,34,28,22
+9618,Computer Science,june-2021,21,75,41,34,28,22,16
+9618,Computer Science,june-2021,22,75,45,38,32,26,20
+9618,Computer Science,june-2021,23,75,41,34,28,22,16
+9618,Computer Science,june-2021,31,75,47,39,32,25,18
+9618,Computer Science,june-2021,32,75,47,39,32,25,18
+9618,Computer Science,june-2021,33,75,47,39,32,25,18
+9618,Computer Science,june-2021,41,75,53,46,37,28,19
+9618,Computer Science,june-2021,42,75,53,46,37,28,19
+9618,Computer Science,june-2021,43,75,53,46,37,28,19
+9626,Information Technology,june-2021,11,90,35,31,26,21,17
+9626,Information Technology,june-2021,12,90,38,33,27,22,17
+9626,Information Technology,june-2021,13,90,34,31,26,21,17
+9626,Information Technology,june-2021,2,110,57,48,41,34,27
+9626,Information Technology,june-2021,31,90,54,43,35,28,20
+9626,Information Technology,june-2021,32,90,54,43,36,28,20
+9626,Information Technology,june-2021,33,90,54,43,35,28,20
+9626,Information Technology,june-2021,4,110,81,71,58,45,31
 9680,Arabic,june-2021,22,70,34,29,23,17,12
 9680,Arabic,june-2021,32,40,31,27,23,19,15
 9680,Arabic,june-2021,42,75,50,45,41,37,33
 9680,Arabic,june-2021,52,40,32,28,24,20,17
-9479,Art & Design,june-2021,1,100,69,59,49,39,29
-9479,Art & Design,june-2021,2,100,65,55,45,35,25
-9479,Art & Design,june-2021,3,100,69,59,49,39,29
+9686,Urdu,june-2021,2,70,52,48,43,37,30
+9686,Urdu,june-2021,3,40,30,26,22,18,15
+9686,Urdu,june-2021,4,75,53,47,42,37,33
+9693,Marine Science,june-2021,11,75,44,36,29,22,15
+9693,Marine Science,june-2021,12,75,44,37,30,23,16
+9693,Marine Science,june-2021,13,75,44,37,30,23,16
+9693,Marine Science,june-2021,21,50,35,30,24,18,13
+9693,Marine Science,june-2021,22,50,36,32,28,24,20
+9693,Marine Science,june-2021,23,50,36,32,28,24,20
+9693,Marine Science,june-2021,3,75,41,35,29,24,17
+9693,Marine Science,june-2021,4,50,36,30,24,18,13
+9694,Thinking Skills,june-2021,11,50,26,21,16,11,7
+9694,Thinking Skills,june-2021,12,50,26,21,16,11,7
+9694,Thinking Skills,june-2021,13,50,26,21,16,11,7
+9694,Thinking Skills,june-2021,21,50,30,26,22,18,13
+9694,Thinking Skills,june-2021,22,50,28,24,20,16,12
+9694,Thinking Skills,june-2021,23,50,28,24,20,16,12
+9694,Thinking Skills,june-2021,31,50,32,27,23,18,13
+9694,Thinking Skills,june-2021,32,50,29,26,22,17,13
+9694,Thinking Skills,june-2021,33,50,29,26,22,17,13
+9694,Thinking Skills,june-2021,41,50,25,22,18,15,12
+9694,Thinking Skills,june-2021,42,50,25,21,18,15,11
+9694,Thinking Skills,june-2021,43,50,25,21,18,15,11
+9695,Literature in English,june-2021,11,50,37,33,27,22,17
+9695,Literature in English,june-2021,12,50,37,33,27,22,17
+9695,Literature in English,june-2021,13,50,37,33,27,22,17
+9695,Literature in English,june-2021,21,50,32,27,23,19,15
+9695,Literature in English,june-2021,22,50,32,27,23,19,15
+9695,Literature in English,june-2021,23,50,32,27,23,19,15
+9695,Literature in English,june-2021,31,50,34,28,23,19,15
+9695,Literature in English,june-2021,32,50,34,28,23,19,15
+9695,Literature in English,june-2021,33,50,34,28,23,19,15
+9695,Literature in English,june-2021,41,50,36,31,27,21,15
+9695,Literature in English,june-2021,42,50,36,31,27,21,15
+9695,Literature in English,june-2021,43,50,36,31,27,21,15
+9696,Geography,june-2021,11,60,35,31,26,22,18
+9696,Geography,june-2021,12,60,35,31,26,22,18
+9696,Geography,june-2021,13,60,35,31,26,22,18
+9696,Geography,june-2021,21,60,34,29,25,20,16
+9696,Geography,june-2021,22,60,34,29,25,20,16
+9696,Geography,june-2021,23,60,34,29,25,20,16
+9696,Geography,june-2021,31,60,32,29,26,22,18
+9696,Geography,june-2021,32,60,32,29,26,22,18
+9696,Geography,june-2021,33,60,32,29,26,22,18
+9696,Geography,june-2021,41,60,31,27,23,20,16
+9696,Geography,june-2021,42,60,31,27,23,20,16
+9696,Geography,june-2021,43,60,31,27,23,20,16
+9699,Sociology,june-2021,11,60,39,34,29,25,21
+9699,Sociology,june-2021,12,60,34,29,24,20,16
+9699,Sociology,june-2021,13,60,35,30,25,21,17
+9699,Sociology,june-2021,14,50,29,26,23,20,17
+9699,Sociology,june-2021,21,60,35,31,27,22,18
+9699,Sociology,june-2021,22,60,35,31,27,22,18
+9699,Sociology,june-2021,23,60,36,32,27,22,17
+9699,Sociology,june-2021,24,50,32,28,24,21,18
+9699,Sociology,june-2021,31,50,34,30,25,20,16
+9699,Sociology,june-2021,32,50,35,31,26,21,17
+9699,Sociology,june-2021,33,50,35,31,26,21,17
+9699,Sociology,june-2021,34,75,53,48,43,38,32
+9699,Sociology,june-2021,41,70,50,45,41,36,30
+9699,Sociology,june-2021,42,70,49,44,40,35,29
+9699,Sociology,june-2021,43,70,50,45,41,36,30
 9700,Biology,june-2021,11,40,28,24,20,16,13
 9700,Biology,june-2021,12,40,27,23,20,17,14
 9700,Biology,june-2021,13,40,30,26,22,18,15
@@ -4807,18 +4735,6 @@ SubjectCode,Subject,Series,Component,MaxRawMark,A,B,C,D,E
 9700,Biology,june-2021,51,30,21,18,15,12,10
 9700,Biology,june-2021,52,30,20,17,14,11,8
 9700,Biology,june-2021,53,30,21,19,16,14,11
-9609,Business,june-2021,11,40,30,27,25,23,21
-9609,Business,june-2021,12,40,31,27,25,23,21
-9609,Business,june-2021,13,40,32,28,26,23,20
-9609,Business,june-2021,14,40,33,30,27,24,22
-9609,Business,june-2021,21,60,42,38,33,29,25
-9609,Business,june-2021,22,60,41,38,33,28,23
-9609,Business,june-2021,23,60,42,39,33,28,23
-9609,Business,june-2021,24,60,44,42,38,34,30
-9609,Business,june-2021,31,100,58,51,44,37,30
-9609,Business,june-2021,32,100,61,55,48,41,34
-9609,Business,june-2021,33,100,59,51,44,37,30
-9609,Business,june-2021,34,100,57,50,43,36,29
 9701,Chemistry,june-2021,11,40,28,24,19,15,11
 9701,Chemistry,june-2021,12,40,26,22,18,14,11
 9701,Chemistry,june-2021,13,40,25,22,18,14,11
@@ -4836,39 +4752,33 @@ SubjectCode,Subject,Series,Component,MaxRawMark,A,B,C,D,E
 9701,Chemistry,june-2021,51,30,17,13,11,9,8
 9701,Chemistry,june-2021,52,30,22,17,14,11,8
 9701,Chemistry,june-2021,53,30,17,13,11,9,8
-9608,Computer Science,june-2021,11,75,46,40,33,27,21
-9608,Computer Science,june-2021,12,75,46,40,33,27,21
-9608,Computer Science,june-2021,13,75,46,40,33,27,21
-9608,Computer Science,june-2021,21,75,43,35,28,21,14
-9608,Computer Science,june-2021,22,75,43,35,28,21,14
-9608,Computer Science,june-2021,23,75,43,35,28,21,14
-9608,Computer Science,june-2021,31,75,50,45,39,34,28
-9608,Computer Science,june-2021,32,75,50,45,40,34,28
-9608,Computer Science,june-2021,33,75,50,45,39,34,28
-9608,Computer Science,june-2021,41,75,50,39,32,24,16
-9608,Computer Science,june-2021,42,75,50,39,32,24,16
-9608,Computer Science,june-2021,43,75,50,39,32,24,16
-9618,Computer Science,june-2021,11,75,45,40,34,28,22
-9618,Computer Science,june-2021,12,75,46,40,34,28,22
-9618,Computer Science,june-2021,13,75,45,40,34,28,22
-9618,Computer Science,june-2021,21,75,41,34,28,22,16
-9618,Computer Science,june-2021,22,75,45,38,32,26,20
-9618,Computer Science,june-2021,23,75,41,34,28,22,16
-9618,Computer Science,june-2021,31,75,47,39,32,25,18
-9618,Computer Science,june-2021,32,75,47,39,32,25,18
-9618,Computer Science,june-2021,33,75,47,39,32,25,18
-9618,Computer Science,june-2021,41,75,53,46,37,28,19
-9618,Computer Science,june-2021,42,75,53,46,37,28,19
-9618,Computer Science,june-2021,43,75,53,46,37,28,19
-9481,Digital Media & Design,june-2021,1,100,64,53,42,32,21
-9481,Digital Media & Design,june-2021,2,100,63,53,42,31,21
-9481,Digital Media & Design,june-2021,3,100,64,54,44,33,22
-9482,Drama,june-2021,11,60,32,27,22,17,12
-9482,Drama,june-2021,12,60,32,27,22,17,12
-9482,Drama,june-2021,13,60,32,27,22,17,12
-9482,Drama,june-2021,2,60,45,39,32,26,20
-9482,Drama,june-2021,3,60,40,33,28,22,16
-9482,Drama,june-2021,4,60,43,35,28,22,16
+9702,Physics,june-2021,11,40,27,24,21,18,15
+9702,Physics,june-2021,12,40,28,24,20,16,12
+9702,Physics,june-2021,13,40,30,25,21,17,14
+9702,Physics,june-2021,21,60,37,31,25,18,12
+9702,Physics,june-2021,22,60,39,31,24,16,9
+9702,Physics,june-2021,23,60,40,32,25,18,10
+9702,Physics,june-2021,31,40,30,28,25,22,20
+9702,Physics,june-2021,32,40,29,27,24,22,20
+9702,Physics,june-2021,33,40,33,31,28,25,22
+9702,Physics,june-2021,34,40,28,26,23,20,17
+9702,Physics,june-2021,35,40,33,31,28,25,22
+9702,Physics,june-2021,41,100,58,48,37,26,14
+9702,Physics,june-2021,42,100,55,45,37,28,19
+9702,Physics,june-2021,43,100,58,48,37,26,14
+9702,Physics,june-2021,51,30,21,18,15,12,9
+9702,Physics,june-2021,52,30,23,21,18,16,13
+9702,Physics,june-2021,53,30,21,18,15,12,9
+9706,Accounting,june-2021,11,30,19,16,14,12,10
+9706,Accounting,june-2021,12,30,21,16,14,12,10
+9706,Accounting,june-2021,13,30,22,18,15,12,10
+9706,Accounting,june-2021,21,90,51,44,35,27,19
+9706,Accounting,june-2021,22,90,56,49,39,29,18
+9706,Accounting,june-2021,23,90,54,49,40,32,22
+9706,Accounting,june-2021,31,150,102,86,72,57,42
+9706,Accounting,june-2021,32,150,90,77,63,49,36
+9706,Accounting,june-2021,33,150,102,86,72,57,42
+9706,Accounting,june-2021,34,150,101,88,74,60,46
 9708,Economics,june-2021,11,30,21,18,15,12,9
 9708,Economics,june-2021,12,30,21,18,15,12,10
 9708,Economics,june-2021,13,30,21,18,15,12,9
@@ -4881,129 +4791,6 @@ SubjectCode,Subject,Series,Component,MaxRawMark,A,B,C,D,E
 9708,Economics,june-2021,41,70,44,39,32,26,20
 9708,Economics,june-2021,42,70,45,40,35,29,24
 9708,Economics,june-2021,43,70,44,39,32,26,20
-9093,English   Language,june-2021,11,50,33,28,24,20,16
-9093,English   Language,june-2021,12,50,33,28,24,20,16
-9093,English   Language,june-2021,13,50,33,28,24,20,16
-9093,English   Language,june-2021,21,50,32,28,24,20,17
-9093,English   Language,june-2021,22,50,32,28,24,20,17
-9093,English   Language,june-2021,23,50,32,28,24,20,17
-9093,English   Language,june-2021,31,50,35,30,24,19,12
-9093,English   Language,june-2021,32,50,35,30,24,19,12
-9093,English   Language,june-2021,33,50,35,30,24,19,12
-9093,English   Language,june-2021,41,50,34,29,23,17,12
-9093,English   Language,june-2021,42,50,34,29,23,17,12
-9093,English   Language,june-2021,43,50,34,29,23,17,12
-8695,English   Language and Literature,june-2021,11,50,32,28,24,20,17
-8695,English   Language and Literature,june-2021,12,50,32,28,24,20,17
-8695,English   Language and Literature,june-2021,13,50,32,28,24,20,17
-8695,English   Language and Literature,june-2021,21,50,37,33,28,23,17
-8695,English   Language and Literature,june-2021,22,50,37,33,28,23,17
-8695,English   Language and Literature,june-2021,23,50,37,33,28,23,17
-9695,English   Literature,june-2021,11,50,37,33,27,22,17
-9695,English   Literature,june-2021,12,50,37,33,27,22,17
-9695,English   Literature,june-2021,13,50,37,33,27,22,17
-9695,English   Literature,june-2021,21,50,32,27,23,19,15
-9695,English   Literature,june-2021,22,50,32,27,23,19,15
-9695,English   Literature,june-2021,23,50,32,27,23,19,15
-9695,English   Literature,june-2021,31,50,34,28,23,19,15
-9695,English   Literature,june-2021,32,50,34,28,23,19,15
-9695,English   Literature,june-2021,33,50,34,28,23,19,15
-9695,English   Literature,june-2021,41,50,36,31,27,21,15
-9695,English   Literature,june-2021,42,50,36,31,27,21,15
-9695,English   Literature,june-2021,43,50,36,31,27,21,15
-8021,English General Paper,june-2021,11,30,21,18,16,14,12
-8021,English General Paper,june-2021,12,30,21,18,16,14,12
-8021,English General Paper,june-2021,13,30,21,18,16,14,12
-8021,English General Paper,june-2021,21,50,25,23,19,16,12
-8021,English General Paper,june-2021,22,50,29,27,23,20,16
-8021,English General Paper,june-2021,23,50,29,27,23,20,16
-8291,Environmental Management,june-2021,11,80,48,42,37,31,25
-8291,Environmental Management,june-2021,12,80,47,40,36,32,28
-8291,Environmental Management,june-2021,13,80,47,40,36,32,28
-8291,Environmental Management,june-2021,21,80,48,44,38,33,28
-8291,Environmental Management,june-2021,22,80,46,43,38,32,27
-8291,Environmental Management,june-2021,23,80,46,43,38,32,27
-8291,Environmental Management,june-2021,3,40,32,26,22,19,16
-8682,French   Language,june-2021,1,100,64,56,49,42,35
-8682,French   Language,june-2021,21,70,33,28,23,19,15
-8682,French   Language,june-2021,22,70,33,28,23,19,15
-8682,French   Language,june-2021,23,70,33,28,23,19,15
-8682,French   Language,june-2021,31,40,23,19,16,13,10
-8682,French   Language,june-2021,32,40,23,19,16,13,10
-8682,French   Language,june-2021,33,40,23,19,16,13,10
-9716,French,june-2021,1,100,72,64,56,49,42
-9716,French,june-2021,21,70,39,33,28,23,19
-9716,French,june-2021,22,70,39,33,28,23,19
-9716,French,june-2021,23,70,39,33,28,23,19
-9716,French,june-2021,31,40,27,23,19,16,13
-9716,French,june-2021,32,40,27,23,19,16,13
-9716,French,june-2021,33,40,27,23,19,16,13
-9716,French,june-2021,41,75,50,45,41,37,30
-9716,French,june-2021,42,75,50,45,41,37,30
-9716,French,june-2021,43,75,50,45,41,37,30
-9696,Geography,june-2021,11,60,35,31,26,22,18
-9696,Geography,june-2021,12,60,35,31,26,22,18
-9696,Geography,june-2021,13,60,35,31,26,22,18
-9696,Geography,june-2021,21,60,34,29,25,20,16
-9696,Geography,june-2021,22,60,34,29,25,20,16
-9696,Geography,june-2021,23,60,34,29,25,20,16
-9696,Geography,june-2021,31,60,32,29,26,22,18
-9696,Geography,june-2021,32,60,32,29,26,22,18
-9696,Geography,june-2021,33,60,32,29,26,22,18
-9696,Geography,june-2021,41,60,31,27,23,20,16
-9696,Geography,june-2021,42,60,31,27,23,20,16
-9696,Geography,june-2021,43,60,31,27,23,20,16
-8683,German   Language,june-2021,1,100,64,56,49,42,35
-8683,German   Language,june-2021,2,70,41,34,28,22,16
-8683,German   Language,june-2021,3,40,26,22,18,15,12
-9717,German,june-2021,1,100,74,64,56,49,42
-9717,German,june-2021,2,70,46,41,34,28,22
-9717,German,june-2021,3,40,30,26,22,18,15
-9717,German,june-2021,4,75,51,46,42,38,34
-9389,History,june-2021,11,40,21,18,15,13,11
-9389,History,june-2021,12,40,21,18,15,13,11
-9389,History,june-2021,13,40,21,18,15,13,11
-9389,History,june-2021,21,60,33,28,24,20,16
-9389,History,june-2021,22,60,33,28,24,20,16
-9389,History,june-2021,23,60,33,28,24,20,16
-9389,History,june-2021,31,40,28,24,21,18,15
-9389,History,june-2021,32,40,28,24,21,18,15
-9389,History,june-2021,33,40,28,24,21,18,15
-9389,History,june-2021,41,60,38,34,29,24,19
-9389,History,june-2021,42,60,38,34,29,24,19
-9389,History,june-2021,43,60,38,34,29,24,19
-9489,History,june-2021,11,40,21,18,15,13,11
-9489,History,june-2021,12,40,21,18,15,13,11
-9489,History,june-2021,13,40,21,18,15,13,11
-9489,History,june-2021,21,60,35,30,26,21,16
-9489,History,june-2021,22,60,37,31,26,21,16
-9489,History,june-2021,23,60,37,31,26,21,16
-9489,History,june-2021,31,40,27,24,21,18,15
-9489,History,june-2021,32,40,27,24,21,18,15
-9489,History,june-2021,33,40,27,24,21,18,15
-9489,History,june-2021,41,60,39,33,29,24,19
-9489,History,june-2021,42,60,39,33,29,24,19
-9489,History,june-2021,43,60,39,33,29,24,19
-9626,Information Technology,june-2021,11,90,35,31,26,21,17
-9626,Information Technology,june-2021,12,90,38,33,27,22,17
-9626,Information Technology,june-2021,13,90,34,31,26,21,17
-9626,Information Technology,june-2021,2,110,57,48,41,34,27
-9626,Information Technology,june-2021,31,90,54,43,35,28,20
-9626,Information Technology,june-2021,32,90,54,43,36,28,20
-9626,Information Technology,june-2021,33,90,54,43,35,28,20
-9626,Information Technology,june-2021,4,110,81,71,58,45,31
-9084,Law,june-2021,11,75,46,43,36,29,22
-9084,Law,june-2021,12,75,46,42,35,28,21
-9084,Law,june-2021,13,75,46,43,36,29,22
-9084,Law,june-2021,21,50,35,29,27,25,24
-9084,Law,june-2021,22,50,33,28,26,25,23
-9084,Law,june-2021,23,50,36,30,28,26,24
-9084,Law,june-2021,31,75,41,36,32,28,25
-9084,Law,june-2021,32,75,41,36,32,28,25
-9084,Law,june-2021,33,75,42,37,33,29,26
-9084,Law,june-2021,41,75,41,38,34,29,24
-9084,Law,june-2021,42,75,40,37,33,28,23
-9084,Law,june-2021,43,75,41,37,33,28,23
 9709,Mathematics,june-2021,11,75,49,41,32,23,13
 9709,Mathematics,june-2021,12,75,51,42,31,21,10
 9709,Mathematics,june-2021,13,75,55,46,37,28,18
@@ -5022,39 +4809,35 @@ SubjectCode,Subject,Series,Component,MaxRawMark,A,B,C,D,E
 9709,Mathematics,june-2021,61,50,37,30,24,18,12
 9709,Mathematics,june-2021,62,50,39,35,29,23,18
 9709,Mathematics,june-2021,63,50,37,32,26,20,14
-9396,Physical Education,june-2021,11,90,59,52,45,36,28
-9396,Physical Education,june-2021,12,90,59,52,45,36,28
-9396,Physical Education,june-2021,13,90,59,52,45,36,28
-9396,Physical Education,june-2021,2,90,64,55,47,39,32
-9396,Physical Education,june-2021,31,90,57,48,40,33,25
-9396,Physical Education,june-2021,32,90,57,48,40,33,25
-9396,Physical Education,june-2021,33,90,57,48,40,33,25
-9396,Physical Education,june-2021,4,90,76,66,56,46,36
-9702,Physics,june-2021,11,40,27,24,21,18,15
-9702,Physics,june-2021,12,40,28,24,20,16,12
-9702,Physics,june-2021,13,40,30,25,21,17,14
-9702,Physics,june-2021,21,60,37,31,25,18,12
-9702,Physics,june-2021,22,60,39,31,24,16,9
-9702,Physics,june-2021,23,60,40,32,25,18,10
-9702,Physics,june-2021,31,40,30,28,25,22,20
-9702,Physics,june-2021,32,40,29,27,24,22,20
-9702,Physics,june-2021,33,40,33,31,28,25,22
-9702,Physics,june-2021,34,40,28,26,23,20,17
-9702,Physics,june-2021,35,40,33,31,28,25,22
-9702,Physics,june-2021,41,100,58,48,37,26,14
-9702,Physics,june-2021,42,100,55,45,37,28,19
-9702,Physics,june-2021,43,100,58,48,37,26,14
-9702,Physics,june-2021,51,30,21,18,15,12,9
-9702,Physics,june-2021,52,30,23,21,18,16,13
-9702,Physics,june-2021,53,30,21,18,15,12,9
-8684,Portuguese   Language,june-2021,1,100,64,57,50,44,38
-8684,Portuguese   Language,june-2021,2,70,44,38,32,26,20
-8684,Portuguese   Language,june-2021,3,40,26,22,18,15,12
+9716,French,june-2021,1,100,72,64,56,49,42
+9716,French,june-2021,21,70,39,33,28,23,19
+9716,French,june-2021,22,70,39,33,28,23,19
+9716,French,june-2021,23,70,39,33,28,23,19
+9716,French,june-2021,31,40,27,23,19,16,13
+9716,French,june-2021,32,40,27,23,19,16,13
+9716,French,june-2021,33,40,27,23,19,16,13
+9716,French,june-2021,41,75,50,45,41,37,30
+9716,French,june-2021,42,75,50,45,41,37,30
+9716,French,june-2021,43,75,50,45,41,37,30
+9717,German,june-2021,1,100,74,64,56,49,42
+9717,German,june-2021,2,70,46,41,34,28,22
+9717,German,june-2021,3,40,30,26,22,18,15
+9717,German,june-2021,4,75,51,46,42,38,34
 9718,Portuguese,june-2021,1,100,73,64,57,50,44
 9718,Portuguese,june-2021,2,70,49,44,38,32,26
 9718,Portuguese,june-2021,3,40,30,26,22,18,15
 9718,Portuguese,june-2021,4,75,50,45,41,37,31
-9980,Project,june-2021,1,80,53,46,39,32,26
+9719,Spanish,june-2021,1,100,73,63,55,48,41
+9719,Spanish,june-2021,21,70,46,42,35,29,23
+9719,Spanish,june-2021,22,70,47,42,35,29,23
+9719,Spanish,june-2021,23,70,47,42,35,29,23
+9719,Spanish,june-2021,31,40,30,26,22,18,15
+9719,Spanish,june-2021,32,40,30,26,22,18,15
+9719,Spanish,june-2021,33,40,30,26,22,18,15
+9719,Spanish,june-2021,41,75,49,44,40,36,32
+9719,Spanish,june-2021,42,75,49,44,40,36,32
+9719,Spanish,june-2021,43,75,49,44,40,36,32
+9980,Cambridge International Project,june-2021,1,80,53,46,39,32,26
 9990,Psychology,june-2021,11,60,35,30,25,21,17
 9990,Psychology,june-2021,12,60,38,32,28,23,19
 9990,Psychology,june-2021,13,60,34,30,25,21,17
@@ -5067,117 +4850,530 @@ SubjectCode,Subject,Series,Component,MaxRawMark,A,B,C,D,E
 9990,Psychology,june-2021,41,60,31,26,22,17,13
 9990,Psychology,june-2021,42,60,34,29,24,19,15
 9990,Psychology,june-2021,43,60,31,26,22,17,13
-9699,Sociology,june-2021,11,60,39,34,29,25,21
-9699,Sociology,june-2021,12,60,34,29,24,20,16
-9699,Sociology,june-2021,13,60,35,30,25,21,17
-9699,Sociology,june-2021,14,50,29,26,23,20,17
-9699,Sociology,june-2021,21,60,35,31,27,22,18
-9699,Sociology,june-2021,22,60,35,31,27,22,18
-9699,Sociology,june-2021,23,60,36,32,27,22,17
-9699,Sociology,june-2021,24,50,32,28,24,21,18
-9699,Sociology,june-2021,31,50,34,30,25,20,16
-9699,Sociology,june-2021,32,50,35,31,26,21,17
-9699,Sociology,june-2021,33,50,35,31,26,21,17
-9699,Sociology,june-2021,34,75,53,48,43,38,32
-9699,Sociology,june-2021,41,70,50,45,41,36,30
-9699,Sociology,june-2021,42,70,49,44,40,35,29
-9699,Sociology,june-2021,43,70,50,45,41,36,30
-8665,Spanish   First Language,june-2021,21,70,46,42,35,29,23
-8665,Spanish   First Language,june-2021,22,70,47,42,35,29,23
-8665,Spanish   First Language,june-2021,41,75,49,44,40,36,32
-8665,Spanish   First Language,june-2021,42,75,49,44,40,36,32
-8673,Spanish   Literature,june-2021,41,75,44,40,36,32,28
-8673,Spanish   Literature,june-2021,42,75,44,40,36,32,28
-9719,Spanish,june-2021,1,100,73,63,55,48,41
-9719,Spanish,june-2021,21,70,46,42,35,29,23
-9719,Spanish,june-2021,22,70,47,42,35,29,23
-9719,Spanish,june-2021,23,70,47,42,35,29,23
-9719,Spanish,june-2021,31,40,30,26,22,18,15
-9719,Spanish,june-2021,32,40,30,26,22,18,15
-9719,Spanish,june-2021,33,40,30,26,22,18,15
-9719,Spanish,june-2021,41,75,49,44,40,36,32
-9719,Spanish,june-2021,42,75,49,44,40,36,32
-9719,Spanish,june-2021,43,75,49,44,40,36,32
-8685,Spanish Language,june-2021,1,100,63,55,48,41,34
-8685,Spanish Language,june-2021,21,70,42,35,29,23,17
-8685,Spanish Language,june-2021,22,70,42,35,29,23,17
-8685,Spanish Language,june-2021,23,70,42,35,29,23,17
-8685,Spanish Language,june-2021,31,40,26,22,18,15,12
-8685,Spanish Language,june-2021,32,40,26,22,18,15,12
-8685,Spanish Language,june-2021,33,40,26,22,18,15,12
-9694,Thinking Skills,june-2021,11,50,26,21,16,11,7
-9694,Thinking Skills,june-2021,12,50,26,21,16,11,7
-9694,Thinking Skills,june-2021,13,50,26,21,16,11,7
-9694,Thinking Skills,june-2021,21,50,30,26,22,18,13
-9694,Thinking Skills,june-2021,22,50,28,24,20,16,12
-9694,Thinking Skills,june-2021,23,50,28,24,20,16,12
-9694,Thinking Skills,june-2021,31,50,32,27,23,18,13
-9694,Thinking Skills,june-2021,32,50,29,26,22,17,13
-9694,Thinking Skills,june-2021,33,50,29,26,22,17,13
-9694,Thinking Skills,june-2021,41,50,25,22,18,15,12
-9694,Thinking Skills,june-2021,42,50,25,21,18,15,11
-9694,Thinking Skills,june-2021,43,50,25,21,18,15,11
-9395,Travel & Tourism,june-2021,11,100,66,60,54,48,42
-9395,Travel & Tourism,june-2021,12,100,69,63,56,50,44
-9395,Travel & Tourism,june-2021,13,100,66,60,54,48,42
-9395,Travel & Tourism,june-2021,2,50,42,37,32,27,22
-9395,Travel & Tourism,june-2021,31,50,36,30,25,20,14
-9395,Travel & Tourism,june-2021,32,50,36,30,26,21,15
-9395,Travel & Tourism,june-2021,33,50,36,30,25,20,14
-9395,Travel & Tourism,june-2021,41,50,35,30,25,20,15
-9395,Travel & Tourism,june-2021,42,50,36,32,27,22,18
-9395,Travel & Tourism,june-2021,43,50,35,30,25,20,15
-8686,Urdu   Language,june-2021,2,70,48,42,36,30,24
-9686,Urdu   Pakistan only,june-2021,2,70,52,48,43,37,30
-9686,Urdu   Pakistan only,june-2021,3,40,30,26,22,18,15
-9686,Urdu   Pakistan only,june-2021,4,75,53,47,42,37,33
-9706,Accounting,march-2021,12,30,19,15,12,10,8
-9706,Accounting,march-2021,22,90,53,46,38,29,20
-9706,Accounting,march-2021,32,150,89,78,63,48,33
-9479,Art & Design,march-2021,1,100,70,60,50,40,30
-9479,Art & Design,march-2021,2,100,65,55,45,35,25
-9479,Art & Design,march-2021,3,100,70,60,50,40,30
+8021,English General Paper,march-2021,12,30,20,18,16,14,12
+8021,English General Paper,march-2021,22,50,35,30,26,23,19
+9093,English Language,march-2021,12,50,36,32,29,26,22
+9093,English Language,march-2021,22,50,34,30,26,22,19
+9093,English Language,march-2021,32,50,35,30,25,19,13
+9093,English Language,march-2021,42,50,35,30,25,20,16
+9239,Global Perspectives & Research,march-2021,12,30,19,17,15,13,11
+9239,Global Perspectives & Research,march-2021,2,35,24,22,20,18,16
+9239,Global Perspectives & Research,march-2021,3,35,24,22,20,18,16
+9239,Global Perspectives & Research,march-2021,4,75,49,41,35,28,21
+9479,Art and Design,march-2021,1,100,70,60,50,40,30
+9479,Art and Design,march-2021,2,100,65,55,45,35,25
+9479,Art and Design,march-2021,3,100,70,60,50,40,30
+9489,History,march-2021,12,40,22,19,16,14,12
+9489,History,march-2021,22,60,43,36,30,24,18
+9489,History,march-2021,32,40,27,25,21,18,15
+9489,History,march-2021,42,60,42,36,31,25,19
+9609,Business,march-2021,12,40,34,30,27,24,22
+9609,Business,march-2021,22,60,43,40,36,33,29
+9609,Business,march-2021,32,100,60,54,45,36,27
+9626,Information Technology,march-2021,12,90,37,33,28,23,17
+9626,Information Technology,march-2021,2,110,75,68,61,54,48
+9626,Information Technology,march-2021,32,90,55,47,40,33,26
+9626,Information Technology,march-2021,4,110,79,69,58,47,35
+9695,Literature in English,march-2021,12,50,35,30,25,20,15
+9695,Literature in English,march-2021,22,50,35,30,25,20,15
+9695,Literature in English,march-2021,32,50,35,30,25,20,15
+9695,Literature in English,march-2021,42,50,35,30,25,20,15
+9699,Sociology,march-2021,12,60,34,30,27,23,20
+9699,Sociology,march-2021,22,60,34,30,27,23,20
+9699,Sociology,march-2021,32,50,38,34,28,23,18
+9699,Sociology,march-2021,42,70,47,42,37,31,25
 9700,Biology,march-2021,12,40,26,23,20,17,14
 9700,Biology,march-2021,22,60,36,30,25,20,14
 9700,Biology,march-2021,33,40,33,30,27,24,22
 9700,Biology,march-2021,42,100,70,61,53,45,36
 9700,Biology,march-2021,52,30,22,20,17,13,10
-9609,Business,march-2021,12,40,34,30,27,24,22
-9609,Business,march-2021,22,60,43,40,36,33,29
-9609,Business,march-2021,32,100,60,54,45,36,27
-9980,Cambridge IPQ,march-2021,1,80,53,46,39,32,26
 9701,Chemistry,march-2021,12,40,24,21,17,14,11
 9701,Chemistry,march-2021,22,60,38,31,25,19,13
 9701,Chemistry,march-2021,33,40,24,21,18,15,12
 9701,Chemistry,march-2021,42,100,53,42,37,32,25
 9701,Chemistry,march-2021,52,30,18,16,13,10,8
+9702,Physics,march-2021,12,40,26,23,19,16,13
+9702,Physics,march-2021,22,60,39,34,28,21,15
+9702,Physics,march-2021,33,40,30,27,24,22,20
+9702,Physics,march-2021,42,100,57,51,42,32,21
+9702,Physics,march-2021,52,30,22,20,17,14,12
+9706,Accounting,march-2021,12,30,19,15,12,10,8
+9706,Accounting,march-2021,22,90,53,46,38,29,20
+9706,Accounting,march-2021,32,150,89,78,63,48,33
 9708,Economics,march-2021,12,30,23,19,17,14,10
 9708,Economics,march-2021,22,40,19,17,13,10,7
 9708,Economics,march-2021,32,30,21,17,15,11,8
 9708,Economics,march-2021,42,70,45,39,32,26,20
-9695,English Literature,march-2021,12,50,35,30,25,20,15
-9695,English Literature,march-2021,22,50,35,30,25,20,15
-9695,English Literature,march-2021,32,50,35,30,25,20,15
-9695,English Literature,march-2021,42,50,35,30,25,20,15
-8021,General English Paper,march-2021,12,30,20,18,16,14,12
-8021,General English Paper,march-2021,22,50,35,30,26,23,19
-9239,Global Perspectives and Research,march-2021,12,30,19,17,15,13,11
-9239,Global Perspectives and Research,march-2021,2,35,24,22,20,18,16
-9239,Global Perspectives and Research,march-2021,3,35,24,22,20,18,16
-9239,Global Perspectives and Research,march-2021,4,75,49,41,35,28,21
-9489,History,march-2021,12,40,22,19,16,14,12
-9489,History,march-2021,22,60,43,36,30,24,18
-9489,History,march-2021,32,40,27,25,21,18,15
-9489,History,march-2021,42,60,42,36,31,25,19
-9626,Information Technology,march-2021,12,90,37,33,28,23,17
-9626,Information Technology,march-2021,2,110,75,68,61,54,48
-9626,Information Technology,march-2021,32,90,55,47,40,33,26
-9626,Information Technology,march-2021,4,110,79,69,58,47,35
+9709,Mathematics,march-2021,12,75,55,46,35,24,13
+9709,Mathematics,march-2021,22,50,39,33,27,21,15
+9709,Mathematics,march-2021,32,75,62,54,44,34,23
+9709,Mathematics,march-2021,42,50,39,32,25,18,11
+9709,Mathematics,march-2021,52,50,41,34,27,19,12
+9709,Mathematics,march-2021,62,50,41,35,29,23,18
 9990,Psychology,march-2021,12,60,36,32,27,22,18
 9990,Psychology,march-2021,22,60,40,35,31,27,23
 9990,Psychology,march-2021,32,60,34,28,23,19,14
 9990,Psychology,march-2021,42,60,35,30,26,22,18
-9699,Sociology,march-2021,12,60,34,30,27,23,20
-9699,Sociology,march-2021,22,60,34,30,27,23,20
-9699,Sociology,march-2021,32,50,38,34,28,23,18
-9699,Sociology,march-2021,42,70,47,42,37,31,25
+9980,Cambridge International Project,march-2021,1,80,53,46,39,32,26
+8021,English General Paper,november-2021,11,30,20,17,15,13,11
+8021,English General Paper,november-2021,12,30,20,17,15,13,11
+8021,English General Paper,november-2021,13,30,20,17,15,13,11
+8021,English General Paper,november-2021,21,50,29,27,24,22,20
+8021,English General Paper,november-2021,22,50,32,30,26,23,20
+8021,English General Paper,november-2021,23,50,29,27,24,22,20
+8041,Divinity,november-2021,21,100,61,55,49,43,37
+8041,Divinity,november-2021,22,100,61,55,49,43,37
+8041,Divinity,november-2021,23,100,61,55,49,43,37
+8281,Japanese Language,november-2021,01,100,74,64,56,49,42
+8281,Japanese Language,november-2021,02,70,46,42,37,33,29
+8281,Japanese Language,november-2021,03,40,27,23,19,15,11
+8291,Environmental Management,november-2021,03,40,32,26,22,19,16
+8291,Environmental Management,november-2021,11,80,42,36,32,27,22
+8291,Environmental Management,november-2021,12,80,42,36,32,27,22
+8291,Environmental Management,november-2021,13,80,42,36,32,27,22
+8291,Environmental Management,november-2021,21,80,40,35,29,23,17
+8291,Environmental Management,november-2021,22,80,40,35,29,23,17
+8291,Environmental Management,november-2021,23,80,40,35,29,23,17
+8665,First Language Spanish,november-2021,21,70,45,41,36,30,23
+8665,First Language Spanish,november-2021,22,70,45,41,36,30,23
+8665,First Language Spanish,november-2021,41,75,49,44,40,36,32
+8665,First Language Spanish,november-2021,42,75,49,44,40,36,32
+8673,Spanish Literature,november-2021,41,75,44,40,36,32,28
+8673,Spanish Literature,november-2021,42,75,44,40,36,32,28
+8679,Afrikaans Language,november-2021,02,70,37,30,23,17,11
+8679,Afrikaans Language,november-2021,03,40,23,20,17,14,11
+8680,Arabic Language,november-2021,21,70,34,28,22,16,10
+8680,Arabic Language,november-2021,22,70,34,28,22,16,10
+8680,Arabic Language,november-2021,31,40,27,23,19,15,11
+8680,Arabic Language,november-2021,32,40,27,23,19,15,11
+8681,Chinese Language,november-2021,21,70,36,30,24,18,12
+8681,Chinese Language,november-2021,22,70,38,32,27,22,16
+8681,Chinese Language,november-2021,23,70,37,31,26,21,15
+8681,Chinese Language,november-2021,31,40,26,22,18,15,12
+8681,Chinese Language,november-2021,32,40,26,22,18,15,12
+8681,Chinese Language,november-2021,33,40,26,22,18,15,12
+8682,French Language,november-2021,01,100,64,56,49,42,35
+8682,French Language,november-2021,21,70,34,29,25,21,17
+8682,French Language,november-2021,22,70,34,29,25,21,17
+8682,French Language,november-2021,23,70,34,29,25,21,17
+8682,French Language,november-2021,31,40,23,19,16,13,10
+8682,French Language,november-2021,32,40,23,19,16,13,10
+8682,French Language,november-2021,33,40,23,19,16,13,10
+8683,German Language,november-2021,01,100,64,56,49,42,35
+8683,German Language,november-2021,22,70,43,37,31,25,19
+8683,German Language,november-2021,23,70,43,37,31,25,19
+8683,German Language,november-2021,32,40,28,24,20,17,14
+8683,German Language,november-2021,33,40,28,24,20,17,14
+8685,Spanish Language,november-2021,01,100,62,54,47,40,33
+8685,Spanish Language,november-2021,21,70,41,35,29,23,17
+8685,Spanish Language,november-2021,22,70,41,35,29,23,17
+8685,Spanish Language,november-2021,23,70,41,35,29,23,17
+8685,Spanish Language,november-2021,31,40,26,22,18,15,12
+8685,Spanish Language,november-2021,32,40,26,22,18,15,12
+8685,Spanish Language,november-2021,33,40,26,22,18,15,12
+8686,Urdu Language,november-2021,02,70,50,44,38,32,26
+8686,Urdu Language,november-2021,03,40,26,22,18,15,12
+8687,Hindi Language,november-2021,02,70,44,39,35,31,27
+8687,Hindi Language,november-2021,03,40,29,24,19,15,11
+8689,Tamil Language,november-2021,21,70,36,30,24,18,12
+8689,Tamil Language,november-2021,22,70,36,30,24,18,12
+8689,Tamil Language,november-2021,31,40,23,19,16,13,10
+8689,Tamil Language,november-2021,32,40,23,19,16,13,10
+8695,Language and Literature in English,november-2021,11,50,32,28,24,20,17
+8695,Language and Literature in English,november-2021,12,50,32,28,24,20,17
+8695,Language and Literature in English,november-2021,13,50,32,28,24,20,17
+8695,Language and Literature in English,november-2021,21,50,36,32,28,25,21
+8695,Language and Literature in English,november-2021,22,50,36,32,28,25,21
+8695,Language and Literature in English,november-2021,23,50,36,32,28,25,21
+9011,Divinity,november-2021,12,100,66,58,51,44,37
+9011,Divinity,november-2021,22,100,67,61,54,47,41
+9011,Divinity,november-2021,23,100,67,61,54,47,41
+9011,Divinity,november-2021,32,100,63,57,52,47,41
+9011,Divinity,november-2021,33,100,63,57,52,47,41
+9084,Law,november-2021,11,75,45,40,36,31,25
+9084,Law,november-2021,12,75,45,40,36,31,25
+9084,Law,november-2021,13,75,45,40,36,31,25
+9084,Law,november-2021,21,50,38,33,29,26,23
+9084,Law,november-2021,22,50,38,33,29,26,23
+9084,Law,november-2021,23,50,38,33,29,26,23
+9084,Law,november-2021,31,75,41,36,31,26,22
+9084,Law,november-2021,32,75,41,36,31,26,22
+9084,Law,november-2021,33,75,41,36,31,26,22
+9084,Law,november-2021,41,75,40,36,33,29,25
+9084,Law,november-2021,42,75,40,36,33,29,25
+9084,Law,november-2021,43,75,40,36,33,29,25
+9093,English Language,november-2021,11,50,33,28,24,21,17
+9093,English Language,november-2021,12,50,33,28,24,21,17
+9093,English Language,november-2021,13,50,33,28,24,21,17
+9093,English Language,november-2021,21,50,32,28,24,20,17
+9093,English Language,november-2021,22,50,32,28,24,20,17
+9093,English Language,november-2021,23,50,32,28,24,20,17
+9093,English Language,november-2021,31,50,33,28,23,17,11
+9093,English Language,november-2021,32,50,33,28,23,17,11
+9093,English Language,november-2021,33,50,33,28,23,17,11
+9093,English Language,november-2021,41,50,34,29,23,18,12
+9093,English Language,november-2021,42,50,34,29,23,18,12
+9093,English Language,november-2021,43,50,34,29,23,18,12
+9231,Further Mathematics,november-2021,11,75,42,34,27,20,14
+9231,Further Mathematics,november-2021,12,75,42,34,27,20,14
+9231,Further Mathematics,november-2021,13,75,42,34,27,20,14
+9231,Further Mathematics,november-2021,21,75,59,52,43,33,23
+9231,Further Mathematics,november-2021,22,75,59,52,43,33,23
+9231,Further Mathematics,november-2021,23,75,59,52,43,33,23
+9231,Further Mathematics,november-2021,31,50,24,18,15,12,8
+9231,Further Mathematics,november-2021,32,50,24,18,15,12,8
+9231,Further Mathematics,november-2021,33,50,24,18,15,12,8
+9231,Further Mathematics,november-2021,41,50,35,29,23,16,8
+9231,Further Mathematics,november-2021,42,50,35,29,23,16,8
+9231,Further Mathematics,november-2021,43,50,35,29,23,16,8
+9239,Global Perspectives & Research,november-2021,11,30,19,17,15,13,11
+9239,Global Perspectives & Research,november-2021,12,30,19,17,15,13,11
+9239,Global Perspectives & Research,november-2021,13,30,19,17,15,13,11
+9239,Global Perspectives & Research,november-2021,02,35,24,22,20,18,16
+9239,Global Perspectives & Research,november-2021,03,35,24,22,20,18,16
+9239,Global Perspectives & Research,november-2021,04,75,47,41,35,27,20
+9274,Classical Studies,november-2021,11,50,33,28,23,18,14
+9274,Classical Studies,november-2021,12,50,34,29,23,18,13
+9274,Classical Studies,november-2021,13,50,34,29,23,18,13
+9274,Classical Studies,november-2021,21,50,33,29,24,19,14
+9274,Classical Studies,november-2021,22,50,34,29,24,19,14
+9274,Classical Studies,november-2021,23,50,34,29,24,19,14
+9274,Classical Studies,november-2021,31,50,31,27,24,20,16
+9274,Classical Studies,november-2021,32,50,31,27,24,20,16
+9274,Classical Studies,november-2021,33,50,30,28,24,20,17
+9274,Classical Studies,november-2021,41,50,33,27,23,20,17
+9274,Classical Studies,november-2021,42,50,33,27,23,20,17
+9274,Classical Studies,november-2021,43,50,33,26,24,21,17
+9389,History,november-2021,11,40,21,18,15,13,11
+9389,History,november-2021,12,40,21,18,15,13,11
+9389,History,november-2021,13,40,21,18,15,13,11
+9389,History,november-2021,21,60,35,29,24,18,13
+9389,History,november-2021,22,60,35,29,24,18,13
+9389,History,november-2021,23,60,35,29,24,18,13
+9389,History,november-2021,31,40,27,23,20,18,16
+9389,History,november-2021,32,40,27,23,20,18,16
+9389,History,november-2021,33,40,27,23,20,18,16
+9389,History,november-2021,41,60,39,36,32,27,21
+9389,History,november-2021,42,60,39,36,32,27,21
+9389,History,november-2021,43,60,39,36,32,27,21
+9395,Travel and Tourism,november-2021,11,100,71,66,61,56,51
+9395,Travel and Tourism,november-2021,12,100,71,66,61,56,51
+9395,Travel and Tourism,november-2021,02,50,42,37,32,27,22
+9395,Travel and Tourism,november-2021,31,50,27,23,19,15,11
+9395,Travel and Tourism,november-2021,32,50,27,23,19,15,11
+9395,Travel and Tourism,november-2021,41,50,32,28,26,23,20
+9395,Travel and Tourism,november-2021,42,50,32,28,26,23,20
+9396,Physical Education,november-2021,02,90,64,55,47,39,32
+9396,Physical Education,november-2021,04,90,76,66,56,46,36
+9396,Physical Education,november-2021,11,90,57,50,43,34,26
+9396,Physical Education,november-2021,12,90,57,50,43,34,26
+9396,Physical Education,november-2021,13,90,57,50,43,34,26
+9396,Physical Education,november-2021,32,90,55,46,39,31,23
+9396,Physical Education,november-2021,33,90,55,46,39,31,23
+9479,Art and Design,november-2021,01,100,69,59,49,39,29
+9479,Art and Design,november-2021,02,100,65,55,45,35,25
+9479,Art and Design,november-2021,03,100,69,59,49,39,29
+9481,Digital Media & Design,november-2021,01,100,64,53,42,32,21
+9481,Digital Media & Design,november-2021,02,100,63,53,42,31,21
+9481,Digital Media & Design,november-2021,03,100,64,54,44,33,22
+9482,Drama,november-2021,02,60,45,39,32,26,20
+9482,Drama,november-2021,04,60,43,35,28,22,16
+9482,Drama,november-2021,11,60,32,27,22,17,12
+9482,Drama,november-2021,12,60,32,27,22,17,12
+9482,Drama,november-2021,13,60,32,27,22,17,12
+9483,Music,november-2021,02,100,69,62,54,46,37
+9483,Music,november-2021,03,100,74,64,53,43,33
+9483,Music,november-2021,04,100,74,63,54,44,34
+9483,Music,november-2021,05,100,74,63,54,44,34
+9483,Music,november-2021,11,100,61,50,42,32,24
+9483,Music,november-2021,12,100,61,50,42,32,24
+9483,Music,november-2021,13,100,61,50,42,32,24
+9487,Hinduism,november-2021,01,60,42,35,28,21,14
+9487,Hinduism,november-2021,02,60,41,34,27,20,13
+9487,Hinduism,november-2021,03,60,38,31,24,17,10
+9487,Hinduism,november-2021,04,60,39,32,25,18,11
+9488,Islamic Studies,november-2021,12,50,37,32,28,23,19
+9488,Islamic Studies,november-2021,22,50,35,30,25,21,17
+9488,Islamic Studies,november-2021,32,50,33,29,24,19,14
+9488,Islamic Studies,november-2021,42,50,34,29,25,21,16
+9489,History,november-2021,11,40,21,17,14,12,10
+9489,History,november-2021,12,40,21,17,14,12,10
+9489,History,november-2021,13,40,21,17,14,12,10
+9489,History,november-2021,21,60,35,31,25,19,13
+9489,History,november-2021,22,60,35,31,25,19,13
+9489,History,november-2021,23,60,35,31,25,19,13
+9489,History,november-2021,31,40,29,25,22,18,15
+9489,History,november-2021,32,40,29,25,22,18,15
+9489,History,november-2021,41,60,40,35,30,25,19
+9489,History,november-2021,42,60,40,35,30,25,19
+9607,Media Studies,november-2021,01,50,40,35,30,25,20
+9607,Media Studies,november-2021,02,50,34,29,24,19,14
+9607,Media Studies,november-2021,03,50,40,35,30,25,20
+9607,Media Studies,november-2021,04,60,40,33,27,21,16
+9608,Computer Science,november-2021,11,75,46,40,33,26,20
+9608,Computer Science,november-2021,12,75,46,40,33,26,20
+9608,Computer Science,november-2021,13,75,46,40,33,26,20
+9608,Computer Science,november-2021,21,75,44,36,29,22,15
+9608,Computer Science,november-2021,22,75,44,36,29,22,15
+9608,Computer Science,november-2021,23,75,44,36,29,22,15
+9608,Computer Science,november-2021,31,75,49,42,35,27,19
+9608,Computer Science,november-2021,32,75,49,42,35,27,19
+9608,Computer Science,november-2021,33,75,49,42,35,27,19
+9608,Computer Science,november-2021,41,75,50,42,35,28,21
+9608,Computer Science,november-2021,42,75,50,42,35,28,21
+9608,Computer Science,november-2021,43,75,50,42,35,28,21
+9609,Business,november-2021,11,40,32,29,27,25,23
+9609,Business,november-2021,12,40,34,31,29,27,25
+9609,Business,november-2021,13,40,31,27,24,22,20
+9609,Business,november-2021,21,60,43,40,36,33,30
+9609,Business,november-2021,22,60,44,41,37,33,29
+9609,Business,november-2021,23,60,42,39,35,30,26
+9609,Business,november-2021,31,100,56,49,41,32,24
+9609,Business,november-2021,32,100,62,54,45,35,26
+9609,Business,november-2021,33,100,59,52,45,38,30
+9618,Computer Science,november-2021,11,75,46,40,33,26,20
+9618,Computer Science,november-2021,12,75,46,40,33,26,20
+9618,Computer Science,november-2021,13,75,46,40,33,26,20
+9618,Computer Science,november-2021,21,75,44,36,29,22,15
+9618,Computer Science,november-2021,22,75,44,36,29,22,15
+9618,Computer Science,november-2021,23,75,44,36,29,22,15
+9618,Computer Science,november-2021,31,75,49,42,35,27,19
+9618,Computer Science,november-2021,32,75,49,42,35,27,19
+9618,Computer Science,november-2021,41,75,50,42,35,28,21
+9618,Computer Science,november-2021,42,75,50,42,35,28,21
+9626,Information Technology,november-2021,02,110,67,57,51,46,41
+9626,Information Technology,november-2021,04,110,77,70,59,47,35
+9626,Information Technology,november-2021,11,90,34,31,26,20,14
+9626,Information Technology,november-2021,12,90,40,36,30,24,18
+9626,Information Technology,november-2021,13,90,35,32,26,20,14
+9626,Information Technology,november-2021,32,90,55,44,40,36,32
+9626,Information Technology,november-2021,33,90,55,44,40,36,32
+9631,Design and Textiles,november-2021,01,75,45,40,33,26,20
+9631,Design and Textiles,november-2021,02,100,60,54,46,38,30
+9631,Design and Textiles,november-2021,03,100,54,40,36,32,27
+9631,Design and Textiles,november-2021,04,100,77,70,60,50,41
+9676,Urdu,november-2021,02,70,54,50,45,39,32
+9676,Urdu,november-2021,03,40,30,26,22,18,15
+9676,Urdu,november-2021,04,75,53,47,42,37,33
+9676,Urdu,november-2021,05,40,31,27,23,19,16
+9679,Afrikaans,november-2021,02,70,42,37,31,24,17
+9679,Afrikaans,november-2021,03,40,28,23,20,17,14
+9679,Afrikaans,november-2021,04,75,48,43,39,35,32
+9680,Arabic,november-2021,21,70,39,34,28,22,16
+9680,Arabic,november-2021,22,70,39,34,28,22,16
+9680,Arabic,november-2021,31,40,31,27,23,19,15
+9680,Arabic,november-2021,32,40,31,27,23,19,15
+9680,Arabic,november-2021,41,75,50,45,41,37,33
+9680,Arabic,november-2021,42,75,50,45,41,37,33
+9680,Arabic,november-2021,51,40,32,28,24,20,17
+9680,Arabic,november-2021,52,40,32,28,24,20,17
+9686,Urdu,november-2021,02,70,54,50,45,39,32
+9686,Urdu,november-2021,03,40,30,26,22,18,15
+9686,Urdu,november-2021,04,75,53,47,42,37,33
+9687,Hindi,november-2021,02,70,49,44,40,36,31
+9687,Hindi,november-2021,03,40,31,29,24,19,15
+9687,Hindi,november-2021,04,75,49,44,40,36,33
+9687,Hindi,november-2021,05,40,34,31,27,23,19
+9689,Tamil,november-2021,21,70,41,36,31,25,18
+9689,Tamil,november-2021,22,70,41,36,31,25,18
+9689,Tamil,november-2021,31,40,27,23,19,16,13
+9689,Tamil,november-2021,32,40,27,23,19,16,13
+9689,Tamil,november-2021,41,75,36,33,28,24,20
+9689,Tamil,november-2021,42,75,36,33,28,24,20
+9689,Tamil,november-2021,51,40,28,23,19,16,13
+9689,Tamil,november-2021,52,40,28,23,19,16,13
+9693,Marine Science,november-2021,01,75,51,45,39,34,28
+9693,Marine Science,november-2021,02,50,36,31,27,23,20
+9693,Marine Science,november-2021,03,75,44,37,31,25,19
+9693,Marine Science,november-2021,04,50,36,31,26,21,16
+9694,Thinking Skills,november-2021,11,50,27,23,20,16,12
+9694,Thinking Skills,november-2021,12,50,27,23,20,16,12
+9694,Thinking Skills,november-2021,13,50,27,23,20,16,12
+9694,Thinking Skills,november-2021,21,50,24,21,17,14,11
+9694,Thinking Skills,november-2021,22,50,24,21,17,14,11
+9694,Thinking Skills,november-2021,23,50,25,22,18,15,12
+9694,Thinking Skills,november-2021,31,50,27,23,19,15,10
+9694,Thinking Skills,november-2021,32,50,27,23,19,15,10
+9694,Thinking Skills,november-2021,33,50,27,23,19,15,10
+9694,Thinking Skills,november-2021,41,50,25,21,18,15,12
+9694,Thinking Skills,november-2021,42,50,25,21,18,15,12
+9694,Thinking Skills,november-2021,43,50,25,21,18,15,12
+9695,Literature in English,november-2021,11,50,36,32,28,25,21
+9695,Literature in English,november-2021,12,50,36,32,28,25,21
+9695,Literature in English,november-2021,13,50,36,32,28,25,21
+9695,Literature in English,november-2021,21,50,29,26,23,19,16
+9695,Literature in English,november-2021,22,50,29,26,23,19,16
+9695,Literature in English,november-2021,23,50,29,26,23,19,16
+9695,Literature in English,november-2021,31,50,34,28,24,19,14
+9695,Literature in English,november-2021,32,50,34,28,24,19,14
+9695,Literature in English,november-2021,33,50,34,28,24,19,14
+9695,Literature in English,november-2021,41,50,41,34,28,23,17
+9695,Literature in English,november-2021,42,50,41,34,28,23,17
+9695,Literature in English,november-2021,43,50,41,34,28,23,17
+9696,Geography,november-2021,11,60,32,28,24,21,17
+9696,Geography,november-2021,12,60,32,28,24,21,17
+9696,Geography,november-2021,13,60,32,28,24,21,17
+9696,Geography,november-2021,21,60,31,27,23,19,16
+9696,Geography,november-2021,22,60,31,27,23,19,16
+9696,Geography,november-2021,23,60,31,27,23,19,16
+9696,Geography,november-2021,31,60,30,26,23,19,15
+9696,Geography,november-2021,32,60,30,26,23,19,15
+9696,Geography,november-2021,33,60,30,26,23,19,15
+9696,Geography,november-2021,41,60,28,25,21,18,15
+9696,Geography,november-2021,42,60,28,25,21,18,15
+9696,Geography,november-2021,43,60,28,25,21,18,15
+9699,Sociology,november-2021,11,60,35,31,26,21,16
+9699,Sociology,november-2021,12,60,35,31,26,22,17
+9699,Sociology,november-2021,13,60,35,31,26,21,16
+9699,Sociology,november-2021,21,60,34,29,24,19,14
+9699,Sociology,november-2021,22,60,34,29,24,19,15
+9699,Sociology,november-2021,23,60,34,29,24,19,14
+9699,Sociology,november-2021,31,50,37,34,29,24,19
+9699,Sociology,november-2021,32,50,37,34,29,24,19
+9699,Sociology,november-2021,33,50,37,34,29,24,19
+9699,Sociology,november-2021,41,70,52,45,41,36,31
+9699,Sociology,november-2021,42,70,52,46,42,37,32
+9699,Sociology,november-2021,43,70,52,45,41,36,31
+9700,Biology,november-2021,11,40,26,23,20,17,14
+9700,Biology,november-2021,12,40,27,24,20,16,13
+9700,Biology,november-2021,13,40,26,22,18,15,12
+9700,Biology,november-2021,21,60,37,31,25,19,13
+9700,Biology,november-2021,22,60,36,29,24,19,14
+9700,Biology,november-2021,23,60,31,24,21,16,12
+9700,Biology,november-2021,31,40,28,25,22,20,18
+9700,Biology,november-2021,33,40,31,28,24,20,16
+9700,Biology,november-2021,34,40,27,24,20,17,13
+9700,Biology,november-2021,35,40,30,27,23,20,17
+9700,Biology,november-2021,36,40,31,28,24,21,18
+9700,Biology,november-2021,41,100,61,53,47,40,32
+9700,Biology,november-2021,42,100,66,56,47,38,27
+9700,Biology,november-2021,43,100,61,53,47,40,32
+9700,Biology,november-2021,51,30,23,20,17,15,13
+9700,Biology,november-2021,52,30,21,18,15,12,10
+9700,Biology,november-2021,53,30,23,20,17,15,13
+9701,Chemistry,november-2021,11,40,22,18,15,13,11
+9701,Chemistry,november-2021,12,40,22,18,15,13,11
+9701,Chemistry,november-2021,13,40,22,18,15,13,11
+9701,Chemistry,november-2021,21,60,31,25,21,16,11
+9701,Chemistry,november-2021,22,60,33,28,23,16,10
+9701,Chemistry,november-2021,23,60,31,25,21,16,11
+9701,Chemistry,november-2021,31,40,21,19,15,11,8
+9701,Chemistry,november-2021,33,40,23,19,15,11,7
+9701,Chemistry,november-2021,34,40,21,17,13,10,7
+9701,Chemistry,november-2021,35,40,21,19,15,11,8
+9701,Chemistry,november-2021,36,40,20,17,13,10,7
+9701,Chemistry,november-2021,41,100,61,54,44,34,23
+9701,Chemistry,november-2021,42,100,53,46,38,29,19
+9701,Chemistry,november-2021,43,100,61,54,44,34,23
+9701,Chemistry,november-2021,51,30,22,19,16,13,11
+9701,Chemistry,november-2021,52,30,19,16,13,11,9
+9701,Chemistry,november-2021,53,30,22,19,16,13,11
+9702,Physics,november-2021,11,40,25,21,18,14,11
+9702,Physics,november-2021,12,40,25,21,18,14,11
+9702,Physics,november-2021,13,40,26,22,18,16,12
+9702,Physics,november-2021,21,60,34,27,21,15,8
+9702,Physics,november-2021,22,60,34,27,21,15,8
+9702,Physics,november-2021,23,60,38,31,24,16,8
+9702,Physics,november-2021,31,40,33,30,27,24,21
+9702,Physics,november-2021,33,40,32,29,26,23,20
+9702,Physics,november-2021,34,40,29,26,23,20,17
+9702,Physics,november-2021,35,40,30,27,24,22,20
+9702,Physics,november-2021,36,40,28,25,22,19,17
+9702,Physics,november-2021,41,100,54,43,33,22,11
+9702,Physics,november-2021,42,100,55,45,35,24,13
+9702,Physics,november-2021,43,100,54,43,33,22,11
+9702,Physics,november-2021,51,30,19,17,14,11,8
+9702,Physics,november-2021,52,30,18,16,13,10,7
+9702,Physics,november-2021,53,30,19,17,14,11,8
+9705,Design and Technology,november-2021,02,40,32,28,24,20,16
+9705,Design and Technology,november-2021,04,40,34,28,24,20,16
+9705,Design and Technology,november-2021,11,120,92,86,78,71,64
+9705,Design and Technology,november-2021,12,120,92,86,78,71,64
+9705,Design and Technology,november-2021,13,120,92,86,78,71,64
+9705,Design and Technology,november-2021,32,120,88,84,75,66,58
+9705,Design and Technology,november-2021,33,120,88,84,75,66,58
+9706,Accounting,november-2021,11,30,19,17,14,11,9
+9706,Accounting,november-2021,12,30,19,16,14,12,11
+9706,Accounting,november-2021,13,30,20,18,15,12,9
+9706,Accounting,november-2021,21,90,49,41,34,27,19
+9706,Accounting,november-2021,22,90,49,42,35,28,19
+9706,Accounting,november-2021,23,90,51,41,33,26,18
+9706,Accounting,november-2021,31,150,96,84,69,54,38
+9706,Accounting,november-2021,32,150,97,84,69,53,37
+9706,Accounting,november-2021,33,150,95,84,69,53,38
+9708,Economics,november-2021,11,30,20,18,15,12,10
+9708,Economics,november-2021,12,30,23,20,17,14,12
+9708,Economics,november-2021,13,30,24,22,19,16,14
+9708,Economics,november-2021,21,40,18,16,13,11,7
+9708,Economics,november-2021,22,40,21,18,15,12,8
+9708,Economics,november-2021,23,40,18,15,13,11,8
+9708,Economics,november-2021,31,30,21,18,16,14,12
+9708,Economics,november-2021,32,30,21,17,15,13,11
+9708,Economics,november-2021,33,30,20,16,14,13,12
+9708,Economics,november-2021,41,70,38,32,29,25,21
+9708,Economics,november-2021,42,70,43,39,33,27,21
+9708,Economics,november-2021,43,70,42,37,33,28,23
+9709,Mathematics,november-2021,11,75,50,40,30,21,11
+9709,Mathematics,november-2021,12,75,51,40,29,18,7
+9709,Mathematics,november-2021,13,75,52,43,34,25,15
+9709,Mathematics,november-2021,21,50,39,33,25,17,10
+9709,Mathematics,november-2021,22,50,39,33,24,15,7
+9709,Mathematics,november-2021,23,50,39,33,25,17,10
+9709,Mathematics,november-2021,31,75,52,43,35,26,17
+9709,Mathematics,november-2021,32,75,50,41,33,24,14
+9709,Mathematics,november-2021,33,75,52,44,36,28,19
+9709,Mathematics,november-2021,41,50,35,29,23,16,10
+9709,Mathematics,november-2021,42,50,28,23,17,11,6
+9709,Mathematics,november-2021,43,50,35,29,22,16,10
+9709,Mathematics,november-2021,51,50,36,31,24,17,11
+9709,Mathematics,november-2021,52,50,37,31,22,14,6
+9709,Mathematics,november-2021,53,50,40,35,29,23,17
+9709,Mathematics,november-2021,61,50,42,37,31,26,20
+9709,Mathematics,november-2021,62,50,34,30,24,19,14
+9709,Mathematics,november-2021,63,50,42,37,31,26,20
+9715,Chinese,november-2021,21,70,41,36,30,24,18
+9715,Chinese,november-2021,22,70,43,38,33,27,21
+9715,Chinese,november-2021,23,70,42,37,32,26,20
+9715,Chinese,november-2021,31,40,30,26,22,18,15
+9715,Chinese,november-2021,32,40,30,26,22,18,15
+9715,Chinese,november-2021,33,40,30,26,22,18,15
+9715,Chinese,november-2021,41,75,48,43,39,35,31
+9715,Chinese,november-2021,42,75,47,43,39,35,31
+9715,Chinese,november-2021,43,75,47,43,39,35,31
+9716,French,november-2021,01,100,73,64,56,49,42
+9716,French,november-2021,22,70,39,34,29,25,21
+9716,French,november-2021,23,70,39,34,29,25,21
+9716,French,november-2021,32,40,27,23,19,16,13
+9716,French,november-2021,33,40,27,23,19,16,13
+9716,French,november-2021,42,75,51,46,43,37,30
+9716,French,november-2021,43,75,51,46,43,37,30
+9717,German,november-2021,01,100,74,64,56,49,42
+9717,German,november-2021,22,70,48,43,38,32,25
+9717,German,november-2021,23,70,48,43,38,32,25
+9717,German,november-2021,32,40,32,28,24,20,17
+9717,German,november-2021,33,40,32,28,24,20,17
+9717,German,november-2021,42,75,49,44,40,36,32
+9717,German,november-2021,43,75,49,44,40,36,32
+9719,Spanish,november-2021,01,100,72,62,54,47,40
+9719,Spanish,november-2021,21,70,45,41,36,30,23
+9719,Spanish,november-2021,22,70,45,41,36,30,23
+9719,Spanish,november-2021,23,70,45,41,36,30,23
+9719,Spanish,november-2021,31,40,30,26,22,18,15
+9719,Spanish,november-2021,32,40,30,26,22,18,15
+9719,Spanish,november-2021,33,40,30,26,22,18,15
+9719,Spanish,november-2021,41,75,49,44,40,36,32
+9719,Spanish,november-2021,42,75,49,44,40,36,32
+9719,Spanish,november-2021,43,75,49,44,40,36,32
+9980,Cambridge International Project,november-2021,01,80,53,46,39,32,26
+9990,Psychology,november-2021,11,60,38,34,29,23,17
+9990,Psychology,november-2021,12,60,36,31,26,21,17
+9990,Psychology,november-2021,13,60,38,34,28,22,17
+9990,Psychology,november-2021,21,60,40,34,28,23,18
+9990,Psychology,november-2021,22,60,38,33,28,23,18
+9990,Psychology,november-2021,23,60,38,32,27,22,17
+9990,Psychology,november-2021,31,60,28,23,20,16,11
+9990,Psychology,november-2021,32,60,29,24,21,17,12
+9990,Psychology,november-2021,33,60,28,23,20,16,11
+9990,Psychology,november-2021,41,60,25,22,18,14,11
+9990,Psychology,november-2021,42,60,25,22,18,14,11
+9990,Psychology,november-2021,43,60,25,22,18,14,11
